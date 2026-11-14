@@ -28,12 +28,16 @@ _METADATA = None
 
 
 def ensure_model_loaded() -> Tuple[Dict[str, Any], Dict[str, Any]]:
-    """Memastikan model ML dan metadata sudah dimuat ke memori."""
+    """Memastikan model ML dan metadata sudah dimuat ke memori (otomatis latih ulang jika versi berbeda)."""
     global _MODEL_BUNDLE, _METADATA
     if _MODEL_BUNDLE is None or _METADATA is None:
         if not os.path.exists(MODEL_PATH) or not os.path.exists(METADATA_PATH):
             train_and_save_model()
-        _MODEL_BUNDLE = joblib.load(MODEL_PATH)
+        try:
+            _MODEL_BUNDLE = joblib.load(MODEL_PATH)
+        except Exception:
+            train_and_save_model()
+            _MODEL_BUNDLE = joblib.load(MODEL_PATH)
         with open(METADATA_PATH, "r", encoding="utf-8") as f:
             _METADATA = json.load(f)
     return _MODEL_BUNDLE, _METADATA

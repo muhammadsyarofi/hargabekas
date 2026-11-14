@@ -1,0 +1,20 @@
+# Lingkungan & Rahasia (WAJIB diabaikan agar API key tidak bocor ke GitHub)
+.env
+*.env.local
+
+# Python cache & virtual environment
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Foto unggahan sementara & database lokal
+static/uploads/inspections/insp_*
+data/hargabekas.db
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
