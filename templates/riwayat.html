@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+{% block title %}Riwayat Inspeksi & Prediksi Harga — HargaBekas{% endblock %}
+
+{% block content %}
+<div class="container">
+  <header class="editorial-masthead" style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 1rem;">
+    <div>
+      <div class="masthead-kicker mono-label">Arsip Laporan Inspeksi SQLite</div>
+      <h1 class="section-heading">Riwayat Prediksi & Temuan Kerusakan</h1>
+      <p style="color: var(--text-secondary); max-width: 64ch; margin-top: 0.35rem;">
+        Setiap kartu menyimpan thumbnail foto kendaraan, daftar titik kerusakan yang ditemukan, total biaya perbaikan, serta harga estimasi akhir. Menghapus riwayat juga otomatis menghapus file foto unggahan dari server.
+      </p>
+    </div>
+
+    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+      <a href="{{ url_for('web.riwayat') }}" class="btn {% if not jenis_filter %}btn-primary{% else %}btn-outline{% endif %}">Semua Unit</a>
+      <a href="{{ url_for('web.riwayat', jenis='mobil') }}" class="btn {% if jenis_filter == 'mobil' %}btn-primary{% else %}btn-outline{% endif %}">Hanya Mobil</a>
+      <a href="{{ url_for('web.riwayat', jenis='motor') }}" class="btn {% if jenis_filter == 'motor' %}btn-primary{% else %}btn-outline{% endif %}">Hanya Motor</a>
+    </div>
+  </header>
+
+  {% if records %}
+  <div class="catalog-grid">
+    {% for r in records %}
+    <article id="history-card-{{ r.id }}" class="vehicle-card">
+      <div class="vehicle-card-stage">
+        {% if r.photos and r.photos | length > 0 %}
+        <img src="{{ r.photos[0] }}" alt="Foto Inspeksi {{ r.merek }} {{ r.model }}" loading="lazy" class="vehicle-real-photo" />
+        {% else %}
+        <div class="js-vehicle-visual"
+             style="width: 100%;"
+             data-merek="{{ r.merek }}"
+             data-model="{{ r.model }}"
+             data-body-type="{{ r.body_type }}"
+             data-color="{{ r.warna }}"></div>
+        {% endif %}
+      </div>
+
+      <div class="vehicle-card-body">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <span class="mono-label" style="color: var(--accent);">{{ r.jenis | upper }} • Tahun {{ r.tahun }}</span>
+          <span class="mono-label" style="color: var(--text-muted);">{{ r.created_at }}</span>
+        </div>
+
+        <h2 class="card-heading">{{ r.merek }} {{ r.model }}</h2>
+
+        <div class="vehicle-meta-pills">
+          <span class="meta-pill">{{ r.kilometer | ribuan }} km</span>
+          <span class="meta-pill">{{ r.surat or 'Lengkap (STNK + BPKB + Faktur)' }}</span>
+          <span class="meta-pill">{{ r.kota }}</span>
+        </div>
+
+        <!-- Ringkasan Temuan Kerusakan -->
+        {% if r.damages and r.damages | length > 0 %}
+        <div style="display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.2rem;">
+          {% for d in r.damages %}
+          <span class="severity-badge sev-{{ d.keparahan }}">
+            {{ d.bagian_label or d.bagian }}: -{{ d.estimasi_biaya | rupiah }}
+          </span>
+          {% endfor %}
+        </div>
+        {% else %}
+        <div style="font-size: 0.78rem; color: var(--positive); font-weight: 600;">
+          ✓ Tanpa temuan kerusakan bodi (Kondisi Normal)
+        </div>
+        {% endif %}
+
+        <div class="valuation-result-banner" style="padding: 0.9rem; margin-top: 0.4rem;">
+          <div style="display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--text-secondary);">
+            <span>Harga Normal: {{ r.harga_dasar_normal | rupiah }}</span>
+            <span style="color: var(--accent);">Perbaikan: -{{ r.total_biaya_perbaikan | rupiah }}</span>
+          </div>
+          <div style="font-family: var(--font-display); font-size: 1.45rem; font-weight: 700; color: var(--accent); margin-top: 0.2rem;">
+            {{ r.harga_estimasi | rupiah }}
+          </div>
+          <div style="font-size: 0.76rem; color: var(--text-secondary);">
+            Rentang: {{ r.harga_min | rupiah }} – {{ r.harga_max | rupiah }} (Keyakinan {{ r.confidence }}%)
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 0.5rem; margin-top: auto; padding-top: 0.75rem;">
+          <button type="button"
+                  class="btn btn-subtle js-use-in-credit"
+                  style="flex: 1; min-height: 40px; padding: 0.4rem 0.75rem; font-size: 0.84rem;"
+                  data-price="{{ r.harga_estimasi }}"
+                  data-structural="{{ r.has_structural_damage }}"
+                  data-merek="{{ r.merek }}"
+                  data-model="{{ r.model }}">
+            Simulasi Kredit
+          </button>
+          <button type="button"
+                  class="btn btn-outline js-delete-history"
+                  style="min-height: 40px; padding: 0.4rem 0.75rem; font-size: 0.84rem;"
+                  data-id="{{ r.id }}"
+                  aria-label="Hapus riwayat {{ r.merek }} {{ r.model }}">
+            Hapus
+          </button>
+        </div>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="panel-card" style="margin: 2.5rem 0; text-align: center; padding: 3rem 1.5rem;">
+    <h2 class="card-heading">Belum Ada Riwayat Inspeksi</h2>
+    <p style="color: var(--text-secondary); margin: 0.5rem auto 1.5rem; max-width: 48ch;">
+      Anda belum menyimpan laporan inspeksi dan prediksi harga kendaraan.
+    </p>
+    <a href="{{ url_for('web.prediksi') }}" class="btn btn-primary">Mulai Inspeksi Baru</a>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

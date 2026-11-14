@@ -1,0 +1,1055 @@
+{
+  "trained_at": "2026-11-14 22:50 WIB",
+  "algorithm": "Gradient Boosting Regressor + Random Forest Ensemble",
+  "dataset_rows": 1800,
+  "train_rows": 1440,
+  "test_rows": 360,
+  "metrics": {
+    "mae": 13515315,
+    "mae_motor": 2346048,
+    "mae_mobil": 18052829,
+    "rmse": 22384038,
+    "r2": 0.9866,
+    "mape_percent": 8.35,
+    "rf_mae": 25346369,
+    "rf_r2": 0.9584
+  },
+  "feature_importance": {
+    "jenis": 37.5,
+    "model": 22.05,
+    "merek": 14.03,
+    "tahun": 8.87,
+    "kilometer": 7.18,
+    "bahan_bakar": 4.85,
+    "transmisi": 2.07,
+    "surat": 2.02,
+    "kondisi": 1.28,
+    "kota": 0.15
+  },
+  "catalog": [
+    {
+      "jenis": "mobil",
+      "merek": "Toyota",
+      "model": "Avanza Veloz",
+      "body_type": "mpv",
+      "base_price": 312000000,
+      "annual_depr": 0.072,
+      "transmisi_opts": [
+        "Otomatis",
+        "Manual"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 14500,
+      "specs": {
+        "Mesin": "1.5L Dual VVT-i",
+        "Tenaga": "105 HP",
+        "Konsumsi BBM": "15.8 km/L",
+        "Kapasitas": "7 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Toyota",
+      "model": "Innova Zenix",
+      "body_type": "mpv",
+      "base_price": 478000000,
+      "annual_depr": 0.066,
+      "transmisi_opts": [
+        "Otomatis"
+      ],
+      "bbm_opts": [
+        "Hybrid",
+        "Bensin"
+      ],
+      "avg_km_per_year": 14000,
+      "specs": {
+        "Mesin": "2.0L Dynamic Force / Hybrid",
+        "Tenaga": "183 HP",
+        "Konsumsi BBM": "21.0 km/L",
+        "Kapasitas": "7 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Toyota",
+      "model": "Fortuner VRZ",
+      "body_type": "suv",
+      "base_price": 635000000,
+      "annual_depr": 0.075,
+      "transmisi_opts": [
+        "Otomatis",
+        "Manual"
+      ],
+      "bbm_opts": [
+        "Diesel",
+        "Bensin"
+      ],
+      "avg_km_per_year": 15500,
+      "specs": {
+        "Mesin": "2.8L VNT Intercooler",
+        "Tenaga": "201 HP",
+        "Konsumsi BBM": "12.8 km/L",
+        "Kapasitas": "7 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Toyota",
+      "model": "Rush GR Sport",
+      "body_type": "suv",
+      "base_price": 308000000,
+      "annual_depr": 0.076,
+      "transmisi_opts": [
+        "Otomatis",
+        "Manual"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 14000,
+      "specs": {
+        "Mesin": "1.5L 2NR-VE",
+        "Tenaga": "103 HP",
+        "Konsumsi BBM": "14.8 km/L",
+        "Kapasitas": "7 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Toyota",
+      "model": "Agya GR Sport",
+      "body_type": "hatchback",
+      "base_price": 242000000,
+      "annual_depr": 0.078,
+      "transmisi_opts": [
+        "Otomatis",
+        "Manual"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 12000,
+      "specs": {
+        "Mesin": "1.2L Dual VVT-i",
+        "Tenaga": "87 HP",
+        "Konsumsi BBM": "19.2 km/L",
+        "Kapasitas": "5 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Toyota",
+      "model": "Camry Hybrid",
+      "body_type": "sedan",
+      "base_price": 935000000,
+      "annual_depr": 0.095,
+      "transmisi_opts": [
+        "Otomatis"
+      ],
+      "bbm_opts": [
+        "Hybrid",
+        "Bensin"
+      ],
+      "avg_km_per_year": 11000,
+      "specs": {
+        "Mesin": "2.5L A25A-FXS Hybrid",
+        "Tenaga": "204 HP",
+        "Konsumsi BBM": "22.5 km/L",
+        "Kapasitas": "5 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Honda",
+      "model": "Brio RS",
+      "body_type": "hatchback",
+      "base_price": 244000000,
+      "annual_depr": 0.068,
+      "transmisi_opts": [
+        "Otomatis",
+        "Manual"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 12500,
+      "specs": {
+        "Mesin": "1.2L i-VTEC",
+        "Tenaga": "89 HP",
+        "Konsumsi BBM": "18.5 km/L",
+        "Kapasitas": "5 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Honda",
+      "model": "HR-V SE",
+      "body_type": "suv",
+      "base_price": 424000000,
+      "annual_depr": 0.076,
+      "transmisi_opts": [
+        "Otomatis"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 12500,
+      "specs": {
+        "Mesin": "1.5L DOHC i-VTEC",
+        "Tenaga": "119 HP",
+        "Konsumsi BBM": "15.2 km/L",
+        "Kapasitas": "5 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Honda",
+      "model": "CR-V Turbo",
+      "body_type": "suv",
+      "base_price": 749000000,
+      "annual_depr": 0.082,
+      "transmisi_opts": [
+        "Otomatis"
+      ],
+      "bbm_opts": [
+        "Bensin",
+        "Hybrid"
+      ],
+      "avg_km_per_year": 13000,
+      "specs": {
+        "Mesin": "1.5L VTEC Turbo / 2.0L e:HEV",
+        "Tenaga": "188 HP",
+        "Konsumsi BBM": "16.4 km/L",
+        "Kapasitas": "7 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Honda",
+      "model": "Civic RS",
+      "body_type": "sedan",
+      "base_price": 616000000,
+      "annual_depr": 0.088,
+      "transmisi_opts": [
+        "Otomatis"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 11500,
+      "specs": {
+        "Mesin": "1.5L VTEC Turbo",
+        "Tenaga": "176 HP",
+        "Konsumsi BBM": "14.5 km/L",
+        "Kapasitas": "5 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Honda",
+      "model": "BR-V Prestige",
+      "body_type": "mpv",
+      "base_price": 348000000,
+      "annual_depr": 0.079,
+      "transmisi_opts": [
+        "Otomatis",
+        "Manual"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 13500,
+      "specs": {
+        "Mesin": "1.5L DOHC i-VTEC",
+        "Tenaga": "119 HP",
+        "Konsumsi BBM": "15.6 km/L",
+        "Kapasitas": "7 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Daihatsu",
+      "model": "Sigra R Deluxe",
+      "body_type": "mpv",
+      "base_price": 182000000,
+      "annual_depr": 0.078,
+      "transmisi_opts": [
+        "Otomatis",
+        "Manual"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 15000,
+      "specs": {
+        "Mesin": "1.2L 3NR-VE",
+        "Tenaga": "87 HP",
+        "Konsumsi BBM": "18.8 km/L",
+        "Kapasitas": "7 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Daihatsu",
+      "model": "Xenia R ADS",
+      "body_type": "mpv",
+      "base_price": 268000000,
+      "annual_depr": 0.077,
+      "transmisi_opts": [
+        "Otomatis",
+        "Manual"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 14800,
+      "specs": {
+        "Mesin": "1.5L 2NR-VE",
+        "Tenaga": "105 HP",
+        "Konsumsi BBM": "16.0 km/L",
+        "Kapasitas": "7 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Daihatsu",
+      "model": "Terios R Custom",
+      "body_type": "suv",
+      "base_price": 292000000,
+      "annual_depr": 0.079,
+      "transmisi_opts": [
+        "Otomatis",
+        "Manual"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 14200,
+      "specs": {
+        "Mesin": "1.5L Dual VVT-i",
+        "Tenaga": "103 HP",
+        "Konsumsi BBM": "14.5 km/L",
+        "Kapasitas": "7 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Daihatsu",
+      "model": "Ayla R ADS",
+      "body_type": "hatchback",
+      "base_price": 189000000,
+      "annual_depr": 0.08,
+      "transmisi_opts": [
+        "Otomatis",
+        "Manual"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 12500,
+      "specs": {
+        "Mesin": "1.2L WA-VE",
+        "Tenaga": "87 HP",
+        "Konsumsi BBM": "19.5 km/L",
+        "Kapasitas": "5 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Mitsubishi",
+      "model": "Xpander Ultimate",
+      "body_type": "mpv",
+      "base_price": 322000000,
+      "annual_depr": 0.072,
+      "transmisi_opts": [
+        "Otomatis",
+        "Manual"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 14000,
+      "specs": {
+        "Mesin": "1.5L MIVEC",
+        "Tenaga": "104 HP",
+        "Konsumsi BBM": "15.4 km/L",
+        "Kapasitas": "7 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Mitsubishi",
+      "model": "Pajero Sport Dakar",
+      "body_type": "suv",
+      "base_price": 652000000,
+      "annual_depr": 0.076,
+      "transmisi_opts": [
+        "Otomatis"
+      ],
+      "bbm_opts": [
+        "Diesel"
+      ],
+      "avg_km_per_year": 15500,
+      "specs": {
+        "Mesin": "2.4L MIVEC Turbo Diesel",
+        "Tenaga": "179 HP",
+        "Konsumsi BBM": "12.5 km/L",
+        "Kapasitas": "7 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Mitsubishi",
+      "model": "Xforce Ultimate",
+      "body_type": "suv",
+      "base_price": 412000000,
+      "annual_depr": 0.079,
+      "transmisi_opts": [
+        "Otomatis"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 12000,
+      "specs": {
+        "Mesin": "1.5L MIVEC CVT",
+        "Tenaga": "104 HP",
+        "Konsumsi BBM": "15.2 km/L",
+        "Kapasitas": "5 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Suzuki",
+      "model": "Ertiga Hybrid",
+      "body_type": "mpv",
+      "base_price": 292000000,
+      "annual_depr": 0.078,
+      "transmisi_opts": [
+        "Otomatis",
+        "Manual"
+      ],
+      "bbm_opts": [
+        "Hybrid",
+        "Bensin"
+      ],
+      "avg_km_per_year": 14000,
+      "specs": {
+        "Mesin": "1.5L K15B Smart Hybrid",
+        "Tenaga": "103 HP",
+        "Konsumsi BBM": "17.5 km/L",
+        "Kapasitas": "7 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Suzuki",
+      "model": "XL7 Alpha",
+      "body_type": "suv",
+      "base_price": 309000000,
+      "annual_depr": 0.077,
+      "transmisi_opts": [
+        "Otomatis",
+        "Manual"
+      ],
+      "bbm_opts": [
+        "Hybrid",
+        "Bensin"
+      ],
+      "avg_km_per_year": 14000,
+      "specs": {
+        "Mesin": "1.5L K15B SHVS",
+        "Tenaga": "103 HP",
+        "Konsumsi BBM": "16.8 km/L",
+        "Kapasitas": "7 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Suzuki",
+      "model": "Baleno Hatchback",
+      "body_type": "hatchback",
+      "base_price": 283000000,
+      "annual_depr": 0.081,
+      "transmisi_opts": [
+        "Otomatis"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 12000,
+      "specs": {
+        "Mesin": "1.5L K15B",
+        "Tenaga": "103 HP",
+        "Konsumsi BBM": "17.2 km/L",
+        "Kapasitas": "5 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Hyundai",
+      "model": "Stargazer Prime",
+      "body_type": "mpv",
+      "base_price": 321000000,
+      "annual_depr": 0.082,
+      "transmisi_opts": [
+        "Otomatis"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 13500,
+      "specs": {
+        "Mesin": "1.5L Smartstream IVT",
+        "Tenaga": "113 HP",
+        "Konsumsi BBM": "15.5 km/L",
+        "Kapasitas": "7 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Hyundai",
+      "model": "Creta Prime",
+      "body_type": "suv",
+      "base_price": 416000000,
+      "annual_depr": 0.083,
+      "transmisi_opts": [
+        "Otomatis"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 12500,
+      "specs": {
+        "Mesin": "1.5L Smartstream IVT",
+        "Tenaga": "113 HP",
+        "Konsumsi BBM": "15.1 km/L",
+        "Kapasitas": "5 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Hyundai",
+      "model": "Ioniq 5 Signature",
+      "body_type": "suv",
+      "base_price": 870000000,
+      "annual_depr": 0.105,
+      "transmisi_opts": [
+        "Otomatis"
+      ],
+      "bbm_opts": [
+        "Listrik (EV)"
+      ],
+      "avg_km_per_year": 11000,
+      "specs": {
+        "Mesin": "Motor Listrik 72.6 kWh",
+        "Tenaga": "214 HP",
+        "Konsumsi BBM": "451 km/charge",
+        "Kapasitas": "5 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Wuling",
+      "model": "Air ev Long Range",
+      "body_type": "hatchback",
+      "base_price": 275000000,
+      "annual_depr": 0.112,
+      "transmisi_opts": [
+        "Otomatis"
+      ],
+      "bbm_opts": [
+        "Listrik (EV)"
+      ],
+      "avg_km_per_year": 9500,
+      "specs": {
+        "Mesin": "Motor Listrik 26.7 kWh",
+        "Tenaga": "40 HP",
+        "Konsumsi BBM": "300 km/charge",
+        "Kapasitas": "4 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Wuling",
+      "model": "Almaz RS Pro",
+      "body_type": "suv",
+      "base_price": 415000000,
+      "annual_depr": 0.092,
+      "transmisi_opts": [
+        "Otomatis"
+      ],
+      "bbm_opts": [
+        "Bensin",
+        "Hybrid"
+      ],
+      "avg_km_per_year": 13000,
+      "specs": {
+        "Mesin": "1.5L Turbo / 2.0L Hybrid",
+        "Tenaga": "140 HP",
+        "Konsumsi BBM": "14.8 km/L",
+        "Kapasitas": "7 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Mazda",
+      "model": "CX-5 Elite",
+      "body_type": "suv",
+      "base_price": 628000000,
+      "annual_depr": 0.088,
+      "transmisi_opts": [
+        "Otomatis"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 11500,
+      "specs": {
+        "Mesin": "2.5L Skyactiv-G",
+        "Tenaga": "188 HP",
+        "Konsumsi BBM": "13.5 km/L",
+        "Kapasitas": "5 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Mazda",
+      "model": "Mazda3 Hatchback",
+      "body_type": "hatchback",
+      "base_price": 565000000,
+      "annual_depr": 0.089,
+      "transmisi_opts": [
+        "Otomatis"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 10500,
+      "specs": {
+        "Mesin": "2.0L Skyactiv-G",
+        "Tenaga": "153 HP",
+        "Konsumsi BBM": "14.2 km/L",
+        "Kapasitas": "5 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Nissan",
+      "model": "Livina VL",
+      "body_type": "mpv",
+      "base_price": 310000000,
+      "annual_depr": 0.084,
+      "transmisi_opts": [
+        "Otomatis"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 13500,
+      "specs": {
+        "Mesin": "1.5L Twin VTC",
+        "Tenaga": "104 HP",
+        "Konsumsi BBM": "15.0 km/L",
+        "Kapasitas": "7 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "BMW",
+      "model": "320i M Sport",
+      "body_type": "sedan",
+      "base_price": 1145000000,
+      "annual_depr": 0.108,
+      "transmisi_opts": [
+        "Otomatis"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 10000,
+      "specs": {
+        "Mesin": "2.0L TwinPower Turbo",
+        "Tenaga": "184 HP",
+        "Konsumsi BBM": "14.8 km/L",
+        "Kapasitas": "5 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "Mercedes-Benz",
+      "model": "C200 Avantgarde",
+      "body_type": "sedan",
+      "base_price": 1210000000,
+      "annual_depr": 0.11,
+      "transmisi_opts": [
+        "Otomatis"
+      ],
+      "bbm_opts": [
+        "Bensin",
+        "Hybrid"
+      ],
+      "avg_km_per_year": 9800,
+      "specs": {
+        "Mesin": "1.5L EQ Boost Turbo",
+        "Tenaga": "204 HP",
+        "Konsumsi BBM": "15.2 km/L",
+        "Kapasitas": "5 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "BYD",
+      "model": "Seal Performance",
+      "body_type": "sedan",
+      "base_price": 719000000,
+      "annual_depr": 0.098,
+      "transmisi_opts": [
+        "Otomatis"
+      ],
+      "bbm_opts": [
+        "Listrik (EV)"
+      ],
+      "avg_km_per_year": 11000,
+      "specs": {
+        "Mesin": "Dual Motor Blade Battery 82.5 kWh",
+        "Tenaga": "523 HP",
+        "Konsumsi BBM": "580 km/charge",
+        "Kapasitas": "5 Kursi"
+      }
+    },
+    {
+      "jenis": "mobil",
+      "merek": "BYD",
+      "model": "Atto 3 Superior",
+      "body_type": "suv",
+      "base_price": 515000000,
+      "annual_depr": 0.095,
+      "transmisi_opts": [
+        "Otomatis"
+      ],
+      "bbm_opts": [
+        "Listrik (EV)"
+      ],
+      "avg_km_per_year": 11500,
+      "specs": {
+        "Mesin": "Motor Listrik 60.5 kWh",
+        "Tenaga": "201 HP",
+        "Konsumsi BBM": "480 km/charge",
+        "Kapasitas": "5 Kursi"
+      }
+    },
+    {
+      "jenis": "motor",
+      "merek": "Honda",
+      "model": "Vario 160",
+      "body_type": "matic",
+      "base_price": 27800000,
+      "annual_depr": 0.082,
+      "transmisi_opts": [
+        "Otomatis"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 9500,
+      "specs": {
+        "Mesin": "160cc eSP+",
+        "Tenaga": "15.1 HP",
+        "Konsumsi BBM": "46.9 km/L",
+        "Tangki": "5.5 L"
+      }
+    },
+    {
+      "jenis": "motor",
+      "merek": "Honda",
+      "model": "Beat Deluxe",
+      "body_type": "matic",
+      "base_price": 19800000,
+      "annual_depr": 0.078,
+      "transmisi_opts": [
+        "Otomatis"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 10000,
+      "specs": {
+        "Mesin": "110cc eSP",
+        "Tenaga": "8.9 HP",
+        "Konsumsi BBM": "60.6 km/L",
+        "Tangki": "4.2 L"
+      }
+    },
+    {
+      "jenis": "motor",
+      "merek": "Honda",
+      "model": "PCX 160",
+      "body_type": "matic",
+      "base_price": 33400000,
+      "annual_depr": 0.076,
+      "transmisi_opts": [
+        "Otomatis"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 10200,
+      "specs": {
+        "Mesin": "160cc 4-Katup eSP+",
+        "Tenaga": "15.8 HP",
+        "Konsumsi BBM": "45.0 km/L",
+        "Tangki": "8.1 L"
+      }
+    },
+    {
+      "jenis": "motor",
+      "merek": "Honda",
+      "model": "CBR150R",
+      "body_type": "sport",
+      "base_price": 38700000,
+      "annual_depr": 0.102,
+      "transmisi_opts": [
+        "Manual"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 8200,
+      "specs": {
+        "Mesin": "150cc DOHC 6-Speed",
+        "Tenaga": "16.9 HP",
+        "Konsumsi BBM": "41.2 km/L",
+        "Tangki": "12.0 L"
+      }
+    },
+    {
+      "jenis": "motor",
+      "merek": "Honda",
+      "model": "CRF150L",
+      "body_type": "trail",
+      "base_price": 37200000,
+      "annual_depr": 0.079,
+      "transmisi_opts": [
+        "Manual"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 7500,
+      "specs": {
+        "Mesin": "149cc SOHC PGM-FI",
+        "Tenaga": "12.7 HP",
+        "Konsumsi BBM": "39.3 km/L",
+        "Tangki": "7.2 L"
+      }
+    },
+    {
+      "jenis": "motor",
+      "merek": "Yamaha",
+      "model": "NMAX 155",
+      "body_type": "matic",
+      "base_price": 33200000,
+      "annual_depr": 0.075,
+      "transmisi_opts": [
+        "Otomatis"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 10500,
+      "specs": {
+        "Mesin": "155cc Blue Core VVA",
+        "Tenaga": "15.1 HP",
+        "Konsumsi BBM": "43.5 km/L",
+        "Tangki": "7.1 L"
+      }
+    },
+    {
+      "jenis": "motor",
+      "merek": "Yamaha",
+      "model": "Aerox 155",
+      "body_type": "matic",
+      "base_price": 31500000,
+      "annual_depr": 0.077,
+      "transmisi_opts": [
+        "Otomatis"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 10000,
+      "specs": {
+        "Mesin": "155cc VVA Connected",
+        "Tenaga": "15.1 HP",
+        "Konsumsi BBM": "42.5 km/L",
+        "Tangki": "5.5 L"
+      }
+    },
+    {
+      "jenis": "motor",
+      "merek": "Yamaha",
+      "model": "R15 Connected",
+      "body_type": "sport",
+      "base_price": 40300000,
+      "annual_depr": 0.1,
+      "transmisi_opts": [
+        "Manual"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 8000,
+      "specs": {
+        "Mesin": "155cc VVA Assist & Slipper",
+        "Tenaga": "19.0 HP",
+        "Konsumsi BBM": "41.5 km/L",
+        "Tangki": "11.0 L"
+      }
+    },
+    {
+      "jenis": "motor",
+      "merek": "Yamaha",
+      "model": "MX King 150",
+      "body_type": "bebek",
+      "base_price": 26500000,
+      "annual_depr": 0.088,
+      "transmisi_opts": [
+        "Manual"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 11500,
+      "specs": {
+        "Mesin": "150cc SOHC 5-Speed",
+        "Tenaga": "15.1 HP",
+        "Konsumsi BBM": "44.8 km/L",
+        "Tangki": "4.2 L"
+      }
+    },
+    {
+      "jenis": "motor",
+      "merek": "Kawasaki",
+      "model": "KLX 150",
+      "body_type": "trail",
+      "base_price": 37400000,
+      "annual_depr": 0.08,
+      "transmisi_opts": [
+        "Manual"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 7200,
+      "specs": {
+        "Mesin": "144cc SOHC Air-Cooled",
+        "Tenaga": "11.8 HP",
+        "Konsumsi BBM": "38.0 km/L",
+        "Tangki": "6.9 L"
+      }
+    },
+    {
+      "jenis": "motor",
+      "merek": "Kawasaki",
+      "model": "Ninja ZX-25R",
+      "body_type": "sport",
+      "base_price": 110900000,
+      "annual_depr": 0.086,
+      "transmisi_opts": [
+        "Manual"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 6500,
+      "specs": {
+        "Mesin": "250cc 4-Silinder Segaris DOHC",
+        "Tenaga": "50.3 HP",
+        "Konsumsi BBM": "24.5 km/L",
+        "Tangki": "15.0 L"
+      }
+    },
+    {
+      "jenis": "motor",
+      "merek": "Suzuki",
+      "model": "Satria F150",
+      "body_type": "bebek",
+      "base_price": 28900000,
+      "annual_depr": 0.094,
+      "transmisi_opts": [
+        "Manual"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 10500,
+      "specs": {
+        "Mesin": "150cc DOHC 4-Valve",
+        "Tenaga": "18.2 HP",
+        "Konsumsi BBM": "41.0 km/L",
+        "Tangki": "4.0 L"
+      }
+    },
+    {
+      "jenis": "motor",
+      "merek": "Suzuki",
+      "model": "GSX-R150",
+      "body_type": "sport",
+      "base_price": 35300000,
+      "annual_depr": 0.104,
+      "transmisi_opts": [
+        "Manual"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 8500,
+      "specs": {
+        "Mesin": "150cc DOHC Keyless",
+        "Tenaga": "18.9 HP",
+        "Konsumsi BBM": "42.0 km/L",
+        "Tangki": "11.0 L"
+      }
+    },
+    {
+      "jenis": "motor",
+      "merek": "Vespa",
+      "model": "Sprint 150 i-get",
+      "body_type": "matic",
+      "base_price": 57100000,
+      "annual_depr": 0.065,
+      "transmisi_opts": [
+        "Otomatis"
+      ],
+      "bbm_opts": [
+        "Bensin"
+      ],
+      "avg_km_per_year": 7000,
+      "specs": {
+        "Mesin": "154.8cc i-get ABS",
+        "Tenaga": "11.6 HP",
+        "Konsumsi BBM": "41.0 km/L",
+        "Tangki": "8.0 L"
+      }
+    }
+  ],
+  "cities": [
+    "Jakarta",
+    "Surabaya",
+    "Bandung",
+    "Medan",
+    "Semarang",
+    "Yogyakarta",
+    "Makassar",
+    "Denpasar"
+  ],
+  "surat_options": [
+    "Lengkap (STNK + BPKB + Faktur)",
+    "Hanya STNK + BPKB",
+    "Hanya STNK Saja",
+    "Hanya BPKB Saja"
+  ]
+}

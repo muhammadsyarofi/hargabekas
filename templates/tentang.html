@@ -1,0 +1,139 @@
+{% extends "base.html" %}
+{% block title %}Tentang Model 2-Tahap & Tabel Biaya Perbaikan — HargaBekas{% endblock %}
+
+{% block content %}
+<div class="container">
+  <header class="editorial-masthead">
+    <div class="masthead-kicker mono-label">Arsitektur Dua Tahap: ML Tabular + Analisis Kerusakan Visual</div>
+    <h1 class="section-heading">Cara Kerja Sistem, Metrik Evaluasi, Tabel Biaya & Batasan</h1>
+    <p style="color: var(--text-secondary); max-width: 70ch; margin-top: 0.35rem;">
+      Dokumentasi transparan mengenai bagaimana HargaBekas menggabungkan prediksi harga pasar normal menggunakan scikit-learn dengan deteksi kerusakan foto serta tabel biaya perbaikan bengkel.
+    </p>
+  </header>
+
+  <!-- Metrik Evaluasi Model ML Harga Dasar -->
+  <section style="margin-top: 2rem;">
+    <div class="catalog-grid" style="grid-template-columns: repeat(4, 1fr); margin-bottom: 2rem;">
+      <div class="panel-card panel-card-bordered">
+        <span class="mono-label" style="color: var(--accent);">Koefisien Determinasi (R²)</span>
+        <div class="price-display" style="margin: 0.35rem 0;">{{ metadata.metrics.r2 }}</div>
+        <p style="font-size: 0.84rem; color: var(--text-secondary);">
+          Akurasi model Harga Dasar Normal pada {{ metadata.test_rows }} sampel uji lintas 15 merek.
+        </p>
+      </div>
+
+      <div class="panel-card panel-card-bordered">
+        <span class="mono-label" style="color: var(--accent);">Mean Absolute Error (MAE)</span>
+        <div class="price-display" style="font-size: 1.65rem; margin: 0.35rem 0;">{{ metadata.metrics.mae | rupiah }}</div>
+        <p style="font-size: 0.84rem; color: var(--text-secondary);">
+          MAE Motor: <strong>{{ metadata.metrics.mae_motor | rupiah }}</strong> • MAE Mobil: <strong>{{ metadata.metrics.mae_mobil | rupiah }}</strong>
+        </p>
+      </div>
+
+      <div class="panel-card panel-card-bordered">
+        <span class="mono-label" style="color: var(--accent);">Komponen Bodi Terdaftar</span>
+        <div class="price-display" style="margin: 0.35rem 0;">{{ repair_table.parts | length }} Zona</div>
+        <p style="font-size: 0.84rem; color: var(--text-secondary);">
+          Mencakup {{ repair_table.damage_types | length }} jenis kerusakan dengan skala keparahan 1–4.
+        </p>
+      </div>
+
+      <div class="panel-card panel-card-bordered">
+        <span class="mono-label" style="color: var(--accent);">Batas Diskon Pasar</span>
+        <div class="price-display" style="margin: 0.35rem 0;">Maks {{ repair_table.market_discount_rules.max_total_market_discount_pct }}%</div>
+        <p style="font-size: 0.84rem; color: var(--text-secondary);">
+          Penalti tambahan +{{ repair_table.market_discount_rules.structural_flag_extra_pct }}% jika terdeteksi cacat struktural/rangka.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Penjelasan Arsitektur 2 Tahap & Keterbatasan Jujur -->
+  <div class="editorial-grid-2col" style="padding-top: 0;">
+    <div class="panel-card">
+      <span class="mono-label" style="color: var(--accent);">Metodologi Valuasi Dua Tahap</span>
+      <h2 class="card-heading" style="margin: 0.35rem 0 1rem;">Rumus Perhitungan Harga Akhir</h2>
+
+      <div style="background-color: var(--bg-page); padding: 0.9rem 1rem; border-left: 3px solid var(--accent); font-family: var(--font-mono); font-size: 0.82rem; margin-bottom: 1.15rem;">
+        harga_akhir = harga_dasar_normal − estimasi_biaya_perbaikan − diskon_pasar
+      </div>
+
+      <ol style="padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.85rem; color: var(--text-secondary); font-size: 0.92rem;">
+        <li>
+          <strong style="color: var(--text-main);">Tahap 1 — Harga Dasar Kondisi Normal (ML Tabular):</strong>
+          Pipeline <code>GradientBoostingRegressor</code> (70%) + <code>RandomForestRegressor</code> (30%) memprediksi harga wajar unit dalam kondisi standar terawat (skor 4/5) berdasarkan merek, model, tahun, kilometer, lokasi kota, dan kelengkapan surat.
+        </li>
+        <li>
+          <strong style="color: var(--text-main);">Tahap 2 — Analisis Foto Kerusakan (Pluggable Damage Analyzer):</strong>
+          Foto yang diunggah diperiksa validitas byte-nya, dihapus metadata EXIF/GPS-nya, lalu dianalisis oleh <code>ClaudeVisionDamageAnalyzer</code> (atau mode manual/stub YOLO lokal) untuk mendeteksi bagian yang rusak, jenis kerusakan, dan tingkat keparahan (1–4).
+        </li>
+        <li>
+          <strong style="color: var(--text-main);">Tahap 3 — Biaya Perbaikan & Diskon Pasar:</strong>
+          Setiap titik kerusakan dikalikan dengan tarif dasar di <code>data/repair_costs.json</code>, pengali keparahan, luas area, serta indeks segmen harga kendaraan. Diskon pasar ditambahkan karena pembeli kendaraan bekas meminta kompensasi risiko atas unit yang pernah diperbaiki.
+        </li>
+      </ol>
+
+      <h3 class="card-heading" style="margin-top: 1.5rem; margin-bottom: 0.5rem;">Cara Mengedit Tabel Biaya Perbaikan</h3>
+      <p style="font-size: 0.88rem; color: var(--text-secondary);">
+        Anda dapat menyesuaikan harga ketok magic, cat oven per panel, atau harga ganti part kapan saja tanpa perlu melatih ulang model ML dengan mengedit file JSON:
+        <code>data/repair_costs.json</code>. Perubahan langsung berlaku pada perhitungan berikutnya.
+      </p>
+    </div>
+
+    <div class="panel-card">
+      <span class="mono-label" style="color: var(--accent);">Keterbatasan Jujur Sistem</span>
+      <h2 class="card-heading" style="margin: 0.35rem 0 1rem;">Apa yang Tidak Bisa Dipastikan dari Foto?</h2>
+
+      <ul style="padding-left: 1.2rem; font-size: 0.9rem; color: var(--text-secondary); display: flex; flex-direction: column; gap: 0.7rem;">
+        <li>
+          <strong style="color: var(--text-main);">Kondisi Internal Mesin & Transmisi:</strong>
+          Suara kasar mesin, kompresi bocor, gejala <em>slip</em> transmisi CVT/matik, atau kebocoran paking dalam tidak tampak dari foto bodi luar.
+        </li>
+        <li>
+          <strong style="color: var(--text-main);">Riwayat Banjir Tersembunyi:</strong>
+          Karat di balik karpet dasar, korosi soket ECU, atau bau lembap kabin memerlukan pemeriksaan fisik langsung di tempat.
+        </li>
+        <li>
+          <strong style="color: var(--text-main);">Geometri Sasis & Kaki-kaki Kolong:</strong>
+          Kerusakan <em>crossmember</em>, <em>tie-rod</em>, atau sasis bengkok yang tertutup bumper luar hanya bisa diverifikasi melalui pengecekan kolong dan <em>spooring</em>.
+        </li>
+        <li>
+          <strong style="color: var(--text-main);">Ketergantungan pada Kualitas Foto:</strong>
+          Foto yang diambil di tempat gelap, buram, terlalu jauh, atau tertutup pantulan cahaya keras dapat menyembunyikan baret halus maupun penyok landai. Karena itu pengguna selalu diberi kontrol penuh untuk mengoreksi temuan AI.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Tabel Referensi Biaya Perbaikan Saat Ini -->
+  <section style="padding-top: 1.5rem;">
+    <div class="masthead-kicker mono-label">Referensi Bengkel (data/repair_costs.json)</div>
+    <h2 class="section-heading" style="margin-bottom: 1rem;">Daftar Tarif Dasar Perbaikan per Bagian Bodi</h2>
+
+    <div class="compare-table-wrapper">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Kode Bagian</th>
+            <th style="text-align:left;">Nama Komponen / Panel</th>
+            <th>Berlaku Untuk</th>
+            <th>Tarif Dasar Mobil</th>
+            <th>Tarif Dasar Motor</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for key, part in repair_table.parts.items() %}
+          <tr>
+            <td><code>{{ key }}</code></td>
+            <td style="text-align:left;"><strong>{{ part.label }}</strong> {% if part.is_structural %}<span class="severity-badge sev-4">Struktural</span>{% endif %}</td>
+            <td>{{ part.applicable_to | join(', ') | upper }}</td>
+            <td>{{ part.base_cost_mobil | rupiah }}</td>
+            <td>{{ part.base_cost_motor | rupiah }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+</div>
+{% endblock %}

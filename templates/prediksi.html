@@ -1,0 +1,473 @@
+{% extends "base.html" %}
+{% block title %}Inspeksi Foto & Prediksi Harga Kendaraan — HargaBekas{% endblock %}
+
+{% block content %}
+<div class="container">
+  <header class="editorial-masthead">
+    <div class="masthead-kicker mono-label">Inspeksi Kerusakan Visual & Valuasi Multi-Tahap</div>
+    <h1 class="section-heading">Prediksi Harga Berdasarkan Kondisi Foto & Data Unit</h1>
+    <p style="color: var(--text-secondary); max-width: 68ch; margin-top: 0.35rem;">
+      Masukkan spesifikasi dasar kendaraan, unggah foto kondisi bodi (lecet, penyok, retak, karat), tinjau atau koreksi titik kerusakan pada peta kendaraan 2D, lalu dapatkan harga akhir beserta rincian biaya perbaikannya.
+    </p>
+  </header>
+
+  <div class="editorial-grid-2col">
+    <!-- KOLOM KIRI: Stepper 5 Langkah -->
+    <div class="panel-card panel-card-bordered">
+      <div class="stepper-track" role="tablist" aria-label="Tahapan Inspeksi & Prediksi">
+        <div class="step-indicator active" data-step-target="1" role="tab">
+          <span class="step-num">01</span>
+          <span class="step-label">Data Unit</span>
+        </div>
+        <div class="step-indicator" data-step-target="2" role="tab">
+          <span class="step-num">02</span>
+          <span class="step-label">Unggah Foto</span>
+        </div>
+        <div class="step-indicator" data-step-target="3" role="tab">
+          <span class="step-num">03</span>
+          <span class="step-label">Analisis AI</span>
+        </div>
+        <div class="step-indicator" data-step-target="4" role="tab">
+          <span class="step-num">04</span>
+          <span class="step-label">Tinjau Temuan</span>
+        </div>
+        <div class="step-indicator" data-step-target="5" role="tab">
+          <span class="step-num">05</span>
+          <span class="step-label">Hasil & Waterfall</span>
+        </div>
+      </div>
+
+      <div id="pred-error-banner" class="alert-banner" role="alert"></div>
+
+      <form id="stepper-predict-form" novalidate onsubmit="return false;">
+        <!-- ==================== LANGKAH 1: DATA UNIT ==================== -->
+        <div class="step-pane active" data-step="1">
+          <h2 class="card-heading" style="margin-bottom: 0.35rem;">1. Spesifikasi Dasar & Dokumen Unit</h2>
+          <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 1.15rem;">
+            Data ini digunakan oleh model Machine Learning untuk menghitung <strong>Harga Dasar Kondisi Normal</strong> sebelum dikurangi biaya perbaikan.
+          </p>
+
+          <div class="choice-tiles" style="margin-bottom: 1.15rem;">
+            <label class="choice-tile selected js-jenis-tile">
+              <input type="radio" name="jenis" value="mobil" checked style="position:absolute;opacity:0;" />
+              <span class="mono-label" style="color: var(--accent);">RODA EMPAT</span>
+              <strong style="font-family: var(--font-display); font-size: 1.15rem;">Mobil Penumpang</strong>
+              <span style="font-size: 0.82rem; color: var(--text-secondary);">12 Merek (Toyota, Honda, Daihatsu, Mitsubishi, Hyundai, BMW, dll.)</span>
+            </label>
+
+            <label class="choice-tile js-jenis-tile">
+              <input type="radio" name="jenis" value="motor" style="position:absolute;opacity:0;" />
+              <span class="mono-label" style="color: var(--accent);">RODA DUA</span>
+              <strong style="font-family: var(--font-display); font-size: 1.15rem;">Sepeda Motor</strong>
+              <span style="font-size: 0.82rem; color: var(--text-secondary);">5 Merek (Honda, Yamaha, Kawasaki, Suzuki, Vespa)</span>
+            </label>
+          </div>
+
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="pred-merek" class="form-label">Merek Pabrikan</label>
+              <select id="pred-merek" class="form-control"></select>
+            </div>
+
+            <div class="form-group">
+              <label for="pred-model" class="form-label">Model & Tipe</label>
+              <select id="pred-model" class="form-control"></select>
+            </div>
+
+            <div class="form-group">
+              <label for="pred-transmisi" class="form-label">Transmisi</label>
+              <select id="pred-transmisi" class="form-control"></select>
+            </div>
+
+            <div class="form-group">
+              <label for="pred-bbm" class="form-label">Bahan Bakar / Penggerak</label>
+              <select id="pred-bbm" class="form-control"></select>
+            </div>
+
+            <div class="form-group">
+              <label for="pred-tahun" class="form-label">
+                <span>Tahun Produksi</span>
+                <strong id="pred-tahun-val" class="mono-label" style="color: var(--accent);">2022</strong>
+              </label>
+              <input type="range" id="pred-tahun" class="range-slider" min="2015" max="2024" step="1" value="2022" />
+            </div>
+
+            <div class="form-group">
+              <label for="pred-kilometer-num" class="form-label">Odometer (Kilometer)</label>
+              <input type="number" id="pred-kilometer-num" class="form-control" min="0" max="500000" step="500" value="28500" required />
+              <input type="range" id="pred-kilometer" class="range-slider" min="1000" max="200000" step="1000" value="28500" style="display:none;" />
+            </div>
+
+            <div class="form-group">
+              <label for="pred-surat" class="form-label">Kelengkapan Surat-Surat</label>
+              <select id="pred-surat" class="form-control">
+                {% for s in surat_options %}
+                <option value="{{ s }}">{{ s }}</option>
+                {% endfor %}
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="pred-kota" class="form-label">Kota / Wilayah Pasar</label>
+              <select id="pred-kota" class="form-control">
+                {% for c in cities %}
+                <option value="{{ c }}">{{ c }}</option>
+                {% endfor %}
+              </select>
+            </div>
+          </div>
+
+          <div style="display: flex; justify-content: flex-end; margin-top: 1.5rem;">
+            <button type="button" class="btn btn-primary" data-next-step="2">Lanjut ke Unggah Foto Kondisi &rarr;</button>
+          </div>
+        </div>
+
+        <!-- ==================== LANGKAH 2: UNGGAH FOTO KONDISI ==================== -->
+        <div class="step-pane" data-step="2">
+          <h2 class="card-heading" style="margin-bottom: 0.35rem;">2. Unggah Foto Kondisi & Titik Kerusakan</h2>
+          <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 0.85rem;">
+            Unggah foto sudut kendaraan dan foto <em>close-up</em> bagian yang lecet, penyok, retak, atau berkarat (maksimal 10 foto). Gambar dikompresi otomatis di perangkat Anda (maks 1600px) dan seluruh metadata EXIF/GPS dihapus di server.
+          </p>
+
+          <!-- Panduan Slot Sudut Foto Dinamis (Mobil vs Motor) -->
+          <div class="mono-label" style="margin-bottom: 0.35rem;">Panduan Sudut Foto yang Disarankan:</div>
+          <div id="photo-slot-guides" class="slot-guide-grid"></div>
+
+          <div class="form-group" style="margin-bottom: 0.85rem;">
+            <label for="active-photo-slot" class="form-label">Tandai Sudut untuk Foto Berikutnya</label>
+            <select id="active-photo-slot" class="form-control"></select>
+          </div>
+
+          <!-- Area Drag & Drop + Kamera Mobile -->
+          <div id="photo-dropzone" class="upload-dropzone" tabindex="0" role="button" aria-label="Area Unggah Foto Kendaraan">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.8" style="margin: 0 auto 0.5rem;"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+            <strong style="display: block; font-size: 1rem;">Seret & Lepas Foto Kendaraan di Sini, atau Klik untuk Memilih</strong>
+            <span style="font-size: 0.82rem; color: var(--text-secondary); display: block; margin-top: 0.25rem;">
+              Format JPEG, PNG, atau WebP (Maks. 8 MB/foto, hingga 10 foto)
+            </span>
+            <input type="file" id="photo-file-input" accept="image/jpeg,image/png,image/webp" multiple style="display: none;" />
+          </div>
+
+          <div style="display: flex; flex-wrap: wrap; gap: 0.65rem; margin-top: 0.75rem;">
+            <label class="btn btn-outline" style="cursor: pointer; flex: 1;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+              <span>Ambil Foto dari Kamera</span>
+              <input type="file" id="photo-camera-input" accept="image/*" capture="environment" style="display: none;" />
+            </label>
+            <button type="button" id="btn-load-demo-photo" class="btn btn-subtle" style="flex: 1;">
+              Gunakan Contoh Foto Inspeksi
+            </button>
+          </div>
+
+          <!-- Progress Kompresi & Daftar Thumbnail Foto yang Diunggah -->
+          <div id="upload-progress-bar-wrap" style="display: none; margin-top: 0.85rem;">
+            <div style="display: flex; justify-content: space-between; font-size: 0.78rem; margin-bottom: 0.25rem;">
+              <span id="upload-progress-text">Mengompresi & menyiapkan foto...</span>
+              <span id="upload-progress-pct" class="mono-label">0%</span>
+            </div>
+            <div style="height: 6px; background-color: var(--bg-subtle); border-radius: 99px; overflow: hidden;">
+              <div id="upload-progress-fill" style="width: 0%; height: 100%; background-color: var(--accent); transition: width 200ms;"></div>
+            </div>
+          </div>
+
+          <div id="uploaded-thumbs-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 0.65rem; margin-top: 1rem;"></div>
+
+          <!-- Tips Foto & Privasi Plat Nomor -->
+          <div style="background-color: var(--bg-page); border-left: 3px solid var(--accent); padding: 0.75rem 0.95rem; font-size: 0.81rem; color: var(--text-secondary); margin-top: 1rem; border-radius: var(--radius-sm);">
+            <strong>Tips Foto & Privasi:</strong> Potret di tempat terang dengan jarak 1–2 meter dan pastikan tidak blur. <em>Disarankan menutup atau mengaburkan plat nomor kendaraan Anda sebelum mengunggah foto.</em>
+          </div>
+
+          <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.5rem;">
+            <button type="button" class="btn btn-outline" data-prev-step="1">&larr; Kembali</button>
+            <div style="display: flex; gap: 0.6rem; flex-wrap: wrap;">
+              <button type="button" id="btn-skip-to-manual" class="btn btn-subtle">
+                Mode Manual (Tanpa Unggah Foto)
+              </button>
+              <button type="button" id="btn-run-photo-analysis" class="btn btn-primary">
+                Analisis Kerusakan Foto &rarr;
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- ==================== LANGKAH 3: ANALISIS KERUSAKAN OTOMATIS ==================== -->
+        <div class="step-pane" data-step="3">
+          <h2 class="card-heading" style="margin-bottom: 0.35rem;">3. Memproses Inspeksi Visual Kendaraan</h2>
+          <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 1.25rem;">
+            Sistem sedang memeriksa kualitas optik foto, mendeteksi bagian bodi, dan memetakan tingkat keparahan kerusakan ke tabel biaya perbaikan bengkel.
+          </p>
+
+          <div id="analysis-stages-list">
+            <div class="analysis-stage-item" data-stage="1">
+              <span class="mono-label">TAHAP 01</span>
+              <span>Memeriksa resolusi, ketajaman, pencahayaan & menghapus metadata EXIF/GPS...</span>
+            </div>
+            <div class="analysis-stage-item" data-stage="2">
+              <span class="mono-label">TAHAP 02</span>
+              <span>Mendeteksi bagian bodi kendaraan & memindai lecet, penyok, retak, atau karat...</span>
+            </div>
+            <div class="analysis-stage-item" data-stage="3">
+              <span class="mono-label">TAHAP 03</span>
+              <span>Menghitung estimasi biaya perbaikan per panel & menyusun peta kerusakan 2D...</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ==================== LANGKAH 4: TINJAU & KOREKSI TEMUAN ==================== -->
+        <div class="step-pane" data-step="4">
+          <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.5rem;">
+            <h2 class="card-heading">4. Laporan Inspeksi & Koreksi Temuan</h2>
+            <span id="analyzer-mode-badge" class="mono-label" style="padding: 0.2rem 0.55rem; background-color: var(--bg-subtle); border-radius: 3px;">Mode Inspeksi</span>
+          </div>
+          <p id="inspection-summary-text" style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 1rem;">
+            Silakan tinjau temuan di bawah. Anda dapat menghapus temuan yang salah, menggeser tingkat keparahan (1–4), atau mengklik zona pada <strong>Peta Kerusakan 2D</strong> di panel kanan untuk menambah kerusakan baru.
+          </p>
+
+          <div id="photo-quality-warning" class="alert-banner" style="margin-bottom: 1rem;"></div>
+
+          <!-- Penampil Foto dengan Overlay Kotak BBox yang Bisa Digeser & Diperbesar -->
+          <div id="bbox-viewer-section" style="margin-bottom: 1.25rem; display: none;">
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.45rem;">
+              <span class="mono-label">Penanda Lokasi &amp; Ukuran Kerusakan pada Foto</span>
+              <div id="bbox-photo-switcher" class="angle-tabs"></div>
+            </div>
+            <div id="bbox-photo-stage" class="photo-With-bbox-stage"></div>
+            <p class="mono-label" style="margin-top: 0.4rem; color: var(--text-muted); font-size: 0.72rem;">
+              Tip: Geser kotak merah untuk memindahkan posisi, atau tarik titik sudut kotak untuk memperbesar/memperkecil ukuran zona sesuai luas kerusakan pada foto.
+            </p>
+          </div>
+
+          <!-- Tabel Daftar Temuan Kerusakan (Dapat Diedit Langsung) -->
+          <div style="border: 1px solid var(--border-subtle); border-radius: var(--radius-sm); overflow-x: auto; margin-bottom: 1rem;">
+            <table class="data-table" style="font-size: 0.83rem;">
+              <thead>
+                <tr>
+                  <th># & Bagian Bodi</th>
+                  <th>Jenis Kerusakan</th>
+                  <th>Keparahan (1–4)</th>
+                  <th>Keyakinan</th>
+                  <th>Biaya Perbaikan</th>
+                  <th>Aksi</th>
+                </tr>
+              </thead>
+              <tbody id="findings-table-body"></tbody>
+            </table>
+          </div>
+
+          <!-- Form Tambah Kerusakan Manual -->
+          <div style="background-color: var(--bg-page); border: 1px solid var(--border-subtle); border-radius: var(--radius-sm); padding: 0.9rem; margin-bottom: 1.15rem;">
+            <div class="mono-label" style="margin-bottom: 0.5rem; color: var(--accent);">+ Tambah Titik Kerusakan Manual (Atau Klik Peta 2D di Kanan)</div>
+            <div class="form-grid" style="grid-template-columns: 1.2fr 1.2fr 0.8fr auto; align-items: end; gap: 0.6rem;">
+              <div class="form-group">
+                <label for="add-dmg-part" class="form-label" style="font-size: 0.78rem;">Bagian Kendaraan</label>
+                <select id="add-dmg-part" class="form-control" style="min-height: 38px; padding: 0.35rem 0.6rem; font-size: 0.84rem;"></select>
+              </div>
+              <div class="form-group">
+                <label for="add-dmg-type" class="form-label" style="font-size: 0.78rem;">Jenis Kerusakan</label>
+                <select id="add-dmg-type" class="form-control" style="min-height: 38px; padding: 0.35rem 0.6rem; font-size: 0.84rem;"></select>
+              </div>
+              <div class="form-group">
+                <label for="add-dmg-sev" class="form-label" style="font-size: 0.78rem;">Keparahan</label>
+                <select id="add-dmg-sev" class="form-control" style="min-height: 38px; padding: 0.35rem 0.6rem; font-size: 0.84rem;">
+                  <option value="1">1 — Minor</option>
+                  <option value="2" selected>2 — Sedang</option>
+                  <option value="3">3 — Berat</option>
+                  <option value="4">4 — Kritis</option>
+                </select>
+              </div>
+              <button type="button" id="btn-add-damage-row" class="btn btn-outline" style="min-height: 38px; padding: 0.35rem 0.85rem; font-size: 0.84rem;">
+                + Tambah
+              </button>
+            </div>
+          </div>
+
+          <!-- Indikasi Struktural & Faktor Opsional Tambahan -->
+          <div class="form-group" style="margin-bottom: 1rem;">
+            <label style="display: flex; align-items: center; gap: 0.55rem; cursor: pointer; font-size: 0.86rem; font-weight: 600; color: var(--accent);">
+              <input type="checkbox" id="structural-flag-checkbox" />
+              <span>Terdapat Indikasi Kerusakan Struktural / Rangka / Bekas Tabrakan Berat</span>
+            </label>
+            <p id="structural-reason-note" style="font-size: 0.79rem; color: var(--text-secondary); margin-top: 0.2rem;">
+              Catatan: Kerusakan mesin bagian dalam, bekas banjir, dan sasis kolong tidak dapat dipastikan 100% hanya dari foto eksterior.
+            </p>
+          </div>
+
+          <div class="form-group" style="margin-bottom: 1.25rem;">
+            <span class="form-label" style="font-size: 0.84rem;">Faktor Tambahan Unit (Opsional):</span>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+              <label class="meta-pill" style="cursor: pointer; display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.35rem 0.65rem;">
+                <input type="checkbox" class="js-kondisi-detail" value="Servis Rutin Bengkel Resmi" checked />
+                <span>Servis Rutin Resmi (+1.2%)</span>
+              </label>
+              <label class="meta-pill" style="cursor: pointer; display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.35rem 0.65rem;">
+                <input type="checkbox" class="js-kondisi-detail" value="Kaki-kaki & Ban Tebal" />
+                <span>Ban & Kaki-kaki Tebal (+0.8%)</span>
+              </label>
+              <label class="meta-pill" style="cursor: pointer; display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.35rem 0.65rem; border: 1px solid var(--accent);">
+                <input type="checkbox" class="js-kondisi-detail" value="Pajak STNK Mati / Terlambat" />
+                <span>Pajak STNK Mati (-3.5%)</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Ringkasan Cepat Pengurangan Harga Real-Time Saat Koreksi -->
+          <div class="valuation-result-banner" style="margin-top: 0; padding: 1rem;">
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">
+              <div>
+                <span class="mono-label" style="color: var(--text-muted); display: block;">Estimasi Sementara Setelah Koreksi</span>
+                <strong id="live-review-price" style="font-family: var(--font-display); font-size: 1.55rem; color: var(--accent);">Rp 0</strong>
+              </div>
+              <div style="text-align: right; font-size: 0.82rem; color: var(--text-secondary);">
+                <div>Harga Dasar Normal: <strong id="live-review-base">Rp 0</strong></div>
+                <div>Potongan Perbaikan + Diskon: <strong id="live-review-deduct" style="color: var(--accent);">- Rp 0</strong></div>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: flex; justify-content: space-between; gap: 0.75rem; margin-top: 1.5rem;">
+            <button type="button" class="btn btn-outline" data-prev-step="2">&larr; Unggah Ulang</button>
+            <button type="button" id="btn-finalize-valuation" class="btn btn-primary" style="flex: 1;">
+              Lihat Rincian Hasil & Grafik Waterfall &rarr;
+            </button>
+          </div>
+        </div>
+
+        <!-- ==================== LANGKAH 5: HASIL AKHIR & GRAFIK WATERFALL ==================== -->
+        <div class="step-pane" data-step="5">
+          <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">
+            <span class="mono-label" style="color: var(--accent);">Hasil Akhir Valuasi & Pengurangan Kerusakan</span>
+            <span id="res-confidence" class="badge-impact up">93% Keyakinan Keseluruhan</span>
+          </div>
+
+          <div class="valuation-result-banner">
+            <span class="mono-label" style="color: var(--text-secondary);">Estimasi Harga Jual Apa Adanya (Dengan Kondisi Kerusakan Saat Ini)</span>
+            <div id="res-main-price" class="price-display" style="color: var(--accent); margin: 0.2rem 0;">Rp 0</div>
+
+            <div class="price-range-bar">
+              <div>
+                <span class="mono-label" style="color: var(--text-muted); display: block;">Batas Bawah Pasar</span>
+                <strong id="res-min-price">Rp 0</strong>
+              </div>
+              <div style="text-align: center;">
+                <span class="mono-label" style="color: var(--text-muted); display: block;">Harga Dasar Kondisi Normal</span>
+                <strong id="res-normal-price">Rp 0</strong>
+              </div>
+              <div style="text-align: right;">
+                <span class="mono-label" style="color: var(--text-muted); display: block;">Batas Atas Pasar</span>
+                <strong id="res-max-price">Rp 0</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Grafik Waterfall: Harga Dasar -> Biaya Perbaikan -> Diskon Pasar -> Harga Akhir -->
+          <h3 class="card-heading" style="margin-top: 1.5rem; margin-bottom: 0.5rem;">Grafik Waterfall Pembentukan Harga Akhir</h3>
+          <p style="font-size: 0.83rem; color: var(--text-secondary); margin-bottom: 0.75rem;">
+            Visualisasi bagaimana harga dasar normal dikurangi biaya perbaikan per bagian dan diskon likuiditas pasar.
+          </p>
+          <div style="height: 245px; position: relative; margin-bottom: 1.5rem;">
+            <canvas id="waterfall-chart" aria-label="Grafik Waterfall Rincian Pengurangan Harga"></canvas>
+          </div>
+
+          <!-- Perbandingan: "Harga Jual Apa Adanya" vs "Harga Jika Diperbaiki Terlebih Dahulu" -->
+          <h3 class="card-heading">Simulasi Keputusan: Perbaiki Dulu atau Jual Apa Adanya?</h3>
+          <div class="decision-compare-grid">
+            <div class="panel-card" style="padding: 1rem; background-color: var(--bg-page);">
+              <span class="mono-label" style="color: var(--text-muted);">OPSI A — JUAL APA ADANYA (AS-IS)</span>
+              <div id="dec-asis-price" style="font-family: var(--font-display); font-size: 1.4rem; font-weight: 700; margin: 0.25rem 0;">Rp 0</div>
+              <p style="font-size: 0.8rem; color: var(--text-secondary);">
+                Tanpa keluar modal bengkel, namun pembeli memotong biaya perbaikan beserta diskon risiko pasar.
+              </p>
+            </div>
+
+            <div class="panel-card" style="padding: 1rem; background-color: var(--bg-page); border-color: var(--positive);">
+              <span class="mono-label" style="color: var(--positive);">OPSI B — JIKA DIPERBAIKI DULU</span>
+              <div id="dec-repaired-price" style="font-family: var(--font-display); font-size: 1.4rem; font-weight: 700; margin: 0.25rem 0;">Rp 0</div>
+              <p id="dec-repaired-net" style="font-size: 0.8rem; color: var(--text-secondary);"></p>
+            </div>
+          </div>
+          <div id="dec-recommendation-box" style="margin-top: 0.75rem; padding: 0.75rem 1rem; background-color: var(--positive-soft); border-radius: var(--radius-sm); font-size: 0.85rem; font-weight: 500;"></div>
+
+          <!-- Faktor Penentu -->
+          <h3 class="card-heading" style="margin-top: 1.5rem;">Rincian Faktor Penentu</h3>
+          <div id="res-factors-list" class="factor-list"></div>
+
+          <!-- Disclaimer Resmi -->
+          <div style="margin-top: 1.35rem; padding: 0.85rem 1rem; border: 1px dashed var(--border-strong); border-radius: var(--radius-sm); font-size: 0.8rem; color: var(--text-secondary);">
+            <strong>Disclaimer Inspeksi:</strong> Hasil ini merupakan estimasi otomatis berbasis model statistik dan analisis visual foto, bukan taksiran resmi dealer/asuransi. Kondisi internal mesin, transmisi, riwayat banjir, dan sasis bawah tidak dapat dipastikan sepenuhnya dari foto. Inspeksi fisik langsung di bengkel terpercaya tetap sangat disarankan sebelum transaksi.
+          </div>
+
+          <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.5rem;">
+            <button type="button" class="btn btn-outline" data-prev-step="4">&larr; Koreksi Temuan</button>
+            <button type="button" id="btn-save-history" class="btn btn-primary">Simpan ke Riwayat</button>
+            <button type="button" id="btn-share-result" class="btn btn-outline">Bagikan Laporan</button>
+            <a href="{{ url_for('web.kredit') }}" class="btn btn-subtle">Hitung Kredit dengan Harga Ini &rarr;</a>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- KOLOM KANAN (STICKY): Peta Kerusakan SVG 2D Interaktif & Studio Foto Kendaraan -->
+    <aside class="sticky-column">
+      <!-- Panel 1: Peta Kerusakan SVG 2D Interaktif -->
+      <div id="damage-map-panel" class="panel-card" style="margin-bottom: 1.25rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.6rem;">
+          <div>
+            <span class="mono-label" style="color: var(--accent);">Peta Zona Kerusakan 2D Interaktif</span>
+            <h2 class="card-heading">Klik Bagian Bodi untuk Tandai Kerusakan</h2>
+          </div>
+          <div style="display: flex; align-items: center; gap: 0.5rem;">
+            <label for="damage-map-zoom-range" class="mono-label" style="color: var(--text-muted); font-size: 0.72rem;">
+              Ukuran: <strong id="damage-map-zoom-val">100%</strong>
+            </label>
+            <input type="range" id="damage-map-zoom-range" min="100" max="180" step="10" value="100" style="width: 82px; accent-color: var(--accent);" aria-label="Perbesar ukuran zona bodi" />
+            <button type="button" id="btn-toggle-map-expand" class="btn btn-outline" style="padding: 0.35rem 0.7rem; min-height: 34px; font-size: 0.76rem;">
+              Perbesar Peta
+            </button>
+          </div>
+        </div>
+
+        <div class="vehicle-showcase-box damage-map-box" style="padding: 0.85rem;">
+          <div id="interactive-damage-map-holder" class="damage-map-viewport" style="--damage-map-scale: 1;"></div>
+          <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; padding-top: 0.65rem; border-top: 1px dashed var(--border-subtle); font-size: 0.75rem;">
+            <span><strong style="color: var(--positive);">● Hijau:</strong> Baik</span>
+            <span><strong style="color: #CA8A04;">● Kuning:</strong> Lv.1</span>
+            <span><strong style="color: #EA580C;">● Oranye:</strong> Lv.2</span>
+            <span><strong style="color: var(--accent);">● Merah:</strong> Lv.3–4</span>
+            <span class="mono-label" style="color: var(--text-muted); width: 100%; font-size: 0.7rem;">
+              Tip: Klik zona berulang untuk menaikkan level (Lv.1 &rarr; Lv.4); klik lagi setelah Lv.4 untuk kembali ke Hijau (Baik).
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Panel 2: Foto Studio Referensi Unit -->
+      <div class="panel-card">
+        <div class="vehicle-stage-header">
+          <div>
+            <span class="mono-label" style="color: var(--accent);">Referensi Unit Standar</span>
+            <h3 id="pred-stage-title" class="card-heading">Honda Brio RS</h3>
+            <p id="pred-stage-subtitle" class="mono-label" style="color: var(--text-muted);">HATCHBACK • Tahun 2022 • 28.500 km</p>
+          </div>
+
+          <div class="angle-tabs" role="tablist" aria-label="Sudut Pandang Kendaraan">
+            <button type="button" class="angle-tab-btn active" data-angle="samping">Samping</button>
+            <button type="button" class="angle-tab-btn" data-angle="depan">Depan</button>
+            <button type="button" class="angle-tab-btn" data-angle="belakang">Belakang</button>
+          </div>
+        </div>
+
+        <div class="vehicle-showcase-box">
+          <div id="pred-vehicle-stage" class="vehicle-canvas-holder"></div>
+          <div class="color-picker-bar">
+            <div>
+              <span class="mono-label" style="color: var(--text-muted); display: block;">Warna Referensi</span>
+              <strong id="pred-color-name" style="font-size: 0.84rem;">Signal Vermilion</strong>
+            </div>
+            <div id="pred-color-swatches" class="swatch-group" aria-label="Pilihan Warna"></div>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+{% endblock %}

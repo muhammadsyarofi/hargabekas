@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "version": "2025.2",
+    "currency": "IDR",
+    "description": "Tabel referensi biaya perbaikan bodi, cat, dan komponen kendaraan di bengkel rekanan Indonesia. Mudah diedit tanpa perlu melatih ulang model ML.",
+    "catatan_edit": "Ubah nilai base_cost_mobil atau base_cost_motor (dalam Rupiah), severity_multipliers, atau market_discount_rules lalu simpan file ini."
+  },
+  "parts": {
+    "bumper_depan": {
+      "label": "Bumper Depan",
+      "applicable_to": ["mobil"],
+      "base_cost_mobil": 850000,
+      "base_cost_motor": 250000
+    },
+    "bumper_belakang": {
+      "label": "Bumper Belakang",
+      "applicable_to": ["mobil"],
+      "base_cost_mobil": 800000,
+      "base_cost_motor": 250000
+    },
+    "kap_mesin": {
+      "label": "Kap Mesin (Hood)",
+      "applicable_to": ["mobil"],
+      "base_cost_mobil": 1100000,
+      "base_cost_motor": 300000
+    },
+    "fender_depan": {
+      "label": "Fender / Spakbor Depan",
+      "applicable_to": ["mobil", "motor"],
+      "base_cost_mobil": 750000,
+      "base_cost_motor": 220000
+    },
+    "pintu_kiri": {
+      "label": "Panel Pintu Samping Kiri",
+      "applicable_to": ["mobil"],
+      "base_cost_mobil": 950000,
+      "base_cost_motor": 250000
+    },
+    "pintu_kanan": {
+      "label": "Panel Pintu Samping Kanan",
+      "applicable_to": ["mobil"],
+      "base_cost_mobil": 950000,
+      "base_cost_motor": 250000
+    },
+    "fender_belakang": {
+      "label": "Fender / Quarter Panel Belakang",
+      "applicable_to": ["mobil", "motor"],
+      "base_cost_mobil": 850000,
+      "base_cost_motor": 200000
+    },
+    "atap_kabin": {
+      "label": "Atap Kabin & Pilar",
+      "applicable_to": ["mobil"],
+      "base_cost_mobil": 1350000,
+      "base_cost_motor": 200000
+    },
+    "bagasi_pintu_belakang": {
+      "label": "Pintu Bagasi / Tailgate",
+      "applicable_to": ["mobil"],
+      "base_cost_mobil": 1000000,
+      "base_cost_motor": 220000
+    },
+    "spion": {
+      "label": "Rumah & Kaca Spion",
+      "applicable_to": ["mobil", "motor"],
+      "base_cost_mobil": 650000,
+      "base_cost_motor": 150000
+    },
+    "lampu_depan": {
+      "label": "Mika / Proyektor Lampu Depan",
+      "applicable_to": ["mobil", "motor"],
+      "base_cost_mobil": 1450000,
+      "base_cost_motor": 480000
+    },
+    "lampu_belakang": {
+      "label": "Lampu Kombinasi Belakang",
+      "applicable_to": ["mobil", "motor"],
+      "base_cost_mobil": 950000,
+      "base_cost_motor": 320000
+    },
+    "kaca_mobil": {
+      "label": "Kaca Depan / Samping / Windshield",
+      "applicable_to": ["mobil", "motor"],
+      "base_cost_mobil": 1650000,
+      "base_cost_motor": 220000
+    },
+    "velg_ban": {
+      "label": "Velg Alloy & Kaki-kaki Luar",
+      "applicable_to": ["mobil", "motor"],
+      "base_cost_mobil": 700000,
+      "base_cost_motor": 350000
+    },
+    "jok_interior": {
+      "label": "Jok, Kulit Kursi & Trim Interior",
+      "applicable_to": ["mobil", "motor"],
+      "base_cost_mobil": 750000,
+      "base_cost_motor": 180000
+    },
+    "tangki_motor": {
+      "label": "Tangki BBM / Dek Tengah Motor",
+      "applicable_to": ["motor"],
+      "base_cost_mobil": 900000,
+      "base_cost_motor": 450000
+    },
+    "cover_body": {
+      "label": "Fairing / Cover Body Samping Motor",
+      "applicable_to": ["motor"],
+      "base_cost_mobil": 800000,
+      "base_cost_motor": 380000
+    },
+    "knalpot": {
+      "label": "Silencer & Leher Knalpot",
+      "applicable_to": ["mobil", "motor"],
+      "base_cost_mobil": 750000,
+      "base_cost_motor": 320000
+    },
+    "rangka_sasis": {
+      "label": "Struktur Rangka / Sasis / Crossmember",
+      "applicable_to": ["mobil", "motor"],
+      "base_cost_mobil": 5500000,
+      "base_cost_motor": 1650000,
+      "is_structural": true
+    }
+  },
+  "damage_types": {
+    "lecet_ringan": {
+      "label": "Lecet Ringan / Swirl / Baret Halus",
+      "action_label": "Poles & Compound / Spot Touch-up",
+      "cost_factor": 0.55
+    },
+    "cat_pudar": {
+      "label": "Cat Pudar / Kusam / Pernis Mengelupas",
+      "action_label": "Cat Ulang (Repaint) 1 Panel Oven",
+      "cost_factor": 0.95
+    },
+    "goresan_dalam": {
+      "label": "Goresan Dalam (Tembus Cat Dasar)",
+      "action_label": "Dempul Tipis & Cat Ulang 1 Panel",
+      "cost_factor": 1.05
+    },
+    "penyok": {
+      "label": "Penyok / Deformasi Panel (Dent)",
+      "action_label": "Ketok Magic / Body Repair + Repaint",
+      "cost_factor": 1.30
+    },
+    "retak": {
+      "label": "Retak (Mika / Bumper / Cover Plastik)",
+      "action_label": "Plastic Welding / Penggantian Panel",
+      "cost_factor": 1.45
+    },
+    "pecah": {
+      "label": "Pecah / Patah (Wajib Ganti Part)",
+      "action_label": "Ganti Komponen Baru + Pengecatan",
+      "cost_factor": 2.10
+    },
+    "karat": {
+      "label": "Karat / Korosi Logam",
+      "action_label": "Potong Plat Karat, Anti-Karat & Repaint",
+      "cost_factor": 1.55
+    },
+    "sobek": {
+      "label": "Sobek / Mengelupas (Jok / Trim)",
+      "action_label": "Retrimming Kulit / Ganti Cover Jok",
+      "cost_factor": 1.15
+    },
+    "bocor": {
+      "label": "Rembes / Bocor Seal Tampak Luar",
+      "action_label": "Perbaikan Seal & Pembersihan",
+      "cost_factor": 1.35
+    }
+  },
+  "severity_multipliers": {
+    "1": { "label": "1 — Minor (Kosmetik Tipis)", "multiplier": 0.65, "market_penalty_pct": 0.4 },
+    "2": { "label": "2 — Sedang (Perlu Perbaikan Panel)", "multiplier": 1.00, "market_penalty_pct": 1.2 },
+    "3": { "label": "3 — Berat (Perlu Ganti Part / Ketok Besar)", "multiplier": 1.65, "market_penalty_pct": 2.8 },
+    "4": { "label": "4 — Kritis / Struktural (Wajib Ganti Total)", "multiplier": 2.45, "market_penalty_pct": 6.0 }
+  },
+  "market_discount_rules": {
+    "structural_flag_extra_pct": 12.0,
+    "max_total_market_discount_pct": 32.0,
+    "description": "Diskon pasar adalah penalti likuiditas di luar biaya bengkel karena pembeli cenderung menawar lebih rendah pada unit yang memiliki riwayat kerusakan berat atau perbaikan struktur."
+  }
+}

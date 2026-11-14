@@ -1,0 +1,148 @@
+{% extends "base.html" %}
+{% block title %}Simulasi Kredit Anuitas & Flat — HargaBekas{% endblock %}
+
+{% block content %}
+<div class="container">
+  <header class="editorial-masthead" style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 1rem;">
+    <div>
+      <div class="masthead-kicker mono-label">Kalkulator Pembiayaan Otomotif</div>
+      <h1 class="section-heading">Simulasi Kredit: Metode Anuitas vs Bunga Flat</h1>
+      <p style="color: var(--text-secondary); max-width: 64ch; margin-top: 0.35rem;">
+        Hitung cicilan bulanan dari harga hasil inspeksi, bandingkan porsi pokok vs bunga secara real-time, dan pelajari syarat kelayakan agunan leasing.
+      </p>
+    </div>
+
+    <button type="button" id="btn-use-predicted-price" class="btn btn-primary">
+      Pakai Harga Hasil Prediksi Terakhir
+    </button>
+  </header>
+
+  <!-- Peringatan Kelayakan Leasing untuk Unit dengan Kerusakan Berat -->
+  <div id="credit-structural-warning" style="margin-top: 1.5rem; padding: 0.95rem 1.2rem; border-left: 4px solid var(--warning); background-color: var(--bg-surface); border-top: 1px solid var(--border-subtle); border-right: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; font-size: 0.88rem;">
+    <strong style="color: var(--warning); font-family: var(--font-mono); text-transform: uppercase; font-size: 0.78rem; display: block; margin-bottom: 0.2rem;">
+      Catatan Surveyor & Kelayakan Leasing (Multifinance)
+    </strong>
+    <span id="credit-structural-warning-text" style="color: var(--text-secondary);">
+      Perhatian: Kendaraan dengan <strong>kerusakan struktural/rangka, bekas tabrakan berat, bekas banjir, atau surat tidak lengkap (hanya STNK)</strong> umumnya sulit disetujui oleh perusahaan leasing atau memerlukan DP (uang muka) jauh lebih tinggi. Pastikan unit lolos cek fisik surveyor sebelum mengajukan pembiayaan.
+    </span>
+  </div>
+
+  <div class="editorial-grid-2col">
+    <!-- KOLOM KIRI: Input Parameter Kredit -->
+    <div class="panel-card panel-card-bordered">
+      <form id="credit-sim-form" onsubmit="return false;">
+        <div class="form-group" style="margin-bottom: 1.35rem;">
+          <label for="cr-harga" class="form-label">
+            <span>Harga Kendaraan Hasil Inspeksi (Rp)</span>
+            <span class="mono-label">Harga Kesepakatan</span>
+          </label>
+          <input type="number" id="cr-harga" class="form-control" min="5000000" max="5000000000" step="500000" value="204850000" />
+        </div>
+
+        <div class="form-group" style="margin-bottom: 1.35rem;">
+          <label for="cr-dp-persen" class="form-label">
+            <span>Uang Muka / Down Payment (DP)</span>
+            <strong id="cr-dp-persen-badge" style="font-family: var(--font-mono); color: var(--accent);">25% (Rp 51.212.500)</strong>
+          </label>
+          <input type="range" id="cr-dp-persen" class="range-slider" min="10" max="70" step="5" value="25" />
+          <div style="display: flex; align-items: center; gap: 0.75rem; margin-top: 0.45rem;">
+            <span class="mono-label" style="color: var(--text-muted);">Nominal DP (Rp):</span>
+            <input type="number" id="cr-dp-rupiah" class="form-control" style="flex: 1;" min="0" step="500000" value="51212500" aria-label="Nominal DP dalam Rupiah" />
+          </div>
+        </div>
+
+        <div class="form-grid" style="margin-bottom: 1.35rem;">
+          <div class="form-group">
+            <label for="cr-tenor" class="form-label">Tenor Pinjaman</label>
+            <select id="cr-tenor" class="form-control">
+              <option value="12">12 Bulan (1 Tahun)</option>
+              <option value="24">24 Bulan (2 Tahun)</option>
+              <option value="36" selected>36 Bulan (3 Tahun)</option>
+              <option value="48">48 Bulan (4 Tahun)</option>
+              <option value="60">60 Bulan (5 Tahun)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="cr-bunga" class="form-label">
+              <span>Suku Bunga / Tahun</span>
+              <strong id="cr-bunga-badge" class="mono-label" style="color: var(--accent);">8.5% / thn</strong>
+            </label>
+            <input type="range" id="cr-bunga" class="range-slider" min="3.0" max="18.0" step="0.25" value="8.5" />
+          </div>
+        </div>
+      </form>
+
+      <div style="padding-top: 1.25rem; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+        <div>
+          <span class="mono-label" style="display: block; color: var(--text-muted);">Metode Perhitungan Bunga</span>
+          <strong>Pilih Skema Pembiayaan</strong>
+        </div>
+        <div class="method-toggle-group" role="tablist" aria-label="Metode Bunga">
+          <button type="button" class="method-toggle-btn active" data-credit-method="anuitas">Anuitas (Efektif)</button>
+          <button type="button" class="method-toggle-btn" data-credit-method="flat">Bunga Flat</button>
+        </div>
+      </div>
+
+      <div class="valuation-result-banner" style="margin-top: 1.35rem;">
+        <span class="mono-label" style="color: var(--text-secondary);">Estimasi Cicilan per Bulan</span>
+        <div id="cr-out-cicilan" class="price-display" style="color: var(--accent); margin: 0.25rem 0;">Rp 0</div>
+        <p id="cr-method-comparison-note" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.35rem;"></p>
+
+        <div class="price-range-bar">
+          <div>
+            <span class="mono-label" style="color: var(--text-muted); display: block;">Pokok Pinjaman</span>
+            <strong id="cr-out-pokok">Rp 0</strong>
+          </div>
+          <div>
+            <span class="mono-label" style="color: var(--text-muted); display: block;">Total Bunga</span>
+            <strong id="cr-out-bunga" style="color: var(--accent);">Rp 0</strong>
+          </div>
+          <div style="text-align: right;">
+            <span class="mono-label" style="color: var(--text-muted); display: block;">Total Pembayaran (DP + Cicilan)</span>
+            <strong id="cr-out-total">Rp 0</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- KOLOM KANAN: Grafik Komposisi Real-time & Tabel Amortisasi Buka-Tutup -->
+    <div>
+      <div class="panel-card" style="margin-bottom: 1.5rem;">
+        <span class="mono-label" style="color: var(--accent);">Komposisi Biaya Real-time</span>
+        <h2 class="card-heading" style="margin-bottom: 1rem;">Proporsi Uang Muka, Pokok & Bunga</h2>
+        <div style="height: 250px; position: relative;">
+          <canvas id="credit-composition-chart" aria-label="Grafik Komposisi Pokok dan Bunga"></canvas>
+        </div>
+      </div>
+
+      <div class="panel-card">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem;">
+          <div>
+            <span class="mono-label" style="color: var(--accent);">Rincian Bulanan</span>
+            <h3 class="card-heading">Jadwal Amortisasi Pinjaman</h3>
+          </div>
+          <button type="button" id="btn-toggle-amortization" class="btn btn-outline">
+            Buka Tabel Amortisasi Lengkap
+          </button>
+        </div>
+
+        <div id="cr-amortization-container" class="amortization-table-wrap" style="display: none;">
+          <table class="data-table" aria-label="Tabel Amortisasi Cicilan">
+            <thead>
+              <tr>
+                <th>Periode</th>
+                <th>Total Cicilan</th>
+                <th>Porsi Pokok</th>
+                <th>Porsi Bunga</th>
+                <th>Sisa Pokok</th>
+              </tr>
+            </thead>
+            <tbody id="cr-amort-tbody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

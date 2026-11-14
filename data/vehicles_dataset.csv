@@ -1,0 +1,1801 @@
+jenis,merek,model,tahun,kilometer,transmisi,bahan_bakar,kondisi,surat,kota,harga
+mobil,Toyota,Avanza Veloz,2016,149946,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,149000000
+mobil,Toyota,Innova Zenix,2023,33440,Otomatis,Bensin,1,Lengkap (STNK + BPKB + Faktur),Medan,309000000
+mobil,Toyota,Fortuner VRZ,2023,28822,Otomatis,Diesel,4,Hanya STNK + BPKB,Makassar,545500000
+mobil,Toyota,Rush GR Sport,2018,144428,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,165500000
+mobil,Toyota,Agya GR Sport,2021,41239,Manual,Bensin,2,Hanya BPKB Saja,Yogyakarta,123500000
+mobil,Toyota,Camry Hybrid,2016,85236,Otomatis,Bensin,2,Hanya STNK + BPKB,Semarang,314500000
+mobil,Honda,Brio RS,2015,134073,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Semarang,115000000
+mobil,Honda,HR-V SE,2024,6031,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,400000000
+mobil,Honda,CR-V Turbo,2019,54299,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Denpasar,510500000
+mobil,Honda,Civic RS,2020,41836,Otomatis,Bensin,3,Hanya STNK + BPKB,Surabaya,355500000
+mobil,Honda,BR-V Prestige,2024,19435,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Medan,258000000
+mobil,Daihatsu,Sigra R Deluxe,2020,76519,Otomatis,Bensin,4,Hanya STNK + BPKB,Makassar,113500000
+mobil,Daihatsu,Xenia R ADS,2019,74297,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Yogyakarta,181000000
+mobil,Daihatsu,Terios R Custom,2018,65077,Manual,Bensin,5,Hanya STNK + BPKB,Bandung,168000000
+mobil,Daihatsu,Ayla R ADS,2019,61485,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,115000000
+mobil,Mitsubishi,Xpander Ultimate,2024,11472,Manual,Bensin,3,Hanya BPKB Saja,Denpasar,246500000
+mobil,Mitsubishi,Pajero Sport Dakar,2016,138935,Otomatis,Diesel,2,Lengkap (STNK + BPKB + Faktur),Makassar,275500000
+mobil,Mitsubishi,Xforce Ultimate,2024,14961,Otomatis,Bensin,3,Hanya BPKB Saja,Semarang,289500000
+mobil,Suzuki,Ertiga Hybrid,2023,29754,Otomatis,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Semarang,251000000
+mobil,Suzuki,XL7 Alpha,2020,42108,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,202000000
+mobil,Suzuki,Baleno Hatchback,2023,29316,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Medan,246500000
+mobil,Hyundai,Stargazer Prime,2017,104252,Otomatis,Bensin,4,Hanya STNK + BPKB,Jakarta,161500000
+mobil,Hyundai,Creta Prime,2024,6955,Otomatis,Bensin,1,Hanya STNK Saja,Semarang,179000000
+mobil,Hyundai,Ioniq 5 Signature,2018,66359,Otomatis,Listrik (EV),5,Hanya STNK Saja,Surabaya,290500000
+mobil,Wuling,Air ev Long Range,2022,31437,Otomatis,Listrik (EV),2,Lengkap (STNK + BPKB + Faktur),Bandung,169000000
+mobil,Wuling,Almaz RS Pro,2019,85583,Otomatis,Bensin,5,Hanya STNK + BPKB,Medan,232500000
+mobil,Mazda,CX-5 Elite,2019,54987,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,353000000
+mobil,Mazda,Mazda3 Hatchback,2018,96233,Otomatis,Bensin,3,Hanya STNK + BPKB,Medan,263000000
+mobil,Nissan,Livina VL,2024,10101,Otomatis,Bensin,2,Hanya STNK + BPKB,Medan,235000000
+mobil,BMW,320i M Sport,2016,98944,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Denpasar,366000000
+mobil,Mercedes-Benz,C200 Avantgarde,2018,58738,Otomatis,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Makassar,534500000
+mobil,BYD,Seal Performance,2018,51443,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Makassar,369500000
+mobil,BYD,Atto 3 Superior,2022,42909,Otomatis,Listrik (EV),2,Hanya STNK + BPKB,Surabaya,338500000
+motor,Honda,Vario 160,2018,65063,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,15900000
+motor,Honda,Beat Deluxe,2019,66509,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Surabaya,12700000
+motor,Honda,PCX 160,2015,113058,Otomatis,Bensin,5,Hanya STNK + BPKB,Bandung,16200000
+motor,Honda,CBR150R,2021,32447,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Jakarta,23700000
+motor,Honda,CRF150L,2017,12844,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Denpasar,21700000
+motor,Yamaha,NMAX 155,2019,64645,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Jakarta,18100000
+motor,Yamaha,Aerox 155,2024,10275,Otomatis,Bensin,2,Hanya STNK + BPKB,Bandung,23400000
+motor,Yamaha,R15 Connected,2015,74727,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Medan,11300000
+motor,Yamaha,MX King 150,2021,66394,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,16600000
+motor,Kawasaki,KLX 150,2021,21814,Manual,Bensin,3,Hanya STNK + BPKB,Medan,23000000
+motor,Kawasaki,Ninja ZX-25R,2019,49710,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,60700000
+motor,Suzuki,Satria F150,2016,79481,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,11600000
+motor,Suzuki,GSX-R150,2016,78727,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Surabaya,10800000
+motor,Vespa,Sprint 150 i-get,2018,38679,Otomatis,Bensin,2,Hanya STNK + BPKB,Semarang,29700000
+mobil,Toyota,Avanza Veloz,2024,12794,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Bandung,307000000
+mobil,Toyota,Innova Zenix,2019,91462,Otomatis,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Semarang,335500000
+mobil,Toyota,Fortuner VRZ,2024,15523,Otomatis,Bensin,3,Hanya STNK + BPKB,Semarang,532500000
+mobil,Toyota,Rush GR Sport,2023,16110,Manual,Bensin,5,Hanya STNK + BPKB,Surabaya,264000000
+mobil,Toyota,Agya GR Sport,2021,43064,Manual,Bensin,1,Hanya STNK + BPKB,Semarang,117000000
+mobil,Toyota,Camry Hybrid,2017,83742,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,434500000
+mobil,Honda,Brio RS,2023,39146,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,206500000
+mobil,Honda,HR-V SE,2015,134658,Otomatis,Bensin,5,Hanya STNK + BPKB,Jakarta,202000000
+mobil,Honda,CR-V Turbo,2020,27583,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,509000000
+mobil,Honda,Civic RS,2024,11707,Otomatis,Bensin,5,Hanya BPKB Saja,Bandung,540500000
+mobil,Honda,BR-V Prestige,2021,50883,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,251500000
+mobil,Daihatsu,Sigra R Deluxe,2018,103906,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,97500000
+mobil,Daihatsu,Xenia R ADS,2022,59622,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,207500000
+mobil,Daihatsu,Terios R Custom,2018,122988,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,158000000
+mobil,Daihatsu,Ayla R ADS,2016,159844,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,80000000
+mobil,Mitsubishi,Xpander Ultimate,2015,164647,Otomatis,Bensin,3,Hanya BPKB Saja,Semarang,125000000
+mobil,Mitsubishi,Pajero Sport Dakar,2015,108940,Otomatis,Diesel,3,Hanya STNK + BPKB,Makassar,282500000
+mobil,Mitsubishi,Xforce Ultimate,2024,12358,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Jakarta,409000000
+mobil,Suzuki,Ertiga Hybrid,2021,29948,Otomatis,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,222000000
+mobil,Suzuki,XL7 Alpha,2024,9538,Manual,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Semarang,295000000
+mobil,Suzuki,Baleno Hatchback,2021,34760,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,210500000
+mobil,Hyundai,Stargazer Prime,2021,41311,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,238000000
+mobil,Hyundai,Creta Prime,2019,93304,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,225500000
+mobil,Hyundai,Ioniq 5 Signature,2022,35251,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Bandung,688000000
+mobil,Wuling,Air ev Long Range,2016,44268,Otomatis,Listrik (EV),2,Hanya BPKB Saja,Medan,74500000
+mobil,Wuling,Almaz RS Pro,2019,84081,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Denpasar,207500000
+mobil,Mazda,CX-5 Elite,2024,7232,Otomatis,Bensin,3,Hanya STNK + BPKB,Medan,518500000
+mobil,Mazda,Mazda3 Hatchback,2021,48576,Otomatis,Bensin,3,Hanya STNK + BPKB,Jakarta,363000000
+mobil,Nissan,Livina VL,2016,130630,Otomatis,Bensin,3,Hanya BPKB Saja,Denpasar,117000000
+mobil,BMW,320i M Sport,2015,79599,Otomatis,Bensin,3,Hanya STNK + BPKB,Yogyakarta,345000000
+mobil,Mercedes-Benz,C200 Avantgarde,2022,31984,Otomatis,Hybrid,5,Hanya STNK + BPKB,Denpasar,946000000
+mobil,BYD,Seal Performance,2022,51471,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Denpasar,559500000
+mobil,BYD,Atto 3 Superior,2018,51730,Otomatis,Listrik (EV),2,Lengkap (STNK + BPKB + Faktur),Semarang,240500000
+motor,Honda,Vario 160,2020,33610,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Bandung,16400000
+motor,Honda,Beat Deluxe,2018,94330,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,10000000
+motor,Honda,PCX 160,2015,131479,Otomatis,Bensin,3,Hanya STNK + BPKB,Jakarta,14000000
+motor,Honda,CBR150R,2024,10222,Manual,Bensin,1,Lengkap (STNK + BPKB + Faktur),Makassar,24600000
+motor,Honda,CRF150L,2021,27791,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Jakarta,24200000
+motor,Yamaha,NMAX 155,2021,30792,Otomatis,Bensin,4,Hanya STNK + BPKB,Bandung,24200000
+motor,Yamaha,Aerox 155,2024,9768,Otomatis,Bensin,4,Hanya STNK + BPKB,Surabaya,28700000
+motor,Yamaha,R15 Connected,2021,34656,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,24000000
+motor,Yamaha,MX King 150,2018,80813,Manual,Bensin,3,Hanya STNK Saja,Semarang,7800000
+motor,Kawasaki,KLX 150,2021,26513,Manual,Bensin,3,Hanya STNK + BPKB,Jakarta,25200000
+motor,Kawasaki,Ninja ZX-25R,2020,38600,Manual,Bensin,4,Hanya STNK + BPKB,Jakarta,64400000
+motor,Suzuki,Satria F150,2018,49886,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,14700000
+motor,Suzuki,GSX-R150,2016,71371,Manual,Bensin,4,Hanya STNK + BPKB,Bandung,12500000
+motor,Vespa,Sprint 150 i-get,2024,7993,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Jakarta,57700000
+mobil,Toyota,Avanza Veloz,2019,64898,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Medan,195000000
+mobil,Toyota,Innova Zenix,2016,109121,Otomatis,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Jakarta,290500000
+mobil,Toyota,Fortuner VRZ,2020,82477,Manual,Bensin,2,Hanya STNK + BPKB,Jakarta,333500000
+mobil,Toyota,Rush GR Sport,2021,58909,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,207500000
+mobil,Toyota,Agya GR Sport,2017,70544,Manual,Bensin,4,Hanya BPKB Saja,Semarang,103500000
+mobil,Toyota,Camry Hybrid,2024,11192,Otomatis,Bensin,3,Hanya STNK + BPKB,Semarang,752000000
+mobil,Honda,Brio RS,2020,69208,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,168000000
+mobil,Honda,HR-V SE,2024,16561,Otomatis,Bensin,1,Hanya STNK + BPKB,Bandung,284500000
+mobil,Honda,CR-V Turbo,2022,22881,Otomatis,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Semarang,623500000
+mobil,Honda,Civic RS,2023,26553,Otomatis,Bensin,2,Hanya STNK + BPKB,Denpasar,438000000
+mobil,Honda,BR-V Prestige,2023,31171,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,323000000
+mobil,Daihatsu,Sigra R Deluxe,2016,158121,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,79500000
+mobil,Daihatsu,Xenia R ADS,2022,57107,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Yogyakarta,211000000
+mobil,Daihatsu,Terios R Custom,2022,38570,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,204500000
+mobil,Daihatsu,Ayla R ADS,2020,48009,Otomatis,Bensin,3,Hanya STNK + BPKB,Semarang,115000000
+mobil,Mitsubishi,Xpander Ultimate,2024,11961,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,289500000
+mobil,Mitsubishi,Pajero Sport Dakar,2017,210105,Otomatis,Diesel,4,Lengkap (STNK + BPKB + Faktur),Jakarta,336000000
+mobil,Mitsubishi,Xforce Ultimate,2015,144705,Otomatis,Bensin,4,Hanya STNK + BPKB,Surabaya,168500000
+mobil,Suzuki,Ertiga Hybrid,2015,120178,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Jakarta,122000000
+mobil,Suzuki,XL7 Alpha,2019,85619,Manual,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Surabaya,188000000
+mobil,Suzuki,Baleno Hatchback,2024,9424,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Semarang,228000000
+mobil,Hyundai,Stargazer Prime,2016,94878,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,150500000
+mobil,Hyundai,Creta Prime,2023,25341,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Makassar,363500000
+mobil,Hyundai,Ioniq 5 Signature,2019,108450,Otomatis,Listrik (EV),5,Lengkap (STNK + BPKB + Faktur),Medan,475500000
+mobil,Wuling,Air ev Long Range,2019,22370,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Bandung,144500000
+mobil,Wuling,Almaz RS Pro,2015,104190,Otomatis,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Jakarta,178500000
+mobil,Mazda,CX-5 Elite,2018,61360,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,331500000
+mobil,Mazda,Mazda3 Hatchback,2019,72544,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Bandung,281000000
+mobil,Nissan,Livina VL,2019,51832,Otomatis,Bensin,2,Hanya STNK + BPKB,Semarang,154500000
+mobil,BMW,320i M Sport,2022,25725,Otomatis,Bensin,4,Hanya STNK + BPKB,Semarang,786500000
+mobil,Mercedes-Benz,C200 Avantgarde,2023,29980,Otomatis,Hybrid,2,Lengkap (STNK + BPKB + Faktur),Makassar,826500000
+mobil,BYD,Seal Performance,2020,34195,Otomatis,Listrik (EV),2,Hanya BPKB Saja,Jakarta,356000000
+mobil,BYD,Atto 3 Superior,2019,112928,Otomatis,Listrik (EV),3,Hanya STNK + BPKB,Semarang,264000000
+motor,Honda,Vario 160,2017,41358,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Makassar,15200000
+motor,Honda,Beat Deluxe,2020,69003,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,13100000
+motor,Honda,PCX 160,2019,69348,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,19900000
+motor,Honda,CBR150R,2016,53277,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,14100000
+motor,Honda,CRF150L,2015,2071,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,16900000
+motor,Yamaha,NMAX 155,2015,97044,Otomatis,Bensin,4,Hanya STNK Saja,Denpasar,9600000
+motor,Yamaha,Aerox 155,2022,44691,Otomatis,Bensin,5,Hanya STNK + BPKB,Medan,23400000
+motor,Yamaha,R15 Connected,2017,55551,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,16700000
+motor,Yamaha,MX King 150,2022,49417,Manual,Bensin,3,Hanya STNK + BPKB,Semarang,16100000
+motor,Kawasaki,KLX 150,2021,38849,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,22900000
+motor,Kawasaki,Ninja ZX-25R,2018,32102,Manual,Bensin,3,Hanya STNK + BPKB,Makassar,52200000
+motor,Suzuki,Satria F150,2020,55635,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,16000000
+motor,Suzuki,GSX-R150,2017,69423,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,12800000
+motor,Vespa,Sprint 150 i-get,2022,21715,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Makassar,49700000
+mobil,Toyota,Avanza Veloz,2018,149794,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,152500000
+mobil,Toyota,Innova Zenix,2021,91834,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Yogyakarta,355500000
+mobil,Toyota,Fortuner VRZ,2016,133147,Manual,Diesel,4,Lengkap (STNK + BPKB + Faktur),Bandung,319500000
+mobil,Toyota,Rush GR Sport,2021,60720,Otomatis,Bensin,3,Hanya BPKB Saja,Yogyakarta,178500000
+mobil,Toyota,Agya GR Sport,2024,11250,Manual,Bensin,4,Hanya STNK + BPKB,Makassar,201500000
+mobil,Toyota,Camry Hybrid,2020,45275,Otomatis,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Semarang,620500000
+mobil,Honda,Brio RS,2018,96871,Otomatis,Bensin,5,Hanya STNK + BPKB,Surabaya,151000000
+mobil,Honda,HR-V SE,2022,47620,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Jakarta,359000000
+mobil,Honda,CR-V Turbo,2019,97020,Otomatis,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Makassar,440000000
+mobil,Honda,Civic RS,2024,8639,Otomatis,Bensin,3,Hanya STNK + BPKB,Makassar,514000000
+mobil,Honda,BR-V Prestige,2024,16526,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Denpasar,351000000
+mobil,Daihatsu,Sigra R Deluxe,2019,89435,Manual,Bensin,4,Hanya STNK Saja,Denpasar,68000000
+mobil,Daihatsu,Xenia R ADS,2019,122836,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,149000000
+mobil,Daihatsu,Terios R Custom,2021,66122,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,193000000
+mobil,Daihatsu,Ayla R ADS,2022,35051,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,142000000
+mobil,Mitsubishi,Xpander Ultimate,2019,104800,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Jakarta,198000000
+mobil,Mitsubishi,Pajero Sport Dakar,2024,21570,Otomatis,Diesel,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,615000000
+mobil,Mitsubishi,Xforce Ultimate,2018,101185,Otomatis,Bensin,4,Hanya STNK + BPKB,Bandung,223500000
+mobil,Suzuki,Ertiga Hybrid,2016,138253,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,141000000
+mobil,Suzuki,XL7 Alpha,2017,115259,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,152500000
+mobil,Suzuki,Baleno Hatchback,2017,72435,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,159500000
+mobil,Hyundai,Stargazer Prime,2019,56553,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,178500000
+mobil,Hyundai,Creta Prime,2021,67371,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,292500000
+mobil,Hyundai,Ioniq 5 Signature,2022,39178,Otomatis,Listrik (EV),4,Hanya STNK + BPKB,Yogyakarta,648500000
+mobil,Wuling,Air ev Long Range,2016,85185,Otomatis,Listrik (EV),1,Hanya STNK Saja,Yogyakarta,46000000
+mobil,Wuling,Almaz RS Pro,2024,13295,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,370500000
+mobil,Mazda,CX-5 Elite,2021,59456,Otomatis,Bensin,1,Lengkap (STNK + BPKB + Faktur),Denpasar,325000000
+mobil,Mazda,Mazda3 Hatchback,2016,71097,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Denpasar,273000000
+mobil,Nissan,Livina VL,2020,75861,Otomatis,Bensin,5,Hanya STNK + BPKB,Denpasar,209000000
+mobil,BMW,320i M Sport,2024,7533,Otomatis,Bensin,1,Lengkap (STNK + BPKB + Faktur),Denpasar,806500000
+mobil,Mercedes-Benz,C200 Avantgarde,2022,31560,Otomatis,Hybrid,2,Hanya STNK + BPKB,Yogyakarta,744000000
+mobil,BYD,Seal Performance,2015,94455,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Denpasar,270000000
+mobil,BYD,Atto 3 Superior,2016,58536,Otomatis,Listrik (EV),2,Lengkap (STNK + BPKB + Faktur),Bandung,194000000
+motor,Honda,Vario 160,2024,7452,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,25600000
+motor,Honda,Beat Deluxe,2018,76529,Otomatis,Bensin,4,Hanya STNK + BPKB,Semarang,11100000
+motor,Honda,PCX 160,2017,102595,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,17800000
+motor,Honda,CBR150R,2017,65225,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,15300000
+motor,Honda,CRF150L,2015,74583,Manual,Bensin,2,Hanya STNK + BPKB,Surabaya,12700000
+motor,Yamaha,NMAX 155,2016,103649,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,16200000
+motor,Yamaha,Aerox 155,2022,34674,Otomatis,Bensin,4,Hanya STNK Saja,Semarang,15600000
+motor,Yamaha,R15 Connected,2022,23216,Manual,Bensin,5,Hanya STNK + BPKB,Makassar,28600000
+motor,Yamaha,MX King 150,2016,124928,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Bandung,9200000
+motor,Kawasaki,KLX 150,2016,69156,Manual,Bensin,4,Hanya STNK + BPKB,Yogyakarta,16300000
+motor,Kawasaki,Ninja ZX-25R,2021,26761,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,67900000
+motor,Suzuki,Satria F150,2023,21154,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,21500000
+motor,Suzuki,GSX-R150,2022,36601,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,23800000
+motor,Vespa,Sprint 150 i-get,2019,69130,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,35800000
+mobil,Toyota,Avanza Veloz,2016,164651,Otomatis,Bensin,2,Hanya STNK + BPKB,Bandung,131500000
+mobil,Toyota,Innova Zenix,2023,46394,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,385000000
+mobil,Toyota,Fortuner VRZ,2015,115952,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,257000000
+mobil,Toyota,Rush GR Sport,2017,40637,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,163000000
+mobil,Toyota,Agya GR Sport,2016,83404,Manual,Bensin,4,Hanya STNK + BPKB,Jakarta,112000000
+mobil,Toyota,Camry Hybrid,2024,12127,Otomatis,Hybrid,3,Hanya STNK + BPKB,Semarang,840500000
+mobil,Honda,Brio RS,2020,80320,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,145500000
+mobil,Honda,HR-V SE,2016,82178,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Makassar,181500000
+mobil,Honda,CR-V Turbo,2021,31404,Otomatis,Hybrid,2,Lengkap (STNK + BPKB + Faktur),Yogyakarta,521000000
+mobil,Honda,Civic RS,2024,15569,Otomatis,Bensin,2,Hanya STNK + BPKB,Jakarta,458500000
+mobil,Honda,BR-V Prestige,2016,59056,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,174500000
+mobil,Daihatsu,Sigra R Deluxe,2021,57938,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,126500000
+mobil,Daihatsu,Xenia R ADS,2016,69486,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,125000000
+mobil,Daihatsu,Terios R Custom,2021,56889,Otomatis,Bensin,3,Hanya STNK Saja,Bandung,125000000
+mobil,Daihatsu,Ayla R ADS,2019,64873,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Makassar,93500000
+mobil,Mitsubishi,Xpander Ultimate,2017,76127,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,184000000
+mobil,Mitsubishi,Pajero Sport Dakar,2016,144534,Otomatis,Diesel,3,Lengkap (STNK + BPKB + Faktur),Surabaya,318000000
+mobil,Mitsubishi,Xforce Ultimate,2020,72809,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,264500000
+mobil,Suzuki,Ertiga Hybrid,2021,30226,Otomatis,Bensin,3,Hanya STNK Saja,Denpasar,136500000
+mobil,Suzuki,XL7 Alpha,2020,76978,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,201000000
+mobil,Suzuki,Baleno Hatchback,2023,35168,Otomatis,Bensin,5,Hanya STNK + BPKB,Medan,234000000
+mobil,Hyundai,Stargazer Prime,2020,91380,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,189000000
+mobil,Hyundai,Creta Prime,2020,101139,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,246000000
+mobil,Hyundai,Ioniq 5 Signature,2017,81427,Otomatis,Listrik (EV),3,Hanya STNK + BPKB,Denpasar,369500000
+mobil,Wuling,Air ev Long Range,2022,34017,Otomatis,Listrik (EV),5,Hanya STNK + BPKB,Bandung,216000000
+mobil,Wuling,Almaz RS Pro,2022,27710,Otomatis,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Semarang,321000000
+mobil,Mazda,CX-5 Elite,2024,15151,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,526000000
+mobil,Mazda,Mazda3 Hatchback,2015,67727,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,222000000
+mobil,Nissan,Livina VL,2024,12408,Otomatis,Bensin,4,Hanya BPKB Saja,Jakarta,254000000
+mobil,BMW,320i M Sport,2022,43521,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,806000000
+mobil,Mercedes-Benz,C200 Avantgarde,2022,43764,Otomatis,Hybrid,5,Lengkap (STNK + BPKB + Faktur),Bandung,911000000
+mobil,BYD,Seal Performance,2015,53788,Otomatis,Listrik (EV),5,Lengkap (STNK + BPKB + Faktur),Bandung,306000000
+mobil,BYD,Atto 3 Superior,2020,64125,Otomatis,Listrik (EV),3,Hanya STNK + BPKB,Jakarta,308000000
+motor,Honda,Vario 160,2020,18038,Otomatis,Bensin,2,Hanya STNK + BPKB,Semarang,15700000
+motor,Honda,Beat Deluxe,2019,36519,Otomatis,Bensin,2,Hanya STNK + BPKB,Yogyakarta,10700000
+motor,Honda,PCX 160,2019,67930,Otomatis,Bensin,4,Hanya STNK Saja,Semarang,12500000
+motor,Honda,CBR150R,2023,13871,Manual,Bensin,4,Hanya STNK + BPKB,Surabaya,28500000
+motor,Honda,CRF150L,2021,29435,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,23900000
+motor,Yamaha,NMAX 155,2020,36974,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,22100000
+motor,Yamaha,Aerox 155,2019,50455,Otomatis,Bensin,4,Hanya STNK Saja,Bandung,12300000
+motor,Yamaha,R15 Connected,2024,7743,Manual,Bensin,2,Hanya STNK + BPKB,Bandung,28200000
+motor,Yamaha,MX King 150,2022,28769,Manual,Bensin,3,Hanya STNK + BPKB,Denpasar,17800000
+motor,Kawasaki,KLX 150,2024,11443,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,30600000
+motor,Kawasaki,Ninja ZX-25R,2018,35948,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,53200000
+motor,Suzuki,Satria F150,2023,20292,Manual,Bensin,4,Hanya STNK + BPKB,Bandung,22100000
+motor,Suzuki,GSX-R150,2019,60396,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Surabaya,18400000
+motor,Vespa,Sprint 150 i-get,2023,11771,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Denpasar,44200000
+mobil,Toyota,Avanza Veloz,2023,26607,Otomatis,Bensin,2,Hanya STNK Saja,Denpasar,141500000
+mobil,Toyota,Innova Zenix,2020,38180,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Medan,304500000
+mobil,Toyota,Fortuner VRZ,2021,92596,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,420500000
+mobil,Toyota,Rush GR Sport,2020,82107,Otomatis,Bensin,1,Hanya STNK Saja,Denpasar,98000000
+mobil,Toyota,Agya GR Sport,2017,184671,Manual,Bensin,4,Hanya STNK Saja,Jakarta,71500000
+mobil,Toyota,Camry Hybrid,2019,63467,Otomatis,Hybrid,4,Hanya STNK + BPKB,Makassar,516500000
+mobil,Honda,Brio RS,2016,58282,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,119000000
+mobil,Honda,HR-V SE,2024,9663,Otomatis,Bensin,2,Hanya STNK Saja,Jakarta,210500000
+mobil,Honda,CR-V Turbo,2023,20956,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,598500000
+mobil,Honda,Civic RS,2018,121244,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,319500000
+mobil,Honda,BR-V Prestige,2016,121209,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Makassar,180000000
+mobil,Daihatsu,Sigra R Deluxe,2020,76740,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,104000000
+mobil,Daihatsu,Xenia R ADS,2016,194064,Manual,Bensin,1,Lengkap (STNK + BPKB + Faktur),Bandung,90000000
+mobil,Daihatsu,Terios R Custom,2022,29343,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,228500000
+mobil,Daihatsu,Ayla R ADS,2015,92164,Manual,Bensin,1,Lengkap (STNK + BPKB + Faktur),Jakarta,58500000
+mobil,Mitsubishi,Xpander Ultimate,2020,89449,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Semarang,224000000
+mobil,Mitsubishi,Pajero Sport Dakar,2015,89966,Otomatis,Diesel,3,Hanya STNK + BPKB,Yogyakarta,298000000
+mobil,Mitsubishi,Xforce Ultimate,2019,57946,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,247500000
+mobil,Suzuki,Ertiga Hybrid,2021,46047,Manual,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Semarang,197500000
+mobil,Suzuki,XL7 Alpha,2016,127834,Manual,Hybrid,3,Hanya BPKB Saja,Bandung,120000000
+mobil,Suzuki,Baleno Hatchback,2023,25947,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Semarang,201500000
+mobil,Hyundai,Stargazer Prime,2019,75193,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Denpasar,168000000
+mobil,Hyundai,Creta Prime,2015,103371,Otomatis,Bensin,3,Hanya BPKB Saja,Jakarta,148500000
+mobil,Hyundai,Ioniq 5 Signature,2016,113877,Otomatis,Listrik (EV),3,Hanya STNK + BPKB,Bandung,306000000
+mobil,Wuling,Air ev Long Range,2015,97830,Otomatis,Listrik (EV),1,Lengkap (STNK + BPKB + Faktur),Yogyakarta,67500000
+mobil,Wuling,Almaz RS Pro,2020,32446,Otomatis,Bensin,4,Hanya STNK + BPKB,Yogyakarta,265500000
+mobil,Mazda,CX-5 Elite,2020,46069,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,405000000
+mobil,Mazda,Mazda3 Hatchback,2020,40478,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Bandung,376500000
+mobil,Nissan,Livina VL,2022,20725,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,243000000
+mobil,BMW,320i M Sport,2018,75454,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,476000000
+mobil,Mercedes-Benz,C200 Avantgarde,2022,35032,Otomatis,Hybrid,5,Hanya STNK + BPKB,Yogyakarta,897000000
+mobil,BYD,Seal Performance,2020,53909,Otomatis,Listrik (EV),5,Hanya STNK + BPKB,Bandung,466500000
+mobil,BYD,Atto 3 Superior,2020,46255,Otomatis,Listrik (EV),5,Hanya STNK + BPKB,Medan,343000000
+motor,Honda,Vario 160,2022,21143,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,22200000
+motor,Honda,Beat Deluxe,2024,13018,Otomatis,Bensin,3,Hanya BPKB Saja,Denpasar,14600000
+motor,Honda,PCX 160,2023,25514,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,27700000
+motor,Honda,CBR150R,2016,85529,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,14300000
+motor,Honda,CRF150L,2017,15510,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,19000000
+motor,Yamaha,NMAX 155,2017,98542,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Semarang,18500000
+motor,Yamaha,Aerox 155,2016,100020,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,15300000
+motor,Yamaha,R15 Connected,2019,49246,Manual,Bensin,4,Hanya STNK + BPKB,Bandung,19800000
+motor,Yamaha,MX King 150,2024,15528,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,22900000
+motor,Kawasaki,KLX 150,2024,7929,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,32900000
+motor,Kawasaki,Ninja ZX-25R,2022,16647,Manual,Bensin,3,Hanya STNK + BPKB,Makassar,72500000
+motor,Suzuki,Satria F150,2019,70455,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,14700000
+motor,Suzuki,GSX-R150,2022,27716,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,23600000
+motor,Vespa,Sprint 150 i-get,2020,44146,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,40000000
+mobil,Toyota,Avanza Veloz,2020,98626,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Bandung,179000000
+mobil,Toyota,Innova Zenix,2016,48958,Otomatis,Bensin,5,Hanya STNK Saja,Makassar,174000000
+mobil,Toyota,Fortuner VRZ,2018,47605,Otomatis,Bensin,5,Hanya STNK + BPKB,Medan,389000000
+mobil,Toyota,Rush GR Sport,2017,112618,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Jakarta,154000000
+mobil,Toyota,Agya GR Sport,2016,118592,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Yogyakarta,116500000
+mobil,Toyota,Camry Hybrid,2015,137370,Otomatis,Bensin,3,Hanya STNK Saja,Denpasar,195500000
+mobil,Honda,Brio RS,2019,80301,Otomatis,Bensin,3,Hanya STNK Saja,Yogyakarta,95500000
+mobil,Honda,HR-V SE,2021,27821,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,305000000
+mobil,Honda,CR-V Turbo,2020,71600,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,451000000
+mobil,Honda,Civic RS,2024,13683,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Yogyakarta,621500000
+mobil,Honda,BR-V Prestige,2023,28473,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Jakarta,269000000
+mobil,Daihatsu,Sigra R Deluxe,2015,129328,Otomatis,Bensin,4,Hanya STNK + BPKB,Denpasar,81000000
+mobil,Daihatsu,Xenia R ADS,2017,147893,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Makassar,143000000
+mobil,Daihatsu,Terios R Custom,2024,14504,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,245000000
+mobil,Daihatsu,Ayla R ADS,2024,14296,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,164500000
+mobil,Mitsubishi,Xpander Ultimate,2021,73430,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,214500000
+mobil,Mitsubishi,Pajero Sport Dakar,2015,142450,Otomatis,Diesel,4,Hanya STNK + BPKB,Makassar,293000000
+mobil,Mitsubishi,Xforce Ultimate,2017,83204,Otomatis,Bensin,4,Hanya STNK + BPKB,Medan,208500000
+mobil,Suzuki,Ertiga Hybrid,2015,171793,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,109000000
+mobil,Suzuki,XL7 Alpha,2021,70609,Manual,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,228000000
+mobil,Suzuki,Baleno Hatchback,2022,40465,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Yogyakarta,242500000
+mobil,Hyundai,Stargazer Prime,2023,20732,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,266000000
+mobil,Hyundai,Creta Prime,2019,34978,Otomatis,Bensin,5,Hanya BPKB Saja,Semarang,239500000
+mobil,Hyundai,Ioniq 5 Signature,2018,92115,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Semarang,391500000
+mobil,Wuling,Air ev Long Range,2019,61787,Otomatis,Listrik (EV),5,Lengkap (STNK + BPKB + Faktur),Yogyakarta,149000000
+mobil,Wuling,Almaz RS Pro,2017,180307,Otomatis,Bensin,3,Hanya STNK + BPKB,Yogyakarta,166500000
+mobil,Mazda,CX-5 Elite,2022,35632,Otomatis,Bensin,3,Hanya STNK + BPKB,Semarang,439000000
+mobil,Mazda,Mazda3 Hatchback,2023,24030,Otomatis,Bensin,2,Hanya STNK + BPKB,Medan,379500000
+mobil,Nissan,Livina VL,2018,72090,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,171500000
+mobil,BMW,320i M Sport,2020,78230,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,644500000
+mobil,Mercedes-Benz,C200 Avantgarde,2021,57935,Otomatis,Hybrid,4,Hanya STNK + BPKB,Semarang,740500000
+mobil,BYD,Seal Performance,2020,38671,Otomatis,Listrik (EV),5,Lengkap (STNK + BPKB + Faktur),Medan,488000000
+mobil,BYD,Atto 3 Superior,2023,23384,Otomatis,Listrik (EV),3,Hanya STNK + BPKB,Jakarta,428500000
+motor,Honda,Vario 160,2021,18705,Otomatis,Bensin,5,Hanya BPKB Saja,Semarang,19100000
+motor,Honda,Beat Deluxe,2015,95259,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,8900000
+motor,Honda,PCX 160,2019,42617,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Denpasar,22700000
+motor,Honda,CBR150R,2019,61349,Manual,Bensin,3,Hanya STNK + BPKB,Semarang,17100000
+motor,Honda,CRF150L,2017,36780,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,18000000
+motor,Yamaha,NMAX 155,2017,75538,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,17600000
+motor,Yamaha,Aerox 155,2017,73769,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,15200000
+motor,Yamaha,R15 Connected,2021,29640,Manual,Bensin,4,Hanya BPKB Saja,Semarang,21200000
+motor,Yamaha,MX King 150,2024,2195,Manual,Bensin,4,Hanya STNK + BPKB,Jakarta,24300000
+motor,Kawasaki,KLX 150,2016,60310,Manual,Bensin,2,Hanya STNK + BPKB,Semarang,14000000
+motor,Kawasaki,Ninja ZX-25R,2016,90949,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,46200000
+motor,Suzuki,Satria F150,2022,28959,Manual,Bensin,4,Hanya STNK + BPKB,Makassar,19200000
+motor,Suzuki,GSX-R150,2023,30124,Manual,Bensin,4,Hanya STNK + BPKB,Surabaya,24400000
+motor,Vespa,Sprint 150 i-get,2023,14058,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Jakarta,43700000
+mobil,Toyota,Avanza Veloz,2023,30723,Otomatis,Bensin,2,Hanya STNK + BPKB,Denpasar,228500000
+mobil,Toyota,Innova Zenix,2016,104315,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Jakarta,227000000
+mobil,Toyota,Fortuner VRZ,2022,46043,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,486500000
+mobil,Toyota,Rush GR Sport,2019,66036,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,182000000
+mobil,Toyota,Agya GR Sport,2024,11082,Otomatis,Bensin,3,Hanya STNK + BPKB,Jakarta,217500000
+mobil,Toyota,Camry Hybrid,2016,20266,Otomatis,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Bandung,422000000
+mobil,Honda,Brio RS,2021,68691,Manual,Bensin,3,Hanya STNK Saja,Makassar,93000000
+mobil,Honda,HR-V SE,2021,44859,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,315500000
+mobil,Honda,CR-V Turbo,2023,15021,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,663000000
+mobil,Honda,Civic RS,2015,76685,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,259500000
+mobil,Honda,BR-V Prestige,2018,121026,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,186000000
+mobil,Daihatsu,Sigra R Deluxe,2015,182475,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Jakarta,70500000
+mobil,Daihatsu,Xenia R ADS,2022,37413,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,213000000
+mobil,Daihatsu,Terios R Custom,2023,17987,Otomatis,Bensin,2,Hanya BPKB Saja,Medan,185000000
+mobil,Daihatsu,Ayla R ADS,2024,11598,Manual,Bensin,3,Hanya STNK Saja,Medan,94000000
+mobil,Mitsubishi,Xpander Ultimate,2021,67944,Manual,Bensin,2,Hanya STNK Saja,Bandung,119500000
+mobil,Mitsubishi,Pajero Sport Dakar,2021,55286,Otomatis,Diesel,5,Hanya STNK Saja,Makassar,333500000
+mobil,Mitsubishi,Xforce Ultimate,2023,16216,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,348500000
+mobil,Suzuki,Ertiga Hybrid,2023,32982,Manual,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Bandung,247500000
+mobil,Suzuki,XL7 Alpha,2022,46109,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Bandung,254000000
+mobil,Suzuki,Baleno Hatchback,2021,61305,Otomatis,Bensin,3,Hanya STNK + BPKB,Denpasar,186500000
+mobil,Hyundai,Stargazer Prime,2020,56914,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Jakarta,189500000
+mobil,Hyundai,Creta Prime,2016,88728,Otomatis,Bensin,3,Hanya STNK Saja,Yogyakarta,111500000
+mobil,Hyundai,Ioniq 5 Signature,2019,35178,Otomatis,Listrik (EV),5,Hanya BPKB Saja,Surabaya,453500000
+mobil,Wuling,Air ev Long Range,2022,17552,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,208000000
+mobil,Wuling,Almaz RS Pro,2019,29282,Otomatis,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Semarang,268000000
+mobil,Mazda,CX-5 Elite,2020,61140,Otomatis,Bensin,2,Hanya BPKB Saja,Denpasar,295500000
+mobil,Mazda,Mazda3 Hatchback,2020,43917,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,337000000
+mobil,Nissan,Livina VL,2017,106780,Otomatis,Bensin,4,Hanya STNK + BPKB,Makassar,151500000
+mobil,BMW,320i M Sport,2019,62056,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,536000000
+mobil,Mercedes-Benz,C200 Avantgarde,2022,26192,Otomatis,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Denpasar,948500000
+mobil,BYD,Seal Performance,2022,36047,Otomatis,Listrik (EV),2,Hanya STNK + BPKB,Denpasar,459500000
+mobil,BYD,Atto 3 Superior,2017,54790,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Jakarta,265500000
+motor,Honda,Vario 160,2015,99869,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,12000000
+motor,Honda,Beat Deluxe,2015,100553,Otomatis,Bensin,3,Hanya STNK + BPKB,Denpasar,8400000
+motor,Honda,PCX 160,2022,25645,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,27100000
+motor,Honda,CBR150R,2023,17363,Manual,Bensin,1,Hanya STNK + BPKB,Makassar,20500000
+motor,Honda,CRF150L,2017,67348,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,17300000
+motor,Yamaha,NMAX 155,2020,68709,Otomatis,Bensin,2,Hanya BPKB Saja,Denpasar,16600000
+motor,Yamaha,Aerox 155,2024,10768,Otomatis,Bensin,3,Hanya STNK + BPKB,Surabaya,27100000
+motor,Yamaha,R15 Connected,2015,119971,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Jakarta,12500000
+motor,Yamaha,MX King 150,2015,51489,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,9700000
+motor,Kawasaki,KLX 150,2024,5850,Manual,Bensin,3,Hanya STNK Saja,Denpasar,19900000
+motor,Kawasaki,Ninja ZX-25R,2019,45056,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,61000000
+motor,Suzuki,Satria F150,2017,88706,Manual,Bensin,5,Hanya STNK + BPKB,Makassar,12400000
+motor,Suzuki,GSX-R150,2016,62465,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,12100000
+motor,Vespa,Sprint 150 i-get,2023,10122,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,50200000
+mobil,Toyota,Avanza Veloz,2023,20509,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Surabaya,227000000
+mobil,Toyota,Innova Zenix,2020,50062,Otomatis,Bensin,1,Lengkap (STNK + BPKB + Faktur),Denpasar,282000000
+mobil,Toyota,Fortuner VRZ,2022,53381,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,508000000
+mobil,Toyota,Rush GR Sport,2024,10394,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,274500000
+mobil,Toyota,Agya GR Sport,2016,89349,Otomatis,Bensin,2,Hanya STNK + BPKB,Bandung,99500000
+mobil,Toyota,Camry Hybrid,2021,77793,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Semarang,497000000
+mobil,Honda,Brio RS,2022,50429,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Makassar,150500000
+mobil,Honda,HR-V SE,2022,37106,Otomatis,Bensin,1,Lengkap (STNK + BPKB + Faktur),Surabaya,259000000
+mobil,Honda,CR-V Turbo,2024,10554,Otomatis,Hybrid,1,Lengkap (STNK + BPKB + Faktur),Surabaya,573000000
+mobil,Honda,Civic RS,2023,27883,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,497000000
+mobil,Honda,BR-V Prestige,2019,96367,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Semarang,170500000
+mobil,Daihatsu,Sigra R Deluxe,2021,71192,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,116500000
+mobil,Daihatsu,Xenia R ADS,2022,34714,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Makassar,180500000
+mobil,Daihatsu,Terios R Custom,2020,69414,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,177000000
+mobil,Daihatsu,Ayla R ADS,2019,78998,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,97500000
+mobil,Mitsubishi,Xpander Ultimate,2020,77984,Manual,Bensin,5,Hanya STNK + BPKB,Yogyakarta,218000000
+mobil,Mitsubishi,Pajero Sport Dakar,2021,72412,Otomatis,Diesel,3,Hanya STNK Saja,Medan,287000000
+mobil,Mitsubishi,Xforce Ultimate,2024,15002,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Medan,393000000
+mobil,Suzuki,Ertiga Hybrid,2022,41115,Manual,Hybrid,4,Hanya STNK + BPKB,Makassar,213500000
+mobil,Suzuki,XL7 Alpha,2022,47413,Otomatis,Bensin,3,Hanya STNK + BPKB,Makassar,218500000
+mobil,Suzuki,Baleno Hatchback,2021,51910,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Makassar,206000000
+mobil,Hyundai,Stargazer Prime,2023,18243,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,286500000
+mobil,Hyundai,Creta Prime,2016,111165,Otomatis,Bensin,2,Hanya STNK + BPKB,Makassar,158500000
+mobil,Hyundai,Ioniq 5 Signature,2020,55467,Otomatis,Listrik (EV),1,Lengkap (STNK + BPKB + Faktur),Medan,387500000
+mobil,Wuling,Air ev Long Range,2022,36522,Otomatis,Listrik (EV),3,Hanya STNK + BPKB,Bandung,183500000
+mobil,Wuling,Almaz RS Pro,2020,66874,Otomatis,Hybrid,2,Lengkap (STNK + BPKB + Faktur),Surabaya,230000000
+mobil,Mazda,CX-5 Elite,2016,90008,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,256000000
+mobil,Mazda,Mazda3 Hatchback,2023,22399,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,451500000
+mobil,Nissan,Livina VL,2020,92929,Otomatis,Bensin,1,Hanya STNK + BPKB,Jakarta,140500000
+mobil,BMW,320i M Sport,2020,47196,Otomatis,Bensin,5,Hanya STNK + BPKB,Bandung,675000000
+mobil,Mercedes-Benz,C200 Avantgarde,2023,28108,Otomatis,Hybrid,4,Hanya BPKB Saja,Medan,825500000
+mobil,BYD,Seal Performance,2021,57620,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Jakarta,491000000
+mobil,BYD,Atto 3 Superior,2024,12421,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Medan,494000000
+motor,Honda,Vario 160,2018,68141,Otomatis,Bensin,4,Hanya STNK + BPKB,Bandung,15400000
+motor,Honda,Beat Deluxe,2020,42240,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,13400000
+motor,Honda,PCX 160,2023,34469,Otomatis,Bensin,4,Hanya STNK + BPKB,Yogyakarta,26200000
+motor,Honda,CBR150R,2020,35520,Manual,Bensin,4,Hanya STNK + BPKB,Semarang,21500000
+motor,Honda,CRF150L,2024,11054,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,29400000
+motor,Yamaha,NMAX 155,2017,73411,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,17100000
+motor,Yamaha,Aerox 155,2024,5966,Otomatis,Bensin,3,Hanya STNK + BPKB,Bandung,27400000
+motor,Yamaha,R15 Connected,2023,11180,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,30400000
+motor,Yamaha,MX King 150,2024,11380,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Medan,24000000
+motor,Kawasaki,KLX 150,2021,42196,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,24700000
+motor,Kawasaki,Ninja ZX-25R,2022,25258,Manual,Bensin,4,Hanya STNK + BPKB,Medan,74200000
+motor,Suzuki,Satria F150,2019,62065,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,14900000
+motor,Suzuki,GSX-R150,2024,5637,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,31200000
+motor,Vespa,Sprint 150 i-get,2023,14699,Otomatis,Bensin,4,Hanya BPKB Saja,Surabaya,43100000
+mobil,Toyota,Avanza Veloz,2018,110305,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,172000000
+mobil,Toyota,Innova Zenix,2022,33964,Otomatis,Hybrid,3,Hanya STNK + BPKB,Yogyakarta,384000000
+mobil,Toyota,Fortuner VRZ,2024,12602,Manual,Diesel,4,Hanya STNK + BPKB,Medan,554500000
+mobil,Toyota,Rush GR Sport,2015,113229,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,137000000
+mobil,Toyota,Agya GR Sport,2019,102682,Manual,Bensin,2,Hanya STNK + BPKB,Makassar,109500000
+mobil,Toyota,Camry Hybrid,2015,82532,Otomatis,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Bandung,384000000
+mobil,Honda,Brio RS,2020,52145,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,165500000
+mobil,Honda,HR-V SE,2021,53043,Otomatis,Bensin,2,Hanya STNK + BPKB,Surabaya,248000000
+mobil,Honda,CR-V Turbo,2021,76141,Otomatis,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Jakarta,543000000
+mobil,Honda,Civic RS,2016,84472,Otomatis,Bensin,4,Hanya STNK + BPKB,Makassar,261000000
+mobil,Honda,BR-V Prestige,2018,102604,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,173000000
+mobil,Daihatsu,Sigra R Deluxe,2020,89817,Otomatis,Bensin,4,Hanya STNK Saja,Jakarta,79000000
+mobil,Daihatsu,Xenia R ADS,2015,140143,Otomatis,Bensin,1,Hanya STNK Saja,Bandung,55500000
+mobil,Daihatsu,Terios R Custom,2022,24972,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Bandung,237000000
+mobil,Daihatsu,Ayla R ADS,2019,74254,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Surabaya,102000000
+mobil,Mitsubishi,Xpander Ultimate,2020,59130,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,209500000
+mobil,Mitsubishi,Pajero Sport Dakar,2021,61694,Otomatis,Diesel,1,Lengkap (STNK + BPKB + Faktur),Bandung,382000000
+mobil,Mitsubishi,Xforce Ultimate,2024,21096,Otomatis,Bensin,1,Hanya STNK + BPKB,Surabaya,254500000
+mobil,Suzuki,Ertiga Hybrid,2021,47777,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Surabaya,187000000
+mobil,Suzuki,XL7 Alpha,2016,151775,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Bandung,156000000
+mobil,Suzuki,Baleno Hatchback,2017,112817,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,143000000
+mobil,Hyundai,Stargazer Prime,2018,111245,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,175500000
+mobil,Hyundai,Creta Prime,2016,140191,Otomatis,Bensin,4,Hanya STNK + BPKB,Makassar,182000000
+mobil,Hyundai,Ioniq 5 Signature,2020,72600,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Surabaya,532000000
+mobil,Wuling,Air ev Long Range,2018,94074,Otomatis,Listrik (EV),4,Hanya STNK + BPKB,Semarang,120000000
+mobil,Wuling,Almaz RS Pro,2018,86437,Otomatis,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Medan,209500000
+mobil,Mazda,CX-5 Elite,2022,46987,Otomatis,Bensin,3,Hanya STNK + BPKB,Surabaya,418000000
+mobil,Mazda,Mazda3 Hatchback,2023,23322,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Makassar,485500000
+mobil,Nissan,Livina VL,2020,68082,Otomatis,Bensin,5,Hanya STNK + BPKB,Jakarta,217000000
+mobil,BMW,320i M Sport,2024,10573,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Jakarta,985000000
+mobil,Mercedes-Benz,C200 Avantgarde,2021,23208,Otomatis,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Bandung,810000000
+mobil,BYD,Seal Performance,2019,78780,Otomatis,Listrik (EV),2,Hanya STNK Saja,Bandung,226500000
+mobil,BYD,Atto 3 Superior,2023,20876,Otomatis,Listrik (EV),4,Hanya STNK + BPKB,Surabaya,443000000
+motor,Honda,Vario 160,2019,61264,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Makassar,14400000
+motor,Honda,Beat Deluxe,2016,87427,Otomatis,Bensin,3,Hanya STNK + BPKB,Bandung,8900000
+motor,Honda,PCX 160,2016,108541,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,16400000
+motor,Honda,CBR150R,2023,14203,Manual,Bensin,3,Hanya STNK + BPKB,Semarang,27200000
+motor,Honda,CRF150L,2016,89241,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,16100000
+motor,Yamaha,NMAX 155,2019,65513,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,20000000
+motor,Yamaha,Aerox 155,2024,13585,Otomatis,Bensin,2,Hanya STNK + BPKB,Surabaya,22700000
+motor,Yamaha,R15 Connected,2018,46610,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,19100000
+motor,Yamaha,MX King 150,2022,50703,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Jakarta,19800000
+motor,Kawasaki,KLX 150,2023,12001,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,29900000
+motor,Kawasaki,Ninja ZX-25R,2019,22058,Manual,Bensin,2,Hanya STNK + BPKB,Jakarta,51300000
+motor,Suzuki,Satria F150,2017,95088,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Denpasar,13300000
+motor,Suzuki,GSX-R150,2019,35375,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Yogyakarta,15400000
+motor,Vespa,Sprint 150 i-get,2018,52583,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,35600000
+mobil,Toyota,Avanza Veloz,2024,8930,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,283500000
+mobil,Toyota,Innova Zenix,2017,133846,Otomatis,Bensin,1,Lengkap (STNK + BPKB + Faktur),Jakarta,207000000
+mobil,Toyota,Fortuner VRZ,2020,120434,Otomatis,Bensin,4,Hanya STNK + BPKB,Surabaya,392500000
+mobil,Toyota,Rush GR Sport,2018,53149,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,174000000
+mobil,Toyota,Agya GR Sport,2019,71015,Otomatis,Bensin,5,Hanya STNK Saja,Makassar,97500000
+mobil,Toyota,Camry Hybrid,2020,51019,Otomatis,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Makassar,606000000
+mobil,Honda,Brio RS,2016,70260,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,137500000
+mobil,Honda,HR-V SE,2019,73151,Otomatis,Bensin,4,Hanya STNK + BPKB,Yogyakarta,266000000
+mobil,Honda,CR-V Turbo,2022,43009,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Surabaya,497500000
+mobil,Honda,Civic RS,2017,107725,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,278000000
+mobil,Honda,BR-V Prestige,2023,32206,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,266500000
+mobil,Daihatsu,Sigra R Deluxe,2016,142959,Otomatis,Bensin,4,Hanya STNK + BPKB,Jakarta,88500000
+mobil,Daihatsu,Xenia R ADS,2018,100811,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Yogyakarta,128000000
+mobil,Daihatsu,Terios R Custom,2021,45274,Otomatis,Bensin,3,Hanya BPKB Saja,Jakarta,182000000
+mobil,Daihatsu,Ayla R ADS,2021,49397,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Bandung,107500000
+mobil,Mitsubishi,Xpander Ultimate,2016,130842,Otomatis,Bensin,4,Hanya BPKB Saja,Bandung,140000000
+mobil,Mitsubishi,Pajero Sport Dakar,2018,135862,Otomatis,Diesel,4,Hanya STNK Saja,Surabaya,235500000
+mobil,Mitsubishi,Xforce Ultimate,2024,10393,Otomatis,Bensin,1,Lengkap (STNK + BPKB + Faktur),Denpasar,284500000
+mobil,Suzuki,Ertiga Hybrid,2017,96802,Otomatis,Bensin,2,Hanya STNK Saja,Jakarta,79500000
+mobil,Suzuki,XL7 Alpha,2017,58780,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,151500000
+mobil,Suzuki,Baleno Hatchback,2017,118631,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Denpasar,157000000
+mobil,Hyundai,Stargazer Prime,2017,76669,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,172500000
+mobil,Hyundai,Creta Prime,2015,124864,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,159000000
+mobil,Hyundai,Ioniq 5 Signature,2023,31922,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Denpasar,752000000
+mobil,Wuling,Air ev Long Range,2020,44351,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Medan,150500000
+mobil,Wuling,Almaz RS Pro,2015,138126,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,153000000
+mobil,Mazda,CX-5 Elite,2024,10647,Otomatis,Bensin,2,Hanya STNK + BPKB,Semarang,468500000
+mobil,Mazda,Mazda3 Hatchback,2023,14689,Otomatis,Bensin,4,Hanya BPKB Saja,Makassar,404000000
+mobil,Nissan,Livina VL,2020,103903,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,184000000
+mobil,BMW,320i M Sport,2024,8286,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Medan,1098500000
+mobil,Mercedes-Benz,C200 Avantgarde,2022,41742,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,778500000
+mobil,BYD,Seal Performance,2024,11196,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Medan,670000000
+mobil,BYD,Atto 3 Superior,2017,111270,Otomatis,Listrik (EV),5,Hanya STNK + BPKB,Yogyakarta,253500000
+motor,Honda,Vario 160,2015,120513,Otomatis,Bensin,4,Hanya STNK Saja,Surabaya,7300000
+motor,Honda,Beat Deluxe,2023,26297,Otomatis,Bensin,3,Hanya STNK Saja,Makassar,9400000
+motor,Honda,PCX 160,2024,14231,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,28700000
+motor,Honda,CBR150R,2021,53220,Manual,Bensin,3,Hanya BPKB Saja,Yogyakarta,17900000
+motor,Honda,CRF150L,2018,79841,Manual,Bensin,3,Hanya STNK + BPKB,Bandung,17600000
+motor,Yamaha,NMAX 155,2017,67584,Otomatis,Bensin,4,Hanya STNK + BPKB,Jakarta,17900000
+motor,Yamaha,Aerox 155,2017,72311,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,17600000
+motor,Yamaha,R15 Connected,2017,74038,Manual,Bensin,3,Hanya BPKB Saja,Bandung,13000000
+motor,Yamaha,MX King 150,2016,102743,Manual,Bensin,1,Lengkap (STNK + BPKB + Faktur),Surabaya,8500000
+motor,Kawasaki,KLX 150,2020,54657,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,23300000
+motor,Kawasaki,Ninja ZX-25R,2021,26296,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,68200000
+motor,Suzuki,Satria F150,2016,111893,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Jakarta,9400000
+motor,Suzuki,GSX-R150,2019,47062,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,16000000
+motor,Vespa,Sprint 150 i-get,2017,62706,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,33800000
+mobil,Toyota,Avanza Veloz,2020,61990,Manual,Bensin,3,Hanya STNK + BPKB,Makassar,191500000
+mobil,Toyota,Innova Zenix,2017,70814,Otomatis,Hybrid,3,Hanya BPKB Saja,Makassar,233500000
+mobil,Toyota,Fortuner VRZ,2023,33087,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,485500000
+mobil,Toyota,Rush GR Sport,2024,21072,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Surabaya,218000000
+mobil,Toyota,Agya GR Sport,2019,95299,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Semarang,115500000
+mobil,Toyota,Camry Hybrid,2016,93872,Otomatis,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Denpasar,403500000
+mobil,Honda,Brio RS,2019,89677,Otomatis,Bensin,3,Hanya STNK Saja,Yogyakarta,90000000
+mobil,Honda,HR-V SE,2017,144296,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,207000000
+mobil,Honda,CR-V Turbo,2019,63361,Otomatis,Bensin,4,Hanya STNK + BPKB,Surabaya,449500000
+mobil,Honda,Civic RS,2020,66022,Otomatis,Bensin,4,Hanya STNK + BPKB,Makassar,372000000
+mobil,Honda,BR-V Prestige,2023,22542,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Jakarta,269500000
+mobil,Daihatsu,Sigra R Deluxe,2023,29770,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Bandung,171500000
+mobil,Daihatsu,Xenia R ADS,2018,120495,Otomatis,Bensin,1,Lengkap (STNK + BPKB + Faktur),Makassar,110000000
+mobil,Daihatsu,Terios R Custom,2018,122412,Otomatis,Bensin,3,Hanya STNK + BPKB,Surabaya,139500000
+mobil,Daihatsu,Ayla R ADS,2016,151270,Manual,Bensin,4,Hanya STNK + BPKB,Denpasar,79500000
+mobil,Mitsubishi,Xpander Ultimate,2015,124777,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,134500000
+mobil,Mitsubishi,Pajero Sport Dakar,2016,85317,Otomatis,Diesel,5,Hanya STNK Saja,Makassar,230000000
+mobil,Mitsubishi,Xforce Ultimate,2019,61897,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,261500000
+mobil,Suzuki,Ertiga Hybrid,2019,82817,Manual,Hybrid,4,Hanya STNK + BPKB,Makassar,174500000
+mobil,Suzuki,XL7 Alpha,2015,143226,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,132000000
+mobil,Suzuki,Baleno Hatchback,2019,93519,Otomatis,Bensin,3,Hanya STNK + BPKB,Semarang,150000000
+mobil,Hyundai,Stargazer Prime,2019,43175,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Semarang,209500000
+mobil,Hyundai,Creta Prime,2022,54383,Otomatis,Bensin,4,Hanya STNK + BPKB,Surabaya,307000000
+mobil,Hyundai,Ioniq 5 Signature,2018,68946,Otomatis,Listrik (EV),5,Lengkap (STNK + BPKB + Faktur),Denpasar,468500000
+mobil,Wuling,Air ev Long Range,2023,17166,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Semarang,226500000
+mobil,Wuling,Almaz RS Pro,2023,28979,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,352000000
+mobil,Mazda,CX-5 Elite,2017,120435,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,306000000
+mobil,Mazda,Mazda3 Hatchback,2015,96840,Otomatis,Bensin,3,Hanya STNK + BPKB,Makassar,202000000
+mobil,Nissan,Livina VL,2016,118890,Otomatis,Bensin,3,Hanya STNK + BPKB,Bandung,131000000
+mobil,BMW,320i M Sport,2022,36548,Otomatis,Bensin,2,Hanya STNK Saja,Surabaya,424500000
+mobil,Mercedes-Benz,C200 Avantgarde,2019,71723,Otomatis,Hybrid,1,Hanya STNK + BPKB,Medan,443500000
+mobil,BYD,Seal Performance,2018,78816,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Jakarta,343500000
+mobil,BYD,Atto 3 Superior,2015,146613,Otomatis,Listrik (EV),4,Hanya STNK + BPKB,Jakarta,197500000
+motor,Honda,Vario 160,2018,86410,Otomatis,Bensin,4,Hanya STNK + BPKB,Semarang,13600000
+motor,Honda,Beat Deluxe,2021,65060,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,12700000
+motor,Honda,PCX 160,2023,27182,Otomatis,Bensin,1,Hanya BPKB Saja,Yogyakarta,17300000
+motor,Honda,CBR150R,2023,19414,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,28700000
+motor,Honda,CRF150L,2019,36579,Manual,Bensin,3,Hanya STNK + BPKB,Semarang,20500000
+motor,Yamaha,NMAX 155,2018,69295,Otomatis,Bensin,5,Hanya STNK + BPKB,Makassar,19800000
+motor,Yamaha,Aerox 155,2020,63051,Otomatis,Bensin,4,Hanya BPKB Saja,Semarang,17700000
+motor,Yamaha,R15 Connected,2021,33444,Manual,Bensin,4,Hanya STNK + BPKB,Medan,24000000
+motor,Yamaha,MX King 150,2020,98958,Manual,Bensin,5,Hanya STNK + BPKB,Semarang,15200000
+motor,Kawasaki,KLX 150,2017,61074,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Semarang,15600000
+motor,Kawasaki,Ninja ZX-25R,2023,17311,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,85800000
+motor,Suzuki,Satria F150,2019,75072,Manual,Bensin,3,Hanya STNK + BPKB,Denpasar,13700000
+motor,Suzuki,GSX-R150,2016,113987,Manual,Bensin,5,Hanya STNK + BPKB,Surabaya,12000000
+motor,Vespa,Sprint 150 i-get,2022,22906,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Semarang,48300000
+mobil,Toyota,Avanza Veloz,2021,56883,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Makassar,197000000
+mobil,Toyota,Innova Zenix,2024,15349,Otomatis,Hybrid,3,Hanya STNK + BPKB,Surabaya,435500000
+mobil,Toyota,Fortuner VRZ,2022,69011,Manual,Diesel,3,Lengkap (STNK + BPKB + Faktur),Denpasar,465500000
+mobil,Toyota,Rush GR Sport,2019,77847,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,198500000
+mobil,Toyota,Agya GR Sport,2017,130256,Manual,Bensin,3,Hanya BPKB Saja,Makassar,89500000
+mobil,Toyota,Camry Hybrid,2015,129714,Otomatis,Hybrid,4,Hanya BPKB Saja,Yogyakarta,314500000
+mobil,Honda,Brio RS,2023,22768,Otomatis,Bensin,4,Hanya STNK + BPKB,Medan,210500000
+mobil,Honda,HR-V SE,2018,83561,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Semarang,208500000
+mobil,Honda,CR-V Turbo,2017,98600,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,362000000
+mobil,Honda,Civic RS,2021,30871,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Medan,446000000
+mobil,Honda,BR-V Prestige,2017,159661,Manual,Bensin,3,Hanya STNK + BPKB,Bandung,149000000
+mobil,Daihatsu,Sigra R Deluxe,2018,73771,Otomatis,Bensin,2,Hanya STNK + BPKB,Jakarta,86000000
+mobil,Daihatsu,Xenia R ADS,2021,47852,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,183000000
+mobil,Daihatsu,Terios R Custom,2015,211949,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,117500000
+mobil,Daihatsu,Ayla R ADS,2022,29758,Otomatis,Bensin,4,Hanya STNK + BPKB,Semarang,151500000
+mobil,Mitsubishi,Xpander Ultimate,2021,72493,Otomatis,Bensin,4,Hanya STNK + BPKB,Makassar,223000000
+mobil,Mitsubishi,Pajero Sport Dakar,2016,34899,Otomatis,Diesel,2,Lengkap (STNK + BPKB + Faktur),Medan,311500000
+mobil,Mitsubishi,Xforce Ultimate,2024,6997,Otomatis,Bensin,4,Hanya BPKB Saja,Yogyakarta,327500000
+mobil,Suzuki,Ertiga Hybrid,2021,73179,Manual,Hybrid,1,Lengkap (STNK + BPKB + Faktur),Medan,157500000
+mobil,Suzuki,XL7 Alpha,2022,59441,Manual,Hybrid,1,Hanya STNK + BPKB,Surabaya,171500000
+mobil,Suzuki,Baleno Hatchback,2024,14141,Otomatis,Bensin,5,Hanya STNK + BPKB,Surabaya,270500000
+mobil,Hyundai,Stargazer Prime,2016,149162,Otomatis,Bensin,3,Hanya BPKB Saja,Semarang,117000000
+mobil,Hyundai,Creta Prime,2022,38672,Otomatis,Bensin,4,Hanya STNK Saja,Semarang,198000000
+mobil,Hyundai,Ioniq 5 Signature,2020,42559,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Jakarta,553000000
+mobil,Wuling,Air ev Long Range,2015,46750,Otomatis,Listrik (EV),3,Hanya STNK Saja,Semarang,54000000
+mobil,Wuling,Almaz RS Pro,2016,82300,Otomatis,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Denpasar,181000000
+mobil,Mazda,CX-5 Elite,2019,72723,Otomatis,Bensin,4,Hanya STNK + BPKB,Bandung,365500000
+mobil,Mazda,Mazda3 Hatchback,2016,120534,Otomatis,Bensin,5,Hanya STNK + BPKB,Surabaya,239500000
+mobil,Nissan,Livina VL,2021,37968,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,217500000
+mobil,BMW,320i M Sport,2024,7052,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,974000000
+mobil,Mercedes-Benz,C200 Avantgarde,2022,34251,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,766500000
+mobil,BYD,Seal Performance,2020,56738,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,448000000
+mobil,BYD,Atto 3 Superior,2021,37701,Otomatis,Listrik (EV),1,Hanya STNK Saja,Denpasar,178500000
+motor,Honda,Vario 160,2022,14879,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,22900000
+motor,Honda,Beat Deluxe,2019,59646,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,12200000
+motor,Honda,PCX 160,2016,97966,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,17400000
+motor,Honda,CBR150R,2022,25524,Manual,Bensin,5,Hanya STNK + BPKB,Jakarta,27600000
+motor,Honda,CRF150L,2016,69976,Manual,Bensin,1,Lengkap (STNK + BPKB + Faktur),Surabaya,12600000
+motor,Yamaha,NMAX 155,2024,10653,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,31100000
+motor,Yamaha,Aerox 155,2020,39470,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,22000000
+motor,Yamaha,R15 Connected,2020,23168,Manual,Bensin,2,Hanya STNK + BPKB,Jakarta,20400000
+motor,Yamaha,MX King 150,2020,36043,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,16200000
+motor,Kawasaki,KLX 150,2015,56482,Manual,Bensin,2,Hanya STNK + BPKB,Makassar,13000000
+motor,Kawasaki,Ninja ZX-25R,2016,53323,Manual,Bensin,3,Hanya STNK Saja,Makassar,27800000
+motor,Suzuki,Satria F150,2018,58649,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,13900000
+motor,Suzuki,GSX-R150,2015,63698,Manual,Bensin,3,Hanya STNK + BPKB,Bandung,11000000
+motor,Vespa,Sprint 150 i-get,2022,13518,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,50300000
+mobil,Toyota,Avanza Veloz,2023,34513,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,265000000
+mobil,Toyota,Innova Zenix,2024,13221,Otomatis,Bensin,3,Hanya STNK + BPKB,Medan,403500000
+mobil,Toyota,Fortuner VRZ,2019,94222,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Bandung,403000000
+mobil,Toyota,Rush GR Sport,2017,144386,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,159500000
+mobil,Toyota,Agya GR Sport,2023,19986,Otomatis,Bensin,3,Hanya STNK + BPKB,Yogyakarta,187500000
+mobil,Toyota,Camry Hybrid,2017,85669,Otomatis,Bensin,4,Hanya STNK + BPKB,Denpasar,447500000
+mobil,Honda,Brio RS,2024,9486,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Jakarta,246500000
+mobil,Honda,HR-V SE,2023,37582,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Jakarta,332000000
+mobil,Honda,CR-V Turbo,2018,106533,Otomatis,Bensin,5,Hanya STNK + BPKB,Bandung,439000000
+mobil,Honda,Civic RS,2015,101920,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,256500000
+mobil,Honda,BR-V Prestige,2016,100297,Otomatis,Bensin,3,Hanya STNK + BPKB,Semarang,150500000
+mobil,Daihatsu,Sigra R Deluxe,2015,120782,Manual,Bensin,3,Hanya STNK + BPKB,Yogyakarta,70000000
+mobil,Daihatsu,Xenia R ADS,2023,29902,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,233500000
+mobil,Daihatsu,Terios R Custom,2018,106371,Manual,Bensin,4,Hanya BPKB Saja,Semarang,126500000
+mobil,Daihatsu,Ayla R ADS,2022,41222,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,141000000
+mobil,Mitsubishi,Xpander Ultimate,2021,22505,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,242500000
+mobil,Mitsubishi,Pajero Sport Dakar,2024,21208,Otomatis,Diesel,3,Hanya STNK + BPKB,Bandung,550500000
+mobil,Mitsubishi,Xforce Ultimate,2015,180212,Otomatis,Bensin,4,Hanya STNK + BPKB,Semarang,169500000
+mobil,Suzuki,Ertiga Hybrid,2022,33116,Manual,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Medan,229500000
+mobil,Suzuki,XL7 Alpha,2017,130759,Otomatis,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Surabaya,161500000
+mobil,Suzuki,Baleno Hatchback,2020,69697,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,179500000
+mobil,Hyundai,Stargazer Prime,2018,99301,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Medan,143500000
+mobil,Hyundai,Creta Prime,2024,12082,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,379000000
+mobil,Hyundai,Ioniq 5 Signature,2021,34291,Otomatis,Listrik (EV),1,Lengkap (STNK + BPKB + Faktur),Yogyakarta,464000000
+mobil,Wuling,Air ev Long Range,2023,25220,Otomatis,Listrik (EV),1,Hanya STNK Saja,Medan,102500000
+mobil,Wuling,Almaz RS Pro,2020,43699,Otomatis,Bensin,2,Hanya BPKB Saja,Jakarta,194500000
+mobil,Mazda,CX-5 Elite,2016,141166,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Surabaya,285000000
+mobil,Mazda,Mazda3 Hatchback,2018,124641,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,290000000
+mobil,Nissan,Livina VL,2020,71388,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Semarang,168000000
+mobil,BMW,320i M Sport,2023,20801,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Denpasar,998000000
+mobil,Mercedes-Benz,C200 Avantgarde,2021,47527,Otomatis,Hybrid,1,Hanya STNK + BPKB,Jakarta,595500000
+mobil,BYD,Seal Performance,2024,8406,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Surabaya,689000000
+mobil,BYD,Atto 3 Superior,2019,30990,Otomatis,Listrik (EV),3,Hanya STNK Saja,Makassar,183500000
+motor,Honda,Vario 160,2021,25421,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Makassar,16400000
+motor,Honda,Beat Deluxe,2023,22331,Otomatis,Bensin,3,Hanya STNK Saja,Yogyakarta,10300000
+motor,Honda,PCX 160,2015,101814,Otomatis,Bensin,1,Lengkap (STNK + BPKB + Faktur),Makassar,11300000
+motor,Honda,CBR150R,2023,16802,Manual,Bensin,3,Hanya STNK + BPKB,Yogyakarta,27100000
+motor,Honda,CRF150L,2018,66975,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Semarang,16200000
+motor,Yamaha,NMAX 155,2018,79396,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,19800000
+motor,Yamaha,Aerox 155,2023,15991,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,26400000
+motor,Yamaha,R15 Connected,2018,53060,Manual,Bensin,3,Hanya STNK + BPKB,Medan,16200000
+motor,Yamaha,MX King 150,2016,120158,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Denpasar,11600000
+motor,Kawasaki,KLX 150,2020,36304,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,23500000
+motor,Kawasaki,Ninja ZX-25R,2021,34469,Manual,Bensin,3,Hanya STNK + BPKB,Makassar,64800000
+motor,Suzuki,Satria F150,2019,62526,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,15900000
+motor,Suzuki,GSX-R150,2022,36135,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,23500000
+motor,Vespa,Sprint 150 i-get,2017,56173,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,32100000
+mobil,Toyota,Avanza Veloz,2019,59200,Otomatis,Bensin,5,Hanya STNK + BPKB,Jakarta,215500000
+mobil,Toyota,Innova Zenix,2024,11440,Otomatis,Hybrid,5,Lengkap (STNK + BPKB + Faktur),Denpasar,528000000
+mobil,Toyota,Fortuner VRZ,2017,126107,Manual,Bensin,3,Hanya STNK + BPKB,Semarang,294500000
+mobil,Toyota,Rush GR Sport,2017,109631,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,145000000
+mobil,Toyota,Agya GR Sport,2024,12232,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,205000000
+mobil,Toyota,Camry Hybrid,2022,23700,Otomatis,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Surabaya,711500000
+mobil,Honda,Brio RS,2019,47781,Manual,Bensin,1,Lengkap (STNK + BPKB + Faktur),Yogyakarta,118000000
+mobil,Honda,HR-V SE,2021,72961,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Yogyakarta,327000000
+mobil,Honda,CR-V Turbo,2016,109508,Otomatis,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Makassar,378500000
+mobil,Honda,Civic RS,2021,48051,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,392000000
+mobil,Honda,BR-V Prestige,2023,22031,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,292000000
+mobil,Daihatsu,Sigra R Deluxe,2024,13253,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,159500000
+mobil,Daihatsu,Xenia R ADS,2018,108590,Otomatis,Bensin,2,Hanya STNK + BPKB,Surabaya,127000000
+mobil,Daihatsu,Terios R Custom,2018,112429,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,163000000
+mobil,Daihatsu,Ayla R ADS,2022,48182,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,138000000
+mobil,Mitsubishi,Xpander Ultimate,2015,32735,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Bandung,143500000
+mobil,Mitsubishi,Pajero Sport Dakar,2015,91440,Otomatis,Diesel,5,Lengkap (STNK + BPKB + Faktur),Makassar,334000000
+mobil,Mitsubishi,Xforce Ultimate,2024,7787,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Denpasar,415500000
+mobil,Suzuki,Ertiga Hybrid,2022,48822,Otomatis,Hybrid,4,Hanya STNK + BPKB,Bandung,240000000
+mobil,Suzuki,XL7 Alpha,2024,11578,Manual,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Denpasar,285000000
+mobil,Suzuki,Baleno Hatchback,2024,10033,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Jakarta,257500000
+mobil,Hyundai,Stargazer Prime,2018,52572,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,189000000
+mobil,Hyundai,Creta Prime,2023,24885,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Jakarta,342500000
+mobil,Hyundai,Ioniq 5 Signature,2021,45578,Otomatis,Listrik (EV),5,Hanya STNK + BPKB,Makassar,591000000
+mobil,Wuling,Air ev Long Range,2018,90371,Otomatis,Listrik (EV),3,Hanya STNK + BPKB,Surabaya,113000000
+mobil,Wuling,Almaz RS Pro,2021,51574,Otomatis,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Surabaya,278500000
+mobil,Mazda,CX-5 Elite,2019,59824,Otomatis,Bensin,3,Hanya STNK + BPKB,Jakarta,337000000
+mobil,Mazda,Mazda3 Hatchback,2024,9955,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,510000000
+mobil,Nissan,Livina VL,2021,31775,Otomatis,Bensin,2,Hanya STNK + BPKB,Semarang,180000000
+mobil,BMW,320i M Sport,2019,86481,Otomatis,Bensin,4,Hanya BPKB Saja,Makassar,467000000
+mobil,Mercedes-Benz,C200 Avantgarde,2018,54830,Otomatis,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Denpasar,576000000
+mobil,BYD,Seal Performance,2019,54008,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Bandung,440500000
+mobil,BYD,Atto 3 Superior,2016,124549,Otomatis,Listrik (EV),4,Hanya STNK Saja,Surabaya,135500000
+motor,Honda,Vario 160,2018,109538,Otomatis,Bensin,4,Hanya STNK + BPKB,Jakarta,14200000
+motor,Honda,Beat Deluxe,2017,97810,Otomatis,Bensin,4,Hanya STNK + BPKB,Denpasar,10300000
+motor,Honda,PCX 160,2024,14183,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Surabaya,26400000
+motor,Honda,CBR150R,2024,8278,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Semarang,34100000
+motor,Honda,CRF150L,2024,8534,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,31200000
+motor,Yamaha,NMAX 155,2023,33684,Otomatis,Bensin,1,Hanya STNK + BPKB,Medan,19200000
+motor,Yamaha,Aerox 155,2024,8904,Otomatis,Bensin,3,Hanya STNK + BPKB,Bandung,27400000
+motor,Yamaha,R15 Connected,2016,42902,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,13900000
+motor,Yamaha,MX King 150,2023,31282,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Yogyakarta,21400000
+motor,Kawasaki,KLX 150,2020,24693,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,23900000
+motor,Kawasaki,Ninja ZX-25R,2024,8812,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,90100000
+motor,Suzuki,Satria F150,2023,27275,Manual,Bensin,5,Hanya STNK + BPKB,Semarang,22000000
+motor,Suzuki,GSX-R150,2023,9748,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Medan,29900000
+motor,Vespa,Sprint 150 i-get,2020,31611,Otomatis,Bensin,5,Hanya STNK Saja,Denpasar,28000000
+mobil,Toyota,Avanza Veloz,2016,182498,Manual,Bensin,3,Hanya STNK + BPKB,Medan,132000000
+mobil,Toyota,Innova Zenix,2018,111403,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Jakarta,333500000
+mobil,Toyota,Fortuner VRZ,2019,75045,Otomatis,Bensin,2,Hanya STNK + BPKB,Yogyakarta,344500000
+mobil,Toyota,Rush GR Sport,2016,128155,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,142500000
+mobil,Toyota,Agya GR Sport,2017,140019,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,121500000
+mobil,Toyota,Camry Hybrid,2019,76658,Otomatis,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,523000000
+mobil,Honda,Brio RS,2017,89051,Otomatis,Bensin,5,Hanya STNK + BPKB,Denpasar,147500000
+mobil,Honda,HR-V SE,2024,8581,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,392000000
+mobil,Honda,CR-V Turbo,2022,63057,Otomatis,Hybrid,3,Hanya STNK + BPKB,Semarang,518500000
+mobil,Honda,Civic RS,2021,42946,Otomatis,Bensin,2,Hanya STNK + BPKB,Denpasar,365500000
+mobil,Honda,BR-V Prestige,2023,29489,Otomatis,Bensin,3,Hanya STNK + BPKB,Bandung,276500000
+mobil,Daihatsu,Sigra R Deluxe,2022,56616,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,128000000
+mobil,Daihatsu,Xenia R ADS,2021,56231,Otomatis,Bensin,3,Hanya STNK Saja,Bandung,116500000
+mobil,Daihatsu,Terios R Custom,2023,26281,Manual,Bensin,3,Hanya BPKB Saja,Yogyakarta,196500000
+mobil,Daihatsu,Ayla R ADS,2020,71705,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,119000000
+mobil,Mitsubishi,Xpander Ultimate,2020,83920,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,195000000
+mobil,Mitsubishi,Pajero Sport Dakar,2016,147075,Otomatis,Diesel,4,Hanya STNK + BPKB,Medan,309500000
+mobil,Mitsubishi,Xforce Ultimate,2017,107511,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,217000000
+mobil,Suzuki,Ertiga Hybrid,2017,94238,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Jakarta,142500000
+mobil,Suzuki,XL7 Alpha,2021,76803,Otomatis,Hybrid,2,Hanya STNK + BPKB,Denpasar,197500000
+mobil,Suzuki,Baleno Hatchback,2016,118006,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,127500000
+mobil,Hyundai,Stargazer Prime,2020,72375,Otomatis,Bensin,2,Hanya STNK Saja,Medan,114000000
+mobil,Hyundai,Creta Prime,2024,14620,Otomatis,Bensin,3,Hanya STNK + BPKB,Denpasar,344000000
+mobil,Hyundai,Ioniq 5 Signature,2022,40458,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Bandung,666500000
+mobil,Wuling,Air ev Long Range,2017,105406,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Surabaya,111500000
+mobil,Wuling,Almaz RS Pro,2016,112140,Otomatis,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Semarang,169500000
+mobil,Mazda,CX-5 Elite,2019,64673,Otomatis,Bensin,5,Hanya STNK + BPKB,Yogyakarta,372500000
+mobil,Mazda,Mazda3 Hatchback,2024,8671,Otomatis,Bensin,2,Hanya STNK + BPKB,Bandung,444500000
+mobil,Nissan,Livina VL,2018,141841,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,153500000
+mobil,BMW,320i M Sport,2016,57711,Otomatis,Bensin,1,Lengkap (STNK + BPKB + Faktur),Surabaya,318000000
+mobil,Mercedes-Benz,C200 Avantgarde,2016,119862,Otomatis,Bensin,2,Hanya STNK Saja,Makassar,212500000
+mobil,BYD,Seal Performance,2019,63346,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Bandung,420000000
+mobil,BYD,Atto 3 Superior,2017,70336,Otomatis,Listrik (EV),1,Lengkap (STNK + BPKB + Faktur),Yogyakarta,190500000
+motor,Honda,Vario 160,2022,27465,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,22200000
+motor,Honda,Beat Deluxe,2024,7337,Otomatis,Bensin,4,Hanya STNK + BPKB,Semarang,17900000
+motor,Honda,PCX 160,2020,62052,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,22200000
+motor,Honda,CBR150R,2021,49793,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,21500000
+motor,Honda,CRF150L,2020,40027,Manual,Bensin,4,Hanya STNK + BPKB,Denpasar,23700000
+motor,Yamaha,NMAX 155,2022,18096,Otomatis,Bensin,4,Hanya STNK + BPKB,Medan,25200000
+motor,Yamaha,Aerox 155,2015,54230,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,14100000
+motor,Yamaha,R15 Connected,2018,46728,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,19500000
+motor,Yamaha,MX King 150,2021,38213,Manual,Bensin,3,Hanya STNK + BPKB,Semarang,16000000
+motor,Kawasaki,KLX 150,2021,42123,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,24700000
+motor,Kawasaki,Ninja ZX-25R,2024,10519,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,95800000
+motor,Suzuki,Satria F150,2015,137257,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Surabaya,10700000
+motor,Suzuki,GSX-R150,2019,62908,Manual,Bensin,4,Hanya STNK + BPKB,Medan,16000000
+motor,Vespa,Sprint 150 i-get,2016,47536,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,29900000
+mobil,Toyota,Avanza Veloz,2022,41279,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,236000000
+mobil,Toyota,Innova Zenix,2017,135398,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,288500000
+mobil,Toyota,Fortuner VRZ,2017,127288,Otomatis,Bensin,4,Hanya STNK + BPKB,Surabaya,342500000
+mobil,Toyota,Rush GR Sport,2018,64434,Manual,Bensin,3,Hanya BPKB Saja,Medan,135000000
+mobil,Toyota,Agya GR Sport,2022,28258,Otomatis,Bensin,3,Hanya STNK + BPKB,Semarang,169500000
+mobil,Toyota,Camry Hybrid,2020,53635,Otomatis,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Surabaya,607000000
+mobil,Honda,Brio RS,2019,109052,Manual,Bensin,3,Hanya STNK Saja,Medan,84500000
+mobil,Honda,HR-V SE,2016,77933,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,208000000
+mobil,Honda,CR-V Turbo,2024,17762,Otomatis,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Jakarta,736000000
+mobil,Honda,Civic RS,2024,10718,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,531000000
+mobil,Honda,BR-V Prestige,2022,35977,Otomatis,Bensin,5,Hanya BPKB Saja,Jakarta,260000000
+mobil,Daihatsu,Sigra R Deluxe,2015,234806,Manual,Bensin,4,Hanya STNK + BPKB,Bandung,74000000
+mobil,Daihatsu,Xenia R ADS,2022,37888,Otomatis,Bensin,5,Hanya STNK + BPKB,Yogyakarta,217500000
+mobil,Daihatsu,Terios R Custom,2022,44400,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,223500000
+mobil,Daihatsu,Ayla R ADS,2019,82271,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,118000000
+mobil,Mitsubishi,Xpander Ultimate,2018,84298,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,179000000
+mobil,Mitsubishi,Pajero Sport Dakar,2016,160994,Otomatis,Diesel,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,310000000
+mobil,Mitsubishi,Xforce Ultimate,2022,23364,Otomatis,Bensin,4,Hanya STNK Saja,Yogyakarta,196500000
+mobil,Suzuki,Ertiga Hybrid,2024,13884,Otomatis,Bensin,4,Hanya STNK + BPKB,Makassar,269000000
+mobil,Suzuki,XL7 Alpha,2018,146841,Manual,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,169500000
+mobil,Suzuki,Baleno Hatchback,2016,88488,Otomatis,Bensin,1,Hanya STNK Saja,Bandung,63500000
+mobil,Hyundai,Stargazer Prime,2015,94565,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,131500000
+mobil,Hyundai,Creta Prime,2022,46118,Otomatis,Bensin,3,Hanya STNK + BPKB,Surabaya,296500000
+mobil,Hyundai,Ioniq 5 Signature,2015,106694,Otomatis,Listrik (EV),5,Hanya STNK + BPKB,Denpasar,325000000
+mobil,Wuling,Air ev Long Range,2015,69977,Otomatis,Listrik (EV),4,Hanya STNK + BPKB,Jakarta,89500000
+mobil,Wuling,Almaz RS Pro,2024,12116,Otomatis,Bensin,4,Hanya STNK + BPKB,Surabaya,374000000
+mobil,Mazda,CX-5 Elite,2018,102563,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,313000000
+mobil,Mazda,Mazda3 Hatchback,2018,106413,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,284000000
+mobil,Nissan,Livina VL,2024,13413,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,282500000
+mobil,BMW,320i M Sport,2017,21818,Otomatis,Bensin,3,Hanya STNK + BPKB,Denpasar,470500000
+mobil,Mercedes-Benz,C200 Avantgarde,2020,59831,Otomatis,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Makassar,694500000
+mobil,BYD,Seal Performance,2020,56105,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Semarang,431000000
+mobil,BYD,Atto 3 Superior,2020,30546,Otomatis,Listrik (EV),5,Lengkap (STNK + BPKB + Faktur),Jakarta,372500000
+motor,Honda,Vario 160,2019,70581,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Semarang,16800000
+motor,Honda,Beat Deluxe,2018,76164,Otomatis,Bensin,1,Hanya STNK + BPKB,Semarang,7800000
+motor,Honda,PCX 160,2023,23254,Otomatis,Bensin,1,Lengkap (STNK + BPKB + Faktur),Bandung,21200000
+motor,Honda,CBR150R,2019,25360,Manual,Bensin,3,Hanya STNK + BPKB,Surabaya,18700000
+motor,Honda,CRF150L,2024,5847,Manual,Bensin,4,Hanya STNK + BPKB,Denpasar,32500000
+motor,Yamaha,NMAX 155,2017,89054,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,18000000
+motor,Yamaha,Aerox 155,2016,62572,Otomatis,Bensin,3,Hanya STNK + BPKB,Makassar,14300000
+motor,Yamaha,R15 Connected,2016,81262,Manual,Bensin,4,Hanya STNK + BPKB,Jakarta,14700000
+motor,Yamaha,MX King 150,2019,72652,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,14000000
+motor,Kawasaki,KLX 150,2017,43299,Manual,Bensin,5,Hanya STNK + BPKB,Surabaya,19200000
+motor,Kawasaki,Ninja ZX-25R,2018,30865,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,54600000
+motor,Suzuki,Satria F150,2016,106876,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,11200000
+motor,Suzuki,GSX-R150,2023,4949,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,27400000
+motor,Vespa,Sprint 150 i-get,2022,24900,Otomatis,Bensin,4,Hanya BPKB Saja,Medan,40200000
+mobil,Toyota,Avanza Veloz,2018,102133,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,184000000
+mobil,Toyota,Innova Zenix,2016,119086,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,254500000
+mobil,Toyota,Fortuner VRZ,2024,12496,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Denpasar,519500000
+mobil,Toyota,Rush GR Sport,2024,11972,Otomatis,Bensin,1,Hanya STNK + BPKB,Medan,200500000
+mobil,Toyota,Agya GR Sport,2020,62208,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Bandung,144000000
+mobil,Toyota,Camry Hybrid,2019,72396,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,527500000
+mobil,Honda,Brio RS,2022,34217,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,179000000
+mobil,Honda,HR-V SE,2023,31623,Otomatis,Bensin,4,Hanya BPKB Saja,Jakarta,309500000
+mobil,Honda,CR-V Turbo,2021,49184,Otomatis,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Semarang,566000000
+mobil,Honda,Civic RS,2015,125306,Otomatis,Bensin,2,Hanya STNK + BPKB,Yogyakarta,200500000
+mobil,Honda,BR-V Prestige,2016,105959,Otomatis,Bensin,5,Hanya STNK + BPKB,Medan,174500000
+mobil,Daihatsu,Sigra R Deluxe,2021,62038,Otomatis,Bensin,3,Hanya STNK + BPKB,Surabaya,117000000
+mobil,Daihatsu,Xenia R ADS,2017,151051,Otomatis,Bensin,4,Hanya STNK + BPKB,Jakarta,136000000
+mobil,Daihatsu,Terios R Custom,2018,155261,Manual,Bensin,3,Hanya STNK + BPKB,Jakarta,141000000
+mobil,Daihatsu,Ayla R ADS,2020,54112,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,121500000
+mobil,Mitsubishi,Xpander Ultimate,2015,142849,Manual,Bensin,5,Hanya STNK + BPKB,Jakarta,154500000
+mobil,Mitsubishi,Pajero Sport Dakar,2023,35508,Otomatis,Diesel,2,Hanya STNK Saja,Bandung,302000000
+mobil,Mitsubishi,Xforce Ultimate,2016,87148,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,190500000
+mobil,Suzuki,Ertiga Hybrid,2019,75563,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,172500000
+mobil,Suzuki,XL7 Alpha,2024,9988,Otomatis,Hybrid,3,Hanya STNK + BPKB,Bandung,290500000
+mobil,Suzuki,Baleno Hatchback,2021,77700,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,177500000
+mobil,Hyundai,Stargazer Prime,2017,108784,Otomatis,Bensin,4,Hanya STNK + BPKB,Makassar,160500000
+mobil,Hyundai,Creta Prime,2021,48805,Otomatis,Bensin,4,Hanya STNK + BPKB,Semarang,288000000
+mobil,Hyundai,Ioniq 5 Signature,2017,59952,Otomatis,Listrik (EV),2,Lengkap (STNK + BPKB + Faktur),Semarang,334000000
+mobil,Wuling,Air ev Long Range,2024,8966,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Surabaya,251500000
+mobil,Wuling,Almaz RS Pro,2022,52892,Otomatis,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Makassar,334000000
+mobil,Mazda,CX-5 Elite,2022,40499,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Makassar,399000000
+mobil,Mazda,Mazda3 Hatchback,2015,111123,Otomatis,Bensin,3,Hanya STNK + BPKB,Medan,198000000
+mobil,Nissan,Livina VL,2018,104096,Otomatis,Bensin,5,Hanya BPKB Saja,Denpasar,155000000
+mobil,BMW,320i M Sport,2020,52526,Otomatis,Bensin,3,Hanya STNK + BPKB,Makassar,599000000
+mobil,Mercedes-Benz,C200 Avantgarde,2020,34203,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,730000000
+mobil,BYD,Seal Performance,2018,107425,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Jakarta,367500000
+mobil,BYD,Atto 3 Superior,2018,29257,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Semarang,265500000
+motor,Honda,Vario 160,2022,39589,Otomatis,Bensin,3,Hanya STNK Saja,Bandung,12400000
+motor,Honda,Beat Deluxe,2022,21006,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,16100000
+motor,Honda,PCX 160,2021,51089,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,22400000
+motor,Honda,CBR150R,2022,22836,Manual,Bensin,3,Hanya STNK + BPKB,Bandung,24500000
+motor,Honda,CRF150L,2016,59566,Manual,Bensin,4,Hanya STNK + BPKB,Surabaya,16200000
+motor,Yamaha,NMAX 155,2023,31176,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,25900000
+motor,Yamaha,Aerox 155,2020,68257,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Jakarta,23000000
+motor,Yamaha,R15 Connected,2021,41583,Manual,Bensin,4,Hanya BPKB Saja,Semarang,20400000
+motor,Yamaha,MX King 150,2017,103142,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Semarang,12500000
+motor,Kawasaki,KLX 150,2015,52480,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,16200000
+motor,Kawasaki,Ninja ZX-25R,2024,4200,Manual,Bensin,3,Hanya STNK + BPKB,Denpasar,94500000
+motor,Suzuki,Satria F150,2021,36145,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,18600000
+motor,Suzuki,GSX-R150,2024,9222,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,28100000
+motor,Vespa,Sprint 150 i-get,2015,82320,Otomatis,Bensin,4,Hanya STNK + BPKB,Semarang,27600000
+mobil,Toyota,Avanza Veloz,2020,91450,Otomatis,Bensin,2,Hanya BPKB Saja,Bandung,150500000
+mobil,Toyota,Innova Zenix,2019,87184,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,338500000
+mobil,Toyota,Fortuner VRZ,2016,97636,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,284500000
+mobil,Toyota,Rush GR Sport,2021,64633,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,209000000
+mobil,Toyota,Agya GR Sport,2020,66311,Manual,Bensin,4,Hanya STNK + BPKB,Surabaya,149000000
+mobil,Toyota,Camry Hybrid,2024,13094,Otomatis,Bensin,4,Hanya STNK + BPKB,Semarang,824500000
+mobil,Honda,Brio RS,2021,56147,Manual,Bensin,4,Hanya BPKB Saja,Yogyakarta,147000000
+mobil,Honda,HR-V SE,2017,120177,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,213500000
+mobil,Honda,CR-V Turbo,2019,74896,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Surabaya,378500000
+mobil,Honda,Civic RS,2018,107235,Otomatis,Bensin,1,Lengkap (STNK + BPKB + Faktur),Medan,229500000
+mobil,Honda,BR-V Prestige,2015,47006,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,154000000
+mobil,Daihatsu,Sigra R Deluxe,2023,25182,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Makassar,124500000
+mobil,Daihatsu,Xenia R ADS,2024,16273,Otomatis,Bensin,3,Hanya STNK + BPKB,Denpasar,233500000
+mobil,Daihatsu,Terios R Custom,2022,51666,Otomatis,Bensin,3,Hanya STNK + BPKB,Yogyakarta,205500000
+mobil,Daihatsu,Ayla R ADS,2022,43272,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,138000000
+mobil,Mitsubishi,Xpander Ultimate,2023,34206,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,279500000
+mobil,Mitsubishi,Pajero Sport Dakar,2016,100351,Otomatis,Diesel,4,Lengkap (STNK + BPKB + Faktur),Makassar,346000000
+mobil,Mitsubishi,Xforce Ultimate,2023,20141,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,338000000
+mobil,Suzuki,Ertiga Hybrid,2020,77713,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,185500000
+mobil,Suzuki,XL7 Alpha,2020,65307,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,184500000
+mobil,Suzuki,Baleno Hatchback,2020,59650,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Jakarta,201500000
+mobil,Hyundai,Stargazer Prime,2022,50219,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,221000000
+mobil,Hyundai,Creta Prime,2020,42743,Otomatis,Bensin,4,Hanya STNK Saja,Bandung,171500000
+mobil,Hyundai,Ioniq 5 Signature,2018,98952,Otomatis,Listrik (EV),3,Hanya STNK Saja,Surabaya,252000000
+mobil,Wuling,Air ev Long Range,2015,92023,Otomatis,Listrik (EV),4,Hanya STNK + BPKB,Surabaya,87000000
+mobil,Wuling,Almaz RS Pro,2020,66366,Otomatis,Bensin,2,Hanya STNK + BPKB,Semarang,215500000
+mobil,Mazda,CX-5 Elite,2015,83006,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,241500000
+mobil,Mazda,Mazda3 Hatchback,2023,27143,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,471000000
+mobil,Nissan,Livina VL,2019,85606,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Surabaya,199000000
+mobil,BMW,320i M Sport,2018,13232,Otomatis,Bensin,3,Hanya STNK Saja,Semarang,324500000
+mobil,Mercedes-Benz,C200 Avantgarde,2024,7877,Otomatis,Bensin,2,Hanya STNK + BPKB,Yogyakarta,882000000
+mobil,BYD,Seal Performance,2023,25373,Otomatis,Listrik (EV),2,Lengkap (STNK + BPKB + Faktur),Jakarta,550500000
+mobil,BYD,Atto 3 Superior,2016,99232,Otomatis,Listrik (EV),2,Lengkap (STNK + BPKB + Faktur),Denpasar,201000000
+motor,Honda,Vario 160,2024,14094,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,23900000
+motor,Honda,Beat Deluxe,2022,44759,Otomatis,Bensin,4,Hanya STNK Saja,Denpasar,9700000
+motor,Honda,PCX 160,2016,93877,Otomatis,Bensin,4,Hanya STNK + BPKB,Denpasar,16000000
+motor,Honda,CBR150R,2022,22784,Manual,Bensin,2,Hanya STNK Saja,Semarang,13700000
+motor,Honda,CRF150L,2020,61923,Manual,Bensin,4,Hanya STNK + BPKB,Yogyakarta,21500000
+motor,Yamaha,NMAX 155,2022,32664,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Denpasar,23400000
+motor,Yamaha,Aerox 155,2022,30392,Otomatis,Bensin,4,Hanya STNK + BPKB,Bandung,25300000
+motor,Yamaha,R15 Connected,2023,13011,Manual,Bensin,4,Hanya STNK + BPKB,Yogyakarta,30900000
+motor,Yamaha,MX King 150,2023,17876,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,20500000
+motor,Kawasaki,KLX 150,2018,41150,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Yogyakarta,21400000
+motor,Kawasaki,Ninja ZX-25R,2018,39640,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,54900000
+motor,Suzuki,Satria F150,2017,48560,Manual,Bensin,2,Hanya STNK + BPKB,Yogyakarta,10700000
+motor,Suzuki,GSX-R150,2023,9325,Manual,Bensin,3,Hanya BPKB Saja,Surabaya,22700000
+motor,Vespa,Sprint 150 i-get,2024,7173,Otomatis,Bensin,3,Hanya STNK + BPKB,Jakarta,48600000
+mobil,Toyota,Avanza Veloz,2016,118394,Otomatis,Bensin,5,Hanya STNK Saja,Jakarta,107000000
+mobil,Toyota,Innova Zenix,2017,122724,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,293500000
+mobil,Toyota,Fortuner VRZ,2018,47463,Otomatis,Bensin,3,Hanya STNK + BPKB,Semarang,352000000
+mobil,Toyota,Rush GR Sport,2021,53309,Manual,Bensin,4,Hanya STNK + BPKB,Makassar,207500000
+mobil,Toyota,Agya GR Sport,2017,102140,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Jakarta,113000000
+mobil,Toyota,Camry Hybrid,2015,99471,Otomatis,Hybrid,5,Hanya STNK Saja,Medan,235500000
+mobil,Honda,Brio RS,2021,66140,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,167500000
+mobil,Honda,HR-V SE,2023,39258,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,321500000
+mobil,Honda,CR-V Turbo,2020,51186,Otomatis,Bensin,3,Hanya STNK Saja,Bandung,286500000
+mobil,Honda,Civic RS,2017,42233,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,310500000
+mobil,Honda,BR-V Prestige,2021,58327,Otomatis,Bensin,2,Hanya STNK + BPKB,Denpasar,215500000
+mobil,Daihatsu,Sigra R Deluxe,2024,7884,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,163500000
+mobil,Daihatsu,Xenia R ADS,2021,50620,Manual,Bensin,3,Hanya STNK + BPKB,Denpasar,176500000
+mobil,Daihatsu,Terios R Custom,2018,147476,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Jakarta,164500000
+mobil,Daihatsu,Ayla R ADS,2015,114930,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Surabaya,65500000
+mobil,Mitsubishi,Xpander Ultimate,2017,39699,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,164500000
+mobil,Mitsubishi,Pajero Sport Dakar,2018,101627,Otomatis,Diesel,4,Lengkap (STNK + BPKB + Faktur),Semarang,384000000
+mobil,Mitsubishi,Xforce Ultimate,2024,11527,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,396500000
+mobil,Suzuki,Ertiga Hybrid,2023,26111,Manual,Bensin,3,Hanya BPKB Saja,Semarang,185000000
+mobil,Suzuki,XL7 Alpha,2019,88250,Otomatis,Hybrid,4,Hanya STNK + BPKB,Semarang,197000000
+mobil,Suzuki,Baleno Hatchback,2024,8074,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,283000000
+mobil,Hyundai,Stargazer Prime,2019,78604,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,183000000
+mobil,Hyundai,Creta Prime,2019,90934,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,244000000
+mobil,Hyundai,Ioniq 5 Signature,2015,141453,Otomatis,Listrik (EV),5,Hanya STNK + BPKB,Denpasar,319000000
+mobil,Wuling,Air ev Long Range,2020,38772,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Bandung,168000000
+mobil,Wuling,Almaz RS Pro,2023,17078,Otomatis,Hybrid,5,Hanya BPKB Saja,Bandung,343500000
+mobil,Mazda,CX-5 Elite,2022,34156,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,455000000
+mobil,Mazda,Mazda3 Hatchback,2018,70665,Otomatis,Bensin,4,Hanya STNK + BPKB,Surabaya,278000000
+mobil,Nissan,Livina VL,2015,112776,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,121500000
+mobil,BMW,320i M Sport,2021,41918,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,660500000
+mobil,Mercedes-Benz,C200 Avantgarde,2015,135211,Otomatis,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Jakarta,368000000
+mobil,BYD,Seal Performance,2016,127792,Otomatis,Listrik (EV),4,Hanya STNK + BPKB,Semarang,287000000
+mobil,BYD,Atto 3 Superior,2020,46352,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Makassar,346500000
+motor,Honda,Vario 160,2022,18294,Otomatis,Bensin,3,Hanya STNK + BPKB,Bandung,21000000
+motor,Honda,Beat Deluxe,2020,65008,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,12800000
+motor,Honda,PCX 160,2023,28921,Otomatis,Bensin,3,Hanya STNK + BPKB,Semarang,24900000
+motor,Honda,CBR150R,2018,62371,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,16900000
+motor,Honda,CRF150L,2024,7197,Manual,Bensin,2,Hanya STNK + BPKB,Makassar,26900000
+motor,Yamaha,NMAX 155,2024,12999,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,30200000
+motor,Yamaha,Aerox 155,2016,125217,Otomatis,Bensin,4,Hanya STNK + BPKB,Yogyakarta,14100000
+motor,Yamaha,R15 Connected,2019,62868,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,18800000
+motor,Yamaha,MX King 150,2020,38680,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Denpasar,17700000
+motor,Kawasaki,KLX 150,2016,43305,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,17700000
+motor,Kawasaki,Ninja ZX-25R,2016,53093,Manual,Bensin,3,Hanya STNK + BPKB,Denpasar,45100000
+motor,Suzuki,Satria F150,2019,87764,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Semarang,12700000
+motor,Suzuki,GSX-R150,2022,21199,Manual,Bensin,2,Hanya STNK + BPKB,Jakarta,20500000
+motor,Vespa,Sprint 150 i-get,2021,13859,Otomatis,Bensin,4,Hanya STNK Saja,Jakarta,28600000
+mobil,BYD,Atto 3 Superior,2022,44486,Otomatis,Listrik (EV),3,Hanya STNK + BPKB,Surabaya,375000000
+motor,Honda,Beat Deluxe,2018,44078,Otomatis,Bensin,5,Hanya STNK + BPKB,Denpasar,12200000
+mobil,Honda,HR-V SE,2024,12400,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,398000000
+mobil,Hyundai,Ioniq 5 Signature,2023,16656,Otomatis,Listrik (EV),4,Hanya STNK + BPKB,Semarang,737000000
+motor,Yamaha,MX King 150,2018,69056,Manual,Bensin,5,Hanya STNK + BPKB,Semarang,13600000
+motor,Suzuki,Satria F150,2021,48883,Manual,Bensin,3,Hanya STNK Saja,Denpasar,11000000
+mobil,Daihatsu,Xenia R ADS,2017,102899,Otomatis,Bensin,1,Hanya BPKB Saja,Medan,88500000
+mobil,BYD,Seal Performance,2021,42833,Otomatis,Listrik (EV),3,Hanya BPKB Saja,Denpasar,417000000
+mobil,Toyota,Innova Zenix,2015,129130,Otomatis,Hybrid,3,Hanya STNK + BPKB,Makassar,241000000
+mobil,Honda,HR-V SE,2018,102224,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,241000000
+mobil,Toyota,Fortuner VRZ,2017,149926,Manual,Diesel,3,Hanya STNK Saja,Jakarta,195000000
+mobil,Mitsubishi,Xpander Ultimate,2017,151416,Otomatis,Bensin,4,Hanya STNK Saja,Surabaya,108500000
+mobil,BMW,320i M Sport,2024,9678,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,1075000000
+motor,Yamaha,NMAX 155,2024,5551,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,31000000
+mobil,Suzuki,Baleno Hatchback,2016,69316,Otomatis,Bensin,4,Hanya STNK + BPKB,Jakarta,136500000
+motor,Honda,CRF150L,2017,91185,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Makassar,15300000
+mobil,Honda,BR-V Prestige,2020,80420,Otomatis,Bensin,3,Hanya STNK + BPKB,Bandung,213000000
+mobil,Honda,Brio RS,2024,5746,Manual,Bensin,1,Lengkap (STNK + BPKB + Faktur),Jakarta,169000000
+mobil,Toyota,Avanza Veloz,2017,88585,Otomatis,Bensin,3,Hanya STNK + BPKB,Denpasar,164000000
+motor,Suzuki,Satria F150,2017,79762,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,12200000
+mobil,Mitsubishi,Xpander Ultimate,2017,45495,Otomatis,Bensin,4,Hanya STNK + BPKB,Surabaya,185000000
+motor,Yamaha,R15 Connected,2019,32552,Manual,Bensin,1,Lengkap (STNK + BPKB + Faktur),Surabaya,15600000
+motor,Honda,Vario 160,2016,138700,Otomatis,Bensin,3,Hanya STNK + BPKB,Medan,10800000
+mobil,Mitsubishi,Xforce Ultimate,2015,28909,Otomatis,Bensin,4,Hanya STNK + BPKB,Denpasar,193000000
+mobil,BYD,Seal Performance,2017,117065,Otomatis,Listrik (EV),2,Lengkap (STNK + BPKB + Faktur),Medan,283500000
+mobil,Mazda,Mazda3 Hatchback,2019,39761,Otomatis,Bensin,1,Hanya STNK + BPKB,Bandung,246000000
+mobil,Honda,BR-V Prestige,2015,116154,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Denpasar,128500000
+motor,Honda,CRF150L,2024,13449,Manual,Bensin,3,Hanya STNK + BPKB,Yogyakarta,27500000
+mobil,Daihatsu,Ayla R ADS,2016,121063,Manual,Bensin,2,Hanya STNK + BPKB,Medan,68500000
+mobil,Wuling,Air ev Long Range,2018,88161,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Makassar,123000000
+mobil,Honda,Civic RS,2018,87939,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,296000000
+motor,Yamaha,R15 Connected,2020,43229,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Jakarta,21400000
+mobil,Mitsubishi,Xforce Ultimate,2017,113901,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,198500000
+mobil,Daihatsu,Ayla R ADS,2019,83484,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,112000000
+mobil,Toyota,Camry Hybrid,2021,58863,Otomatis,Hybrid,4,Hanya STNK + BPKB,Semarang,625000000
+mobil,Toyota,Avanza Veloz,2021,27149,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,237500000
+motor,Honda,CBR150R,2015,59718,Manual,Bensin,1,Lengkap (STNK + BPKB + Faktur),Jakarta,9600000
+mobil,Mazda,Mazda3 Hatchback,2023,17247,Otomatis,Bensin,4,Hanya STNK + BPKB,Surabaya,479000000
+mobil,Nissan,Livina VL,2022,14551,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,265500000
+mobil,Daihatsu,Terios R Custom,2017,149590,Manual,Bensin,3,Hanya BPKB Saja,Jakarta,114500000
+mobil,Mercedes-Benz,C200 Avantgarde,2019,57831,Otomatis,Hybrid,4,Hanya STNK + BPKB,Jakarta,641500000
+mobil,BMW,320i M Sport,2022,34690,Otomatis,Bensin,3,Hanya STNK Saja,Denpasar,492500000
+motor,Suzuki,GSX-R150,2015,99167,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Jakarta,12000000
+mobil,Suzuki,Ertiga Hybrid,2021,52684,Manual,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,214000000
+mobil,Toyota,Rush GR Sport,2023,26362,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Jakarta,223000000
+mobil,Hyundai,Ioniq 5 Signature,2020,64793,Otomatis,Listrik (EV),4,Hanya STNK + BPKB,Bandung,485500000
+mobil,Hyundai,Stargazer Prime,2018,113094,Otomatis,Bensin,4,Hanya STNK + BPKB,Medan,167000000
+mobil,Daihatsu,Ayla R ADS,2020,62149,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Jakarta,113000000
+mobil,Toyota,Agya GR Sport,2020,80234,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,142500000
+mobil,Mercedes-Benz,C200 Avantgarde,2023,15055,Otomatis,Hybrid,4,Hanya STNK + BPKB,Surabaya,1022500000
+mobil,Daihatsu,Xenia R ADS,2022,31457,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,199500000
+mobil,Honda,Brio RS,2017,81198,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,133500000
+motor,Honda,Vario 160,2015,122164,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Bandung,12600000
+mobil,Mercedes-Benz,C200 Avantgarde,2020,59658,Otomatis,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Medan,702500000
+mobil,Toyota,Agya GR Sport,2015,96906,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,105000000
+mobil,BYD,Seal Performance,2024,13641,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Semarang,642000000
+mobil,Honda,BR-V Prestige,2019,109890,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Jakarta,202000000
+mobil,Honda,Civic RS,2020,63562,Otomatis,Bensin,5,Hanya STNK + BPKB,Bandung,412500000
+motor,Suzuki,GSX-R150,2023,16864,Manual,Bensin,5,Hanya STNK + BPKB,Bandung,27500000
+mobil,Honda,BR-V Prestige,2018,89877,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Denpasar,213500000
+mobil,Mitsubishi,Pajero Sport Dakar,2020,61802,Otomatis,Diesel,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,470000000
+mobil,Hyundai,Creta Prime,2017,76227,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,210500000
+mobil,Honda,HR-V SE,2015,53989,Otomatis,Bensin,4,Hanya STNK Saja,Yogyakarta,127500000
+mobil,Honda,Civic RS,2015,115041,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,231000000
+motor,Honda,CBR150R,2022,29465,Manual,Bensin,4,Hanya STNK Saja,Bandung,16700000
+motor,Kawasaki,Ninja ZX-25R,2023,6730,Manual,Bensin,1,Hanya STNK + BPKB,Medan,63500000
+mobil,Nissan,Livina VL,2020,51924,Otomatis,Bensin,2,Hanya STNK + BPKB,Medan,163000000
+mobil,Mitsubishi,Xforce Ultimate,2018,104902,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,228000000
+mobil,BYD,Atto 3 Superior,2021,42349,Otomatis,Listrik (EV),3,Hanya STNK + BPKB,Jakarta,332500000
+motor,Kawasaki,KLX 150,2020,42862,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,22100000
+mobil,Hyundai,Ioniq 5 Signature,2015,111977,Otomatis,Listrik (EV),3,Hanya BPKB Saja,Surabaya,246500000
+mobil,Daihatsu,Terios R Custom,2022,59989,Manual,Bensin,3,Hanya STNK + BPKB,Makassar,183000000
+motor,Vespa,Sprint 150 i-get,2021,2636,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Yogyakarta,40700000
+mobil,Toyota,Agya GR Sport,2024,18481,Manual,Bensin,1,Hanya STNK + BPKB,Semarang,147500000
+mobil,Mazda,CX-5 Elite,2017,97786,Otomatis,Bensin,3,Hanya STNK + BPKB,Semarang,269500000
+motor,Honda,PCX 160,2022,38009,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,26300000
+mobil,Daihatsu,Ayla R ADS,2015,142863,Otomatis,Bensin,3,Hanya BPKB Saja,Denpasar,68000000
+mobil,Honda,HR-V SE,2019,98854,Otomatis,Bensin,3,Hanya STNK + BPKB,Medan,244500000
+mobil,Toyota,Innova Zenix,2016,140833,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Yogyakarta,272500000
+motor,Honda,CRF150L,2022,22327,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,26700000
+mobil,Hyundai,Ioniq 5 Signature,2023,17414,Otomatis,Listrik (EV),2,Lengkap (STNK + BPKB + Faktur),Yogyakarta,643000000
+mobil,BMW,320i M Sport,2017,67421,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Yogyakarta,402500000
+mobil,Toyota,Rush GR Sport,2019,63275,Manual,Bensin,3,Hanya STNK + BPKB,Bandung,175000000
+mobil,Honda,Brio RS,2024,12500,Otomatis,Bensin,5,Hanya STNK + BPKB,Semarang,233500000
+mobil,Mitsubishi,Xforce Ultimate,2020,54097,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,276000000
+mobil,Hyundai,Ioniq 5 Signature,2022,41168,Otomatis,Listrik (EV),5,Lengkap (STNK + BPKB + Faktur),Medan,666500000
+mobil,Honda,Civic RS,2023,18458,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,522500000
+mobil,Mazda,CX-5 Elite,2022,20570,Otomatis,Bensin,4,Hanya STNK Saja,Denpasar,312500000
+mobil,Hyundai,Creta Prime,2019,64285,Otomatis,Bensin,4,Hanya STNK Saja,Yogyakarta,160000000
+mobil,Daihatsu,Sigra R Deluxe,2019,97089,Otomatis,Bensin,3,Hanya STNK + BPKB,Bandung,103500000
+motor,Suzuki,Satria F150,2018,92262,Manual,Bensin,3,Hanya BPKB Saja,Makassar,10600000
+motor,Suzuki,Satria F150,2016,105569,Manual,Bensin,4,Hanya STNK + BPKB,Jakarta,11000000
+mobil,Daihatsu,Xenia R ADS,2016,143803,Otomatis,Bensin,3,Hanya STNK Saja,Jakarta,77000000
+mobil,Toyota,Agya GR Sport,2019,19321,Otomatis,Bensin,4,Hanya STNK Saja,Medan,96500000
+motor,Honda,CRF150L,2018,74908,Manual,Bensin,1,Lengkap (STNK + BPKB + Faktur),Semarang,14300000
+motor,Honda,CRF150L,2020,48360,Manual,Bensin,4,Hanya STNK + BPKB,Medan,22300000
+mobil,BYD,Atto 3 Superior,2024,11805,Otomatis,Listrik (EV),4,Hanya STNK + BPKB,Medan,474500000
+motor,Suzuki,GSX-R150,2018,48474,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Surabaya,16600000
+mobil,Daihatsu,Terios R Custom,2023,33646,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,237500000
+mobil,Daihatsu,Sigra R Deluxe,2020,71862,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,108000000
+mobil,Suzuki,Baleno Hatchback,2016,108017,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,127500000
+motor,Suzuki,GSX-R150,2019,28909,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,16000000
+mobil,BMW,320i M Sport,2024,8348,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,944000000
+mobil,Daihatsu,Xenia R ADS,2016,112894,Manual,Bensin,3,Hanya BPKB Saja,Denpasar,103000000
+motor,Kawasaki,Ninja ZX-25R,2016,50545,Manual,Bensin,4,Hanya STNK + BPKB,Surabaya,47400000
+mobil,Honda,Civic RS,2021,50509,Otomatis,Bensin,4,Hanya STNK Saja,Bandung,269000000
+mobil,Toyota,Agya GR Sport,2020,71199,Otomatis,Bensin,3,Hanya STNK + BPKB,Makassar,140500000
+mobil,Honda,HR-V SE,2018,114776,Otomatis,Bensin,3,Hanya STNK + BPKB,Semarang,216000000
+motor,Yamaha,MX King 150,2021,55252,Manual,Bensin,4,Hanya BPKB Saja,Denpasar,14700000
+mobil,BYD,Atto 3 Superior,2019,36837,Otomatis,Listrik (EV),2,Lengkap (STNK + BPKB + Faktur),Denpasar,280000000
+mobil,Daihatsu,Ayla R ADS,2017,111292,Otomatis,Bensin,4,Hanya STNK + BPKB,Denpasar,95000000
+motor,Kawasaki,Ninja ZX-25R,2015,48041,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,44400000
+motor,Yamaha,Aerox 155,2024,6431,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,32200000
+mobil,BMW,320i M Sport,2018,51086,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,508500000
+motor,Honda,Beat Deluxe,2023,18028,Otomatis,Bensin,5,Hanya STNK Saja,Surabaya,11400000
+mobil,Wuling,Air ev Long Range,2022,23847,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Bandung,197500000
+motor,Honda,PCX 160,2019,61951,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,19000000
+mobil,BYD,Seal Performance,2016,121002,Otomatis,Listrik (EV),3,Hanya STNK + BPKB,Jakarta,274500000
+mobil,Wuling,Almaz RS Pro,2019,72650,Otomatis,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Semarang,243000000
+mobil,Suzuki,Baleno Hatchback,2015,27755,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Jakarta,113000000
+motor,Yamaha,R15 Connected,2020,68951,Manual,Bensin,3,Hanya BPKB Saja,Makassar,17000000
+mobil,Hyundai,Creta Prime,2015,124277,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,165000000
+motor,Suzuki,Satria F150,2016,95136,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,10800000
+mobil,Toyota,Fortuner VRZ,2022,30027,Manual,Bensin,3,Hanya STNK + BPKB,Jakarta,468000000
+mobil,Suzuki,Baleno Hatchback,2021,58301,Otomatis,Bensin,4,Hanya STNK + BPKB,Surabaya,197000000
+motor,Suzuki,Satria F150,2018,83168,Manual,Bensin,3,Hanya STNK + BPKB,Yogyakarta,12500000
+mobil,Honda,BR-V Prestige,2024,16225,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Surabaya,321000000
+motor,Honda,Beat Deluxe,2018,62565,Otomatis,Bensin,1,Hanya BPKB Saja,Makassar,7000000
+mobil,Daihatsu,Ayla R ADS,2024,12881,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,186000000
+mobil,Mazda,Mazda3 Hatchback,2018,46177,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,294500000
+mobil,Mazda,Mazda3 Hatchback,2023,22037,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,457000000
+motor,Kawasaki,KLX 150,2023,15148,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,30400000
+motor,Honda,CBR150R,2022,22952,Manual,Bensin,3,Hanya STNK + BPKB,Makassar,24800000
+motor,Honda,CBR150R,2015,42617,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,11900000
+mobil,Mazda,Mazda3 Hatchback,2021,40698,Otomatis,Bensin,4,Hanya STNK + BPKB,Semarang,365500000
+mobil,Suzuki,Ertiga Hybrid,2017,106091,Manual,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Medan,147000000
+mobil,Toyota,Innova Zenix,2018,98614,Otomatis,Bensin,3,Hanya BPKB Saja,Makassar,236500000
+motor,Yamaha,MX King 150,2015,71524,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,9500000
+motor,Kawasaki,KLX 150,2023,12779,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Jakarta,32700000
+mobil,Toyota,Rush GR Sport,2016,174446,Manual,Bensin,5,Hanya STNK Saja,Makassar,91000000
+mobil,Hyundai,Ioniq 5 Signature,2016,65989,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Surabaya,333000000
+motor,Honda,Vario 160,2024,10919,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Surabaya,27600000
+mobil,Suzuki,Baleno Hatchback,2020,88449,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Surabaya,186500000
+mobil,Daihatsu,Sigra R Deluxe,2018,79457,Manual,Bensin,3,Hanya STNK Saja,Jakarta,58000000
+mobil,BYD,Seal Performance,2023,20455,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Medan,585000000
+mobil,Mitsubishi,Xforce Ultimate,2017,124435,Otomatis,Bensin,4,Hanya STNK + BPKB,Jakarta,207500000
+motor,Yamaha,MX King 150,2024,10396,Manual,Bensin,4,Hanya STNK + BPKB,Medan,22100000
+mobil,Mitsubishi,Pajero Sport Dakar,2023,23233,Otomatis,Diesel,4,Hanya STNK + BPKB,Surabaya,603000000
+motor,Honda,Beat Deluxe,2018,36239,Otomatis,Bensin,1,Hanya BPKB Saja,Semarang,7400000
+mobil,Suzuki,XL7 Alpha,2016,202492,Otomatis,Bensin,3,Hanya STNK Saja,Denpasar,86500000
+motor,Yamaha,R15 Connected,2020,37719,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,21900000
+mobil,Mercedes-Benz,C200 Avantgarde,2021,37078,Otomatis,Hybrid,5,Hanya STNK + BPKB,Bandung,871000000
+motor,Suzuki,Satria F150,2019,21195,Manual,Bensin,3,Hanya STNK + BPKB,Yogyakarta,15200000
+mobil,BMW,320i M Sport,2015,57281,Otomatis,Bensin,4,Hanya STNK + BPKB,Bandung,372500000
+mobil,Toyota,Avanza Veloz,2021,50531,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,227000000
+mobil,Mitsubishi,Xpander Ultimate,2023,14575,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,303000000
+mobil,Honda,CR-V Turbo,2019,125368,Otomatis,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Makassar,435500000
+mobil,Hyundai,Ioniq 5 Signature,2017,93008,Otomatis,Listrik (EV),5,Hanya STNK Saja,Medan,242500000
+mobil,Toyota,Innova Zenix,2015,157887,Otomatis,Hybrid,5,Lengkap (STNK + BPKB + Faktur),Bandung,274000000
+mobil,Toyota,Rush GR Sport,2021,45223,Manual,Bensin,2,Hanya BPKB Saja,Bandung,160000000
+motor,Honda,CBR150R,2016,113748,Manual,Bensin,4,Hanya STNK Saja,Denpasar,8500000
+mobil,Honda,HR-V SE,2018,106393,Otomatis,Bensin,5,Hanya STNK + BPKB,Semarang,239500000
+mobil,Suzuki,Ertiga Hybrid,2022,29948,Manual,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Medan,219500000
+mobil,Suzuki,Ertiga Hybrid,2018,141633,Manual,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Semarang,150000000
+mobil,Mitsubishi,Pajero Sport Dakar,2018,98309,Otomatis,Diesel,3,Hanya STNK + BPKB,Denpasar,373000000
+mobil,Toyota,Camry Hybrid,2015,68736,Otomatis,Hybrid,5,Hanya BPKB Saja,Makassar,341500000
+motor,Kawasaki,Ninja ZX-25R,2018,57543,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,54400000
+motor,Honda,PCX 160,2015,87616,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Yogyakarta,16600000
+motor,Yamaha,NMAX 155,2024,9124,Otomatis,Bensin,3,Hanya STNK + BPKB,Semarang,28300000
+mobil,Wuling,Almaz RS Pro,2020,105944,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,251000000
+mobil,Hyundai,Stargazer Prime,2022,36146,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,237000000
+mobil,Mitsubishi,Pajero Sport Dakar,2016,170644,Otomatis,Diesel,5,Lengkap (STNK + BPKB + Faktur),Semarang,344500000
+mobil,Hyundai,Ioniq 5 Signature,2021,35428,Otomatis,Listrik (EV),4,Hanya STNK + BPKB,Semarang,598500000
+motor,Honda,Vario 160,2020,67729,Otomatis,Bensin,3,Hanya BPKB Saja,Bandung,14100000
+motor,Honda,PCX 160,2022,13465,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Jakarta,24700000
+mobil,Mercedes-Benz,C200 Avantgarde,2019,46723,Otomatis,Hybrid,3,Hanya BPKB Saja,Denpasar,547500000
+mobil,Toyota,Fortuner VRZ,2022,19017,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,485000000
+mobil,Honda,HR-V SE,2020,39790,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Bandung,323000000
+mobil,BYD,Atto 3 Superior,2019,69295,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Makassar,292500000
+mobil,Toyota,Agya GR Sport,2018,73742,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Surabaya,141500000
+mobil,Wuling,Almaz RS Pro,2020,67064,Otomatis,Hybrid,2,Lengkap (STNK + BPKB + Faktur),Denpasar,242000000
+mobil,BMW,320i M Sport,2019,95575,Otomatis,Bensin,5,Hanya STNK + BPKB,Denpasar,567500000
+mobil,Suzuki,Baleno Hatchback,2024,17821,Otomatis,Bensin,5,Hanya STNK + BPKB,Semarang,256500000
+mobil,Suzuki,Baleno Hatchback,2015,87643,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Medan,102000000
+mobil,Wuling,Almaz RS Pro,2016,110361,Otomatis,Bensin,2,Hanya STNK + BPKB,Semarang,147000000
+motor,Yamaha,MX King 150,2017,88479,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,11600000
+motor,Kawasaki,Ninja ZX-25R,2024,3670,Manual,Bensin,4,Hanya STNK + BPKB,Medan,93700000
+mobil,BYD,Seal Performance,2022,20601,Otomatis,Listrik (EV),3,Hanya STNK + BPKB,Surabaya,535000000
+mobil,Mazda,Mazda3 Hatchback,2020,66468,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,348500000
+mobil,BMW,320i M Sport,2018,15311,Otomatis,Bensin,4,Hanya STNK + BPKB,Surabaya,539500000
+mobil,Suzuki,Ertiga Hybrid,2022,47502,Manual,Hybrid,5,Lengkap (STNK + BPKB + Faktur),Bandung,246000000
+mobil,Honda,CR-V Turbo,2019,106917,Otomatis,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Surabaya,427500000
+mobil,Toyota,Fortuner VRZ,2023,37326,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,513500000
+mobil,Hyundai,Creta Prime,2019,34981,Otomatis,Bensin,2,Hanya STNK + BPKB,Bandung,219000000
+mobil,Daihatsu,Sigra R Deluxe,2021,50924,Otomatis,Bensin,3,Hanya STNK + BPKB,Yogyakarta,123000000
+motor,Honda,CRF150L,2022,24846,Manual,Bensin,3,Hanya STNK Saja,Bandung,16000000
+mobil,Daihatsu,Terios R Custom,2017,90571,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Jakarta,168000000
+mobil,Toyota,Avanza Veloz,2021,39081,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,217500000
+motor,Kawasaki,KLX 150,2024,8667,Manual,Bensin,4,Hanya BPKB Saja,Yogyakarta,27000000
+motor,Suzuki,Satria F150,2021,50395,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Surabaya,15600000
+mobil,Toyota,Innova Zenix,2018,47261,Otomatis,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Medan,300500000
+mobil,Mazda,Mazda3 Hatchback,2023,28522,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,436000000
+mobil,Mazda,Mazda3 Hatchback,2015,90371,Otomatis,Bensin,5,Hanya STNK + BPKB,Denpasar,243000000
+mobil,BYD,Seal Performance,2022,40755,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Makassar,542000000
+mobil,Toyota,Rush GR Sport,2020,57452,Otomatis,Bensin,4,Hanya STNK + BPKB,Makassar,209000000
+mobil,BYD,Seal Performance,2024,16738,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Denpasar,655000000
+mobil,Daihatsu,Ayla R ADS,2015,128199,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,80500000
+motor,Yamaha,MX King 150,2021,34539,Manual,Bensin,3,Hanya STNK Saja,Yogyakarta,10500000
+mobil,Nissan,Livina VL,2021,60778,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,211500000
+mobil,Nissan,Livina VL,2018,112940,Otomatis,Bensin,5,Hanya STNK + BPKB,Denpasar,171000000
+mobil,Honda,CR-V Turbo,2019,102615,Otomatis,Hybrid,4,Hanya STNK + BPKB,Yogyakarta,446000000
+mobil,Mercedes-Benz,C200 Avantgarde,2017,69368,Otomatis,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Denpasar,533000000
+mobil,Honda,CR-V Turbo,2017,166264,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,378500000
+mobil,BYD,Seal Performance,2019,78013,Otomatis,Listrik (EV),4,Hanya BPKB Saja,Yogyakarta,347000000
+mobil,Mitsubishi,Pajero Sport Dakar,2020,89927,Otomatis,Diesel,4,Hanya STNK Saja,Jakarta,293000000
+mobil,Toyota,Agya GR Sport,2020,54227,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,157000000
+mobil,BYD,Seal Performance,2019,70555,Otomatis,Listrik (EV),4,Hanya STNK + BPKB,Semarang,399500000
+mobil,Honda,Civic RS,2023,27594,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Denpasar,560000000
+mobil,Honda,HR-V SE,2016,140814,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,191000000
+mobil,Daihatsu,Terios R Custom,2020,59108,Otomatis,Bensin,4,Hanya STNK + BPKB,Denpasar,193500000
+motor,Vespa,Sprint 150 i-get,2016,71306,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,29100000
+mobil,Nissan,Livina VL,2021,61415,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,222500000
+mobil,BYD,Atto 3 Superior,2017,91845,Otomatis,Listrik (EV),3,Hanya STNK + BPKB,Yogyakarta,230500000
+motor,Yamaha,R15 Connected,2018,37659,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,18400000
+mobil,Mazda,CX-5 Elite,2021,55598,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Jakarta,474000000
+motor,Suzuki,GSX-R150,2023,15500,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,25700000
+mobil,Mazda,Mazda3 Hatchback,2015,57186,Otomatis,Bensin,4,Hanya STNK + BPKB,Jakarta,229000000
+motor,Yamaha,R15 Connected,2023,20273,Manual,Bensin,3,Hanya STNK + BPKB,Semarang,27700000
+motor,Vespa,Sprint 150 i-get,2020,40256,Otomatis,Bensin,4,Hanya STNK Saja,Bandung,25500000
+motor,Suzuki,Satria F150,2021,42088,Manual,Bensin,5,Hanya STNK + BPKB,Denpasar,19400000
+motor,Suzuki,Satria F150,2020,63506,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Yogyakarta,17700000
+mobil,Wuling,Air ev Long Range,2017,87218,Otomatis,Listrik (EV),2,Lengkap (STNK + BPKB + Faktur),Yogyakarta,95000000
+motor,Yamaha,R15 Connected,2017,22655,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Semarang,18700000
+mobil,Mitsubishi,Xpander Ultimate,2019,71933,Manual,Bensin,4,Hanya STNK + BPKB,Semarang,186500000
+motor,Yamaha,R15 Connected,2023,19328,Manual,Bensin,1,Hanya STNK + BPKB,Surabaya,21700000
+mobil,Nissan,Livina VL,2019,106756,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,167500000
+mobil,Hyundai,Creta Prime,2019,90380,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,233500000
+mobil,Honda,Brio RS,2020,85223,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,156000000
+mobil,Mazda,CX-5 Elite,2016,92033,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,258000000
+mobil,Nissan,Livina VL,2016,56756,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,147500000
+mobil,Mitsubishi,Pajero Sport Dakar,2024,10713,Otomatis,Diesel,5,Hanya STNK + BPKB,Denpasar,669000000
+motor,Vespa,Sprint 150 i-get,2021,15212,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,45300000
+mobil,Honda,CR-V Turbo,2023,21091,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,633500000
+motor,Honda,PCX 160,2020,42802,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Semarang,18700000
+mobil,Toyota,Fortuner VRZ,2023,20616,Otomatis,Diesel,3,Hanya BPKB Saja,Semarang,475500000
+mobil,Suzuki,Ertiga Hybrid,2022,40035,Otomatis,Hybrid,2,Hanya STNK + BPKB,Jakarta,204500000
+mobil,Suzuki,XL7 Alpha,2019,88032,Otomatis,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Surabaya,205500000
+motor,Honda,PCX 160,2020,68096,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,22000000
+mobil,Hyundai,Stargazer Prime,2021,48171,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,233000000
+mobil,Nissan,Livina VL,2022,35476,Otomatis,Bensin,2,Hanya STNK + BPKB,Makassar,198500000
+mobil,Wuling,Air ev Long Range,2018,47273,Otomatis,Listrik (EV),4,Hanya BPKB Saja,Denpasar,113000000
+mobil,Mitsubishi,Xforce Ultimate,2016,119138,Otomatis,Bensin,4,Hanya STNK + BPKB,Semarang,188500000
+motor,Honda,PCX 160,2016,92703,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Jakarta,17600000
+motor,Honda,CBR150R,2023,15266,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,27800000
+mobil,Toyota,Innova Zenix,2019,106432,Otomatis,Hybrid,4,Hanya STNK + BPKB,Denpasar,338500000
+mobil,Toyota,Camry Hybrid,2023,9815,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,810500000
+mobil,Hyundai,Stargazer Prime,2021,29756,Otomatis,Bensin,1,Lengkap (STNK + BPKB + Faktur),Makassar,172000000
+mobil,Mitsubishi,Pajero Sport Dakar,2016,136008,Otomatis,Diesel,4,Lengkap (STNK + BPKB + Faktur),Bandung,330500000
+mobil,Mitsubishi,Pajero Sport Dakar,2016,100920,Otomatis,Diesel,5,Hanya STNK + BPKB,Jakarta,353500000
+motor,Yamaha,Aerox 155,2020,53109,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,21200000
+mobil,Suzuki,Baleno Hatchback,2017,75213,Otomatis,Bensin,3,Hanya STNK Saja,Surabaya,86500000
+mobil,Toyota,Rush GR Sport,2018,81927,Otomatis,Bensin,3,Hanya STNK + BPKB,Makassar,162000000
+mobil,Honda,HR-V SE,2019,112652,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,253500000
+mobil,Toyota,Innova Zenix,2021,34167,Otomatis,Hybrid,3,Hanya BPKB Saja,Surabaya,326500000
+mobil,Mitsubishi,Xpander Ultimate,2023,34815,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,262500000
+mobil,Honda,Civic RS,2020,71623,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,408000000
+mobil,Toyota,Fortuner VRZ,2015,102801,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,285000000
+mobil,Mercedes-Benz,C200 Avantgarde,2019,76751,Otomatis,Hybrid,5,Hanya STNK + BPKB,Medan,634500000
+motor,Honda,CRF150L,2023,17481,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Surabaya,25300000
+mobil,Suzuki,XL7 Alpha,2016,140768,Manual,Hybrid,4,Hanya STNK + BPKB,Semarang,140000000
+mobil,Mazda,Mazda3 Hatchback,2018,96593,Otomatis,Bensin,4,Hanya BPKB Saja,Denpasar,259000000
+mobil,Mitsubishi,Xforce Ultimate,2018,78219,Otomatis,Bensin,3,Hanya BPKB Saja,Yogyakarta,188500000
+mobil,Toyota,Innova Zenix,2017,60554,Otomatis,Bensin,1,Lengkap (STNK + BPKB + Faktur),Bandung,219500000
+mobil,Mazda,CX-5 Elite,2023,26947,Otomatis,Bensin,4,Hanya STNK + BPKB,Surabaya,503500000
+motor,Honda,Beat Deluxe,2015,133730,Otomatis,Bensin,3,Hanya STNK + BPKB,Yogyakarta,7800000
+mobil,Wuling,Air ev Long Range,2017,88873,Otomatis,Listrik (EV),3,Hanya STNK Saja,Denpasar,66000000
+mobil,Toyota,Avanza Veloz,2018,100782,Otomatis,Bensin,4,Hanya STNK + BPKB,Medan,177000000
+mobil,Toyota,Camry Hybrid,2024,11743,Otomatis,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,844000000
+mobil,Toyota,Fortuner VRZ,2019,89331,Manual,Diesel,1,Hanya BPKB Saja,Makassar,248500000
+mobil,Honda,HR-V SE,2019,65172,Otomatis,Bensin,4,Hanya STNK + BPKB,Bandung,255500000
+mobil,Toyota,Agya GR Sport,2024,18298,Otomatis,Bensin,2,Hanya STNK Saja,Medan,114000000
+motor,Honda,Vario 160,2019,34902,Otomatis,Bensin,5,Hanya STNK + BPKB,Semarang,17900000
+motor,Kawasaki,Ninja ZX-25R,2023,11038,Manual,Bensin,5,Hanya STNK + BPKB,Jakarta,94100000
+mobil,Suzuki,Baleno Hatchback,2021,52236,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Denpasar,176500000
+mobil,Hyundai,Ioniq 5 Signature,2023,16827,Otomatis,Listrik (EV),1,Hanya STNK Saja,Denpasar,354500000
+mobil,Suzuki,Baleno Hatchback,2015,87017,Otomatis,Bensin,3,Hanya STNK Saja,Jakarta,73500000
+mobil,Daihatsu,Ayla R ADS,2021,48992,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,127000000
+motor,Yamaha,R15 Connected,2016,86732,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,14200000
+mobil,Mitsubishi,Pajero Sport Dakar,2018,89619,Otomatis,Diesel,3,Lengkap (STNK + BPKB + Faktur),Jakarta,385000000
+mobil,Hyundai,Stargazer Prime,2023,31047,Otomatis,Bensin,4,Hanya STNK + BPKB,Surabaya,264000000
+motor,Yamaha,R15 Connected,2022,24546,Manual,Bensin,5,Hanya STNK Saja,Makassar,18300000
+mobil,Suzuki,Baleno Hatchback,2016,123624,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Semarang,135000000
+motor,Yamaha,Aerox 155,2021,50429,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,22700000
+mobil,Wuling,Air ev Long Range,2021,29298,Otomatis,Listrik (EV),3,Hanya STNK + BPKB,Jakarta,173500000
+mobil,BMW,320i M Sport,2021,48199,Otomatis,Bensin,5,Hanya STNK + BPKB,Yogyakarta,740000000
+motor,Yamaha,MX King 150,2015,152017,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,10400000
+motor,Yamaha,NMAX 155,2016,72217,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,16200000
+mobil,Mercedes-Benz,C200 Avantgarde,2024,10693,Otomatis,Bensin,3,Hanya STNK + BPKB,Jakarta,1018000000
+mobil,Honda,CR-V Turbo,2019,72597,Otomatis,Hybrid,3,Hanya STNK Saja,Bandung,292500000
+mobil,Honda,Civic RS,2022,20645,Otomatis,Bensin,3,Hanya BPKB Saja,Bandung,399000000
+mobil,Toyota,Rush GR Sport,2018,80187,Otomatis,Bensin,3,Hanya BPKB Saja,Medan,147000000
+mobil,Toyota,Agya GR Sport,2020,95865,Otomatis,Bensin,4,Hanya BPKB Saja,Yogyakarta,130000000
+motor,Honda,CRF150L,2024,6263,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,32400000
+mobil,Toyota,Fortuner VRZ,2022,41099,Otomatis,Diesel,4,Hanya STNK + BPKB,Denpasar,532000000
+motor,Yamaha,Aerox 155,2018,70533,Otomatis,Bensin,4,Hanya BPKB Saja,Yogyakarta,14900000
+mobil,Wuling,Air ev Long Range,2018,66223,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Jakarta,129000000
+mobil,Toyota,Agya GR Sport,2020,51123,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Yogyakarta,145000000
+mobil,Toyota,Fortuner VRZ,2015,96572,Otomatis,Diesel,3,Lengkap (STNK + BPKB + Faktur),Semarang,298500000
+motor,Vespa,Sprint 150 i-get,2017,51313,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,31400000
+mobil,Honda,Brio RS,2015,154638,Otomatis,Bensin,4,Hanya STNK Saja,Yogyakarta,75000000
+mobil,Daihatsu,Terios R Custom,2019,99784,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,161500000
+motor,Honda,Vario 160,2024,8555,Otomatis,Bensin,2,Hanya STNK Saja,Bandung,13700000
+mobil,Daihatsu,Xenia R ADS,2018,69873,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,135500000
+mobil,Toyota,Fortuner VRZ,2024,29213,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,573500000
+motor,Yamaha,R15 Connected,2019,28544,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,19900000
+motor,Kawasaki,KLX 150,2024,8240,Manual,Bensin,3,Hanya STNK + BPKB,Yogyakarta,30000000
+mobil,BYD,Seal Performance,2023,25622,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Denpasar,595000000
+motor,Suzuki,GSX-R150,2022,24540,Manual,Bensin,4,Hanya STNK + BPKB,Jakarta,24100000
+mobil,Daihatsu,Terios R Custom,2018,101961,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Semarang,165500000
+mobil,Mazda,Mazda3 Hatchback,2021,39104,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,365000000
+mobil,Suzuki,Ertiga Hybrid,2022,44207,Manual,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,244500000
+mobil,Mazda,Mazda3 Hatchback,2022,34972,Otomatis,Bensin,3,Hanya STNK + BPKB,Yogyakarta,389000000
+mobil,Mitsubishi,Xforce Ultimate,2021,61273,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,277500000
+mobil,Hyundai,Creta Prime,2016,126678,Otomatis,Bensin,4,Hanya STNK Saja,Surabaya,119500000
+mobil,Honda,HR-V SE,2016,181908,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,195500000
+mobil,Mitsubishi,Pajero Sport Dakar,2019,106214,Otomatis,Diesel,4,Hanya BPKB Saja,Semarang,347500000
+mobil,Toyota,Avanza Veloz,2019,101498,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,180500000
+motor,Honda,CRF150L,2015,65609,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Medan,16200000
+mobil,Mercedes-Benz,C200 Avantgarde,2018,88682,Otomatis,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Medan,523500000
+mobil,Mazda,Mazda3 Hatchback,2021,26303,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,383500000
+mobil,Honda,CR-V Turbo,2024,10232,Otomatis,Hybrid,5,Lengkap (STNK + BPKB + Faktur),Yogyakarta,778000000
+mobil,Hyundai,Stargazer Prime,2018,88347,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,176000000
+mobil,Suzuki,Baleno Hatchback,2024,20736,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Yogyakarta,264500000
+motor,Honda,CBR150R,2024,4811,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,31100000
+mobil,Daihatsu,Xenia R ADS,2022,58004,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,213500000
+mobil,Toyota,Camry Hybrid,2017,46130,Otomatis,Hybrid,1,Hanya STNK + BPKB,Denpasar,333500000
+mobil,Toyota,Innova Zenix,2017,174864,Otomatis,Hybrid,5,Lengkap (STNK + BPKB + Faktur),Medan,295000000
+mobil,Daihatsu,Ayla R ADS,2019,55463,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Bandung,102500000
+mobil,Suzuki,Baleno Hatchback,2021,10045,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Makassar,227000000
+mobil,Mercedes-Benz,C200 Avantgarde,2016,96874,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Makassar,361500000
+motor,Suzuki,GSX-R150,2022,17743,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,25600000
+mobil,Mitsubishi,Xforce Ultimate,2018,60679,Otomatis,Bensin,3,Hanya STNK + BPKB,Medan,215000000
+motor,Honda,Vario 160,2020,34741,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,17400000
+mobil,Suzuki,Ertiga Hybrid,2022,29452,Manual,Bensin,3,Hanya STNK + BPKB,Bandung,208000000
+mobil,Mazda,CX-5 Elite,2018,101231,Otomatis,Bensin,3,Hanya STNK Saja,Bandung,190500000
+motor,Suzuki,Satria F150,2024,10620,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,24400000
+mobil,Mitsubishi,Xforce Ultimate,2023,21842,Otomatis,Bensin,4,Hanya STNK + BPKB,Medan,337500000
+mobil,BYD,Seal Performance,2021,78594,Otomatis,Listrik (EV),2,Lengkap (STNK + BPKB + Faktur),Yogyakarta,397000000
+mobil,Mazda,CX-5 Elite,2022,49654,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Jakarta,453000000
+mobil,Toyota,Agya GR Sport,2022,39030,Manual,Bensin,4,Hanya STNK + BPKB,Makassar,177000000
+mobil,Toyota,Fortuner VRZ,2015,172302,Manual,Diesel,4,Lengkap (STNK + BPKB + Faktur),Denpasar,296000000
+mobil,BYD,Seal Performance,2022,32474,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Denpasar,597000000
+mobil,Honda,CR-V Turbo,2022,51828,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,527500000
+mobil,Daihatsu,Sigra R Deluxe,2019,54380,Otomatis,Bensin,2,Hanya STNK + BPKB,Jakarta,97500000
+motor,Kawasaki,Ninja ZX-25R,2019,29639,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Jakarta,60100000
+motor,Kawasaki,Ninja ZX-25R,2023,17826,Manual,Bensin,4,Hanya STNK + BPKB,Surabaya,82000000
+mobil,Wuling,Air ev Long Range,2019,56267,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Makassar,142500000
+mobil,Daihatsu,Xenia R ADS,2018,129969,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Jakarta,130500000
+mobil,Toyota,Avanza Veloz,2020,59304,Otomatis,Bensin,3,Hanya STNK Saja,Bandung,130000000
+motor,Vespa,Sprint 150 i-get,2017,76161,Otomatis,Bensin,3,Hanya STNK + BPKB,Yogyakarta,29600000
+motor,Honda,PCX 160,2018,31204,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Medan,21400000
+mobil,Honda,Brio RS,2020,50586,Manual,Bensin,1,Hanya STNK + BPKB,Jakarta,118500000
+mobil,Wuling,Air ev Long Range,2018,54044,Otomatis,Listrik (EV),2,Hanya STNK + BPKB,Yogyakarta,107500000
+mobil,Toyota,Fortuner VRZ,2016,114191,Otomatis,Bensin,3,Hanya STNK + BPKB,Surabaya,281000000
+motor,Suzuki,GSX-R150,2023,21575,Manual,Bensin,5,Hanya STNK + BPKB,Makassar,27300000
+motor,Kawasaki,Ninja ZX-25R,2017,62163,Manual,Bensin,4,Hanya STNK Saja,Yogyakarta,30700000
+motor,Kawasaki,KLX 150,2022,20294,Manual,Bensin,1,Hanya STNK Saja,Denpasar,13200000
+mobil,Wuling,Air ev Long Range,2023,22413,Otomatis,Listrik (EV),3,Hanya STNK + BPKB,Surabaya,211000000
+mobil,Suzuki,XL7 Alpha,2018,76415,Manual,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,182000000
+mobil,BYD,Seal Performance,2019,75054,Otomatis,Listrik (EV),3,Hanya STNK + BPKB,Medan,376500000
+motor,Vespa,Sprint 150 i-get,2024,8479,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Jakarta,46900000
+motor,Honda,Vario 160,2021,38955,Otomatis,Bensin,3,Hanya STNK + BPKB,Yogyakarta,18700000
+mobil,Mitsubishi,Xpander Ultimate,2018,110047,Otomatis,Bensin,4,Hanya STNK + BPKB,Medan,178000000
+motor,Yamaha,NMAX 155,2021,59682,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,23200000
+mobil,Toyota,Agya GR Sport,2018,72835,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Bandung,148500000
+motor,Honda,CRF150L,2023,16334,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,29100000
+mobil,Suzuki,XL7 Alpha,2017,118629,Otomatis,Hybrid,3,Hanya STNK + BPKB,Semarang,157500000
+mobil,Suzuki,Ertiga Hybrid,2024,21139,Manual,Hybrid,3,Hanya STNK + BPKB,Surabaya,241500000
+mobil,Hyundai,Ioniq 5 Signature,2021,46516,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Makassar,560500000
+mobil,Honda,Civic RS,2022,23813,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,454000000
+motor,Yamaha,NMAX 155,2023,32398,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,26400000
+mobil,Suzuki,Ertiga Hybrid,2021,41759,Manual,Hybrid,3,Hanya STNK + BPKB,Medan,191500000
+mobil,Honda,Civic RS,2018,54185,Otomatis,Bensin,5,Hanya STNK + BPKB,Yogyakarta,341000000
+mobil,BYD,Seal Performance,2021,39109,Otomatis,Listrik (EV),5,Lengkap (STNK + BPKB + Faktur),Denpasar,546000000
+mobil,Suzuki,XL7 Alpha,2024,14065,Otomatis,Bensin,5,Hanya BPKB Saja,Surabaya,264000000
+mobil,Wuling,Air ev Long Range,2024,6912,Otomatis,Listrik (EV),4,Hanya BPKB Saja,Yogyakarta,235000000
+mobil,BYD,Atto 3 Superior,2022,39786,Otomatis,Listrik (EV),4,Hanya STNK Saja,Medan,250000000
+mobil,Mitsubishi,Xpander Ultimate,2022,33711,Otomatis,Bensin,4,Hanya STNK + BPKB,Bandung,263000000
+mobil,Mitsubishi,Pajero Sport Dakar,2024,10422,Otomatis,Diesel,3,Hanya STNK + BPKB,Bandung,609500000
+mobil,Toyota,Avanza Veloz,2016,137227,Otomatis,Bensin,3,Hanya STNK + BPKB,Surabaya,147500000
+motor,Honda,Vario 160,2018,43046,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,15400000
+mobil,BYD,Atto 3 Superior,2023,27120,Otomatis,Listrik (EV),4,Hanya STNK + BPKB,Surabaya,423000000
+mobil,Honda,Brio RS,2024,14237,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,192500000
+motor,Suzuki,Satria F150,2019,79030,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,14500000
+motor,Suzuki,Satria F150,2021,48958,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,18600000
+mobil,Daihatsu,Sigra R Deluxe,2017,94916,Otomatis,Bensin,3,Hanya STNK Saja,Denpasar,59500000
+motor,Honda,CBR150R,2018,61884,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Medan,14200000
+mobil,Mitsubishi,Pajero Sport Dakar,2021,43240,Otomatis,Diesel,5,Lengkap (STNK + BPKB + Faktur),Semarang,516000000
+mobil,Toyota,Camry Hybrid,2021,48615,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Medan,506000000
+mobil,Mercedes-Benz,C200 Avantgarde,2022,30240,Otomatis,Bensin,2,Hanya STNK + BPKB,Jakarta,719000000
+motor,Kawasaki,KLX 150,2024,8666,Manual,Bensin,3,Hanya STNK + BPKB,Makassar,28800000
+motor,Yamaha,NMAX 155,2023,18924,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,27200000
+mobil,Hyundai,Stargazer Prime,2020,74284,Otomatis,Bensin,4,Hanya STNK Saja,Makassar,128500000
+mobil,Wuling,Air ev Long Range,2024,10837,Otomatis,Listrik (EV),5,Hanya STNK + BPKB,Jakarta,262500000
+mobil,BMW,320i M Sport,2021,49081,Otomatis,Bensin,4,Hanya STNK Saja,Semarang,445500000
+motor,Suzuki,Satria F150,2018,51082,Manual,Bensin,4,Hanya STNK + BPKB,Denpasar,14000000
+mobil,BYD,Atto 3 Superior,2021,45457,Otomatis,Listrik (EV),5,Hanya BPKB Saja,Yogyakarta,334000000
+mobil,Toyota,Innova Zenix,2020,77011,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,360500000
+mobil,Wuling,Almaz RS Pro,2024,17218,Otomatis,Hybrid,3,Hanya STNK Saja,Denpasar,229500000
+motor,Kawasaki,KLX 150,2016,76893,Manual,Bensin,4,Hanya STNK + BPKB,Jakarta,16800000
+mobil,Honda,CR-V Turbo,2022,43525,Otomatis,Hybrid,4,Hanya BPKB Saja,Denpasar,549500000
+mobil,Honda,BR-V Prestige,2022,64949,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,260500000
+mobil,Honda,BR-V Prestige,2016,130587,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Yogyakarta,181000000
+mobil,Wuling,Air ev Long Range,2019,59477,Otomatis,Listrik (EV),4,Hanya BPKB Saja,Surabaya,122000000
+motor,Kawasaki,KLX 150,2017,51527,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,18600000
+motor,Honda,CBR150R,2024,6186,Manual,Bensin,3,Hanya STNK + BPKB,Makassar,31100000
+motor,Yamaha,MX King 150,2023,26449,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,18900000
+mobil,Honda,HR-V SE,2016,124908,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,200500000
+mobil,Honda,CR-V Turbo,2020,77197,Otomatis,Bensin,3,Hanya STNK + BPKB,Medan,441000000
+mobil,Wuling,Air ev Long Range,2021,31247,Otomatis,Listrik (EV),4,Hanya STNK Saja,Bandung,116500000
+motor,Honda,Vario 160,2024,15069,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,23500000
+mobil,Suzuki,Baleno Hatchback,2017,65503,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,143000000
+mobil,Honda,Civic RS,2015,182709,Otomatis,Bensin,3,Hanya STNK + BPKB,Semarang,212000000
+motor,Suzuki,GSX-R150,2024,11079,Manual,Bensin,3,Hanya STNK + BPKB,Makassar,27100000
+mobil,Toyota,Rush GR Sport,2020,54407,Otomatis,Bensin,4,Hanya STNK Saja,Medan,128500000
+motor,Suzuki,Satria F150,2015,143772,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,10400000
+mobil,Toyota,Innova Zenix,2023,32728,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,385000000
+mobil,Wuling,Almaz RS Pro,2021,82998,Otomatis,Hybrid,3,Hanya STNK Saja,Makassar,162500000
+mobil,Honda,Brio RS,2017,89945,Manual,Bensin,4,Hanya STNK + BPKB,Denpasar,134000000
+motor,Yamaha,MX King 150,2017,134894,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,11900000
+mobil,Daihatsu,Terios R Custom,2018,111771,Otomatis,Bensin,3,Hanya STNK + BPKB,Surabaya,151000000
+motor,Kawasaki,Ninja ZX-25R,2017,52678,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,52900000
+mobil,Honda,Brio RS,2020,15070,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Yogyakarta,184000000
+motor,Honda,CRF150L,2021,32171,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,22900000
+mobil,BYD,Seal Performance,2019,73649,Otomatis,Listrik (EV),4,Hanya BPKB Saja,Surabaya,347500000
+mobil,BMW,320i M Sport,2021,61065,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,677500000
+mobil,Honda,HR-V SE,2022,32259,Otomatis,Bensin,4,Hanya BPKB Saja,Denpasar,298500000
+mobil,Mitsubishi,Xforce Ultimate,2016,105604,Otomatis,Bensin,3,Hanya STNK + BPKB,Makassar,177000000
+mobil,Suzuki,XL7 Alpha,2024,14819,Otomatis,Hybrid,3,Hanya STNK + BPKB,Bandung,275500000
+mobil,Wuling,Almaz RS Pro,2015,85906,Otomatis,Hybrid,2,Hanya STNK + BPKB,Surabaya,145500000
+mobil,Daihatsu,Terios R Custom,2016,151936,Otomatis,Bensin,1,Lengkap (STNK + BPKB + Faktur),Yogyakarta,101000000
+mobil,Honda,HR-V SE,2015,158575,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,185500000
+mobil,Toyota,Fortuner VRZ,2016,150094,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,297000000
+motor,Kawasaki,KLX 150,2015,71273,Manual,Bensin,1,Hanya STNK Saja,Semarang,7100000
+motor,Kawasaki,KLX 150,2023,12169,Manual,Bensin,4,Hanya STNK + BPKB,Yogyakarta,29600000
+motor,Yamaha,NMAX 155,2023,19703,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,29000000
+mobil,Daihatsu,Xenia R ADS,2017,112120,Manual,Bensin,5,Hanya STNK + BPKB,Medan,131500000
+motor,Honda,CRF150L,2020,31974,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,23400000
+mobil,Mitsubishi,Pajero Sport Dakar,2021,57235,Otomatis,Diesel,3,Hanya STNK Saja,Makassar,287000000
+motor,Suzuki,Satria F150,2017,82443,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,12400000
+motor,Suzuki,GSX-R150,2020,53650,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,18400000
+mobil,Wuling,Air ev Long Range,2015,60708,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Makassar,84000000
+mobil,Toyota,Agya GR Sport,2020,51230,Otomatis,Bensin,5,Hanya STNK + BPKB,Bandung,170000000
+mobil,Daihatsu,Ayla R ADS,2019,57675,Otomatis,Bensin,3,Hanya BPKB Saja,Makassar,90500000
+mobil,Honda,Brio RS,2016,97105,Otomatis,Bensin,4,Hanya STNK + BPKB,Surabaya,128500000
+motor,Honda,Vario 160,2020,55979,Otomatis,Bensin,4,Hanya STNK Saja,Bandung,11200000
+mobil,Suzuki,Baleno Hatchback,2021,42052,Otomatis,Bensin,4,Hanya STNK + BPKB,Makassar,193000000
+mobil,Mercedes-Benz,C200 Avantgarde,2024,9707,Otomatis,Hybrid,1,Lengkap (STNK + BPKB + Faktur),Bandung,847500000
+motor,Kawasaki,KLX 150,2017,67503,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,17400000
+motor,Suzuki,GSX-R150,2018,53080,Manual,Bensin,3,Hanya BPKB Saja,Denpasar,13000000
+mobil,BYD,Atto 3 Superior,2019,72805,Otomatis,Listrik (EV),4,Hanya STNK + BPKB,Medan,301500000
+mobil,Suzuki,XL7 Alpha,2016,139222,Manual,Bensin,4,Hanya STNK + BPKB,Surabaya,134500000
+mobil,Toyota,Agya GR Sport,2018,81594,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,132500000
+motor,Honda,PCX 160,2022,29860,Otomatis,Bensin,4,Hanya STNK Saja,Bandung,16400000
+mobil,Mercedes-Benz,C200 Avantgarde,2022,37473,Otomatis,Hybrid,1,Lengkap (STNK + BPKB + Faktur),Jakarta,665500000
+motor,Suzuki,GSX-R150,2021,32808,Manual,Bensin,5,Hanya STNK + BPKB,Jakarta,22500000
+motor,Yamaha,NMAX 155,2022,47932,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,23900000
+mobil,BYD,Atto 3 Superior,2020,89111,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Surabaya,304500000
+mobil,Hyundai,Stargazer Prime,2018,108166,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,163000000
+mobil,Toyota,Avanza Veloz,2024,16213,Manual,Bensin,5,Hanya STNK Saja,Jakarta,175500000
+mobil,BMW,320i M Sport,2024,9163,Otomatis,Bensin,3,Hanya STNK + BPKB,Yogyakarta,967500000
+mobil,Suzuki,XL7 Alpha,2020,68973,Otomatis,Hybrid,3,Hanya STNK + BPKB,Makassar,193500000
+mobil,Hyundai,Creta Prime,2015,123034,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,173500000
+mobil,Mazda,CX-5 Elite,2016,142215,Otomatis,Bensin,2,Hanya STNK + BPKB,Medan,216000000
+mobil,Mercedes-Benz,C200 Avantgarde,2021,50389,Otomatis,Hybrid,3,Hanya STNK Saja,Semarang,454000000
+mobil,Honda,Brio RS,2022,18331,Manual,Bensin,2,Hanya STNK + BPKB,Jakarta,162000000
+mobil,Hyundai,Creta Prime,2018,128525,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,202500000
+mobil,Hyundai,Stargazer Prime,2015,125142,Otomatis,Bensin,5,Hanya BPKB Saja,Semarang,123000000
+mobil,Honda,HR-V SE,2021,78562,Otomatis,Bensin,4,Hanya STNK + BPKB,Yogyakarta,299000000
+mobil,Wuling,Almaz RS Pro,2023,43306,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Jakarta,281500000
+mobil,Honda,CR-V Turbo,2017,113223,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,369000000
+mobil,Mazda,Mazda3 Hatchback,2024,15152,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,459000000
+mobil,Mazda,Mazda3 Hatchback,2018,78279,Otomatis,Bensin,3,Hanya STNK + BPKB,Semarang,260500000
+motor,Suzuki,Satria F150,2018,60515,Manual,Bensin,3,Hanya STNK + BPKB,Surabaya,12500000
+motor,Suzuki,Satria F150,2023,17170,Manual,Bensin,5,Hanya STNK + BPKB,Bandung,23500000
+mobil,Daihatsu,Ayla R ADS,2016,93995,Otomatis,Bensin,1,Hanya BPKB Saja,Bandung,59000000
+mobil,Mazda,Mazda3 Hatchback,2015,70196,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Semarang,243500000
+motor,Suzuki,Satria F150,2018,100355,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,12200000
+motor,Yamaha,MX King 150,2015,90231,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,9600000
+motor,Suzuki,GSX-R150,2021,46033,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Jakarta,22800000
+mobil,Toyota,Rush GR Sport,2020,58844,Otomatis,Bensin,3,Hanya STNK Saja,Surabaya,125000000
+mobil,Mazda,Mazda3 Hatchback,2017,56222,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,265000000
+motor,Kawasaki,KLX 150,2015,80825,Manual,Bensin,3,Hanya STNK + BPKB,Yogyakarta,13900000
+mobil,Mitsubishi,Xpander Ultimate,2019,62867,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Surabaya,177000000
+mobil,Toyota,Fortuner VRZ,2024,17986,Otomatis,Diesel,4,Hanya STNK Saja,Surabaya,386500000
+motor,Honda,Beat Deluxe,2024,8088,Otomatis,Bensin,4,Hanya BPKB Saja,Medan,15700000
+motor,Honda,Beat Deluxe,2017,29911,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,10100000
+motor,Honda,PCX 160,2020,50524,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,22000000
+mobil,Toyota,Agya GR Sport,2022,25885,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Bandung,156500000
+mobil,Suzuki,Ertiga Hybrid,2015,152272,Otomatis,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Surabaya,137000000
+mobil,Honda,BR-V Prestige,2022,13305,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,248500000
+mobil,Toyota,Avanza Veloz,2017,94881,Otomatis,Bensin,5,Hanya STNK + BPKB,Denpasar,188000000
+mobil,BYD,Atto 3 Superior,2023,4042,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Semarang,473000000
+motor,Honda,PCX 160,2016,77307,Otomatis,Bensin,1,Lengkap (STNK + BPKB + Faktur),Jakarta,13000000
+motor,Yamaha,R15 Connected,2017,56607,Manual,Bensin,3,Hanya STNK + BPKB,Medan,15000000
+mobil,Daihatsu,Terios R Custom,2023,29603,Otomatis,Bensin,4,Hanya STNK + BPKB,Yogyakarta,232500000
+mobil,Suzuki,Baleno Hatchback,2016,132889,Otomatis,Bensin,3,Hanya STNK + BPKB,Yogyakarta,120500000
+mobil,Toyota,Rush GR Sport,2015,161347,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,140000000
+mobil,Toyota,Innova Zenix,2023,10493,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Medan,476000000
+mobil,Nissan,Livina VL,2018,86350,Otomatis,Bensin,3,Hanya STNK + BPKB,Makassar,154000000
+mobil,Honda,Civic RS,2022,34028,Otomatis,Bensin,3,Hanya STNK Saja,Surabaya,273000000
+mobil,BYD,Seal Performance,2017,72956,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Denpasar,355000000
+motor,Vespa,Sprint 150 i-get,2017,30511,Otomatis,Bensin,3,Hanya STNK Saja,Makassar,20400000
+motor,Kawasaki,Ninja ZX-25R,2024,5688,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Denpasar,83100000
+motor,Yamaha,MX King 150,2021,39789,Manual,Bensin,4,Hanya STNK + BPKB,Surabaya,17500000
+mobil,Wuling,Air ev Long Range,2021,31897,Otomatis,Listrik (EV),4,Hanya STNK + BPKB,Jakarta,185000000
+mobil,Honda,CR-V Turbo,2018,71044,Otomatis,Hybrid,2,Hanya STNK + BPKB,Jakarta,383000000
+mobil,Toyota,Avanza Veloz,2016,157337,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,149500000
+mobil,Honda,BR-V Prestige,2019,76733,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Semarang,173000000
+motor,Yamaha,R15 Connected,2023,16470,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,31400000
+mobil,Honda,Brio RS,2023,19608,Manual,Bensin,1,Lengkap (STNK + BPKB + Faktur),Medan,151000000
+mobil,Mazda,Mazda3 Hatchback,2021,39546,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,388000000
+motor,Kawasaki,Ninja ZX-25R,2016,60110,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Semarang,49400000
+mobil,Hyundai,Creta Prime,2016,108577,Otomatis,Bensin,3,Hanya STNK Saja,Surabaya,113000000
+mobil,Toyota,Fortuner VRZ,2024,22838,Otomatis,Diesel,3,Lengkap (STNK + BPKB + Faktur),Bandung,573000000
+motor,Kawasaki,Ninja ZX-25R,2021,32779,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,71300000
+mobil,Mitsubishi,Xforce Ultimate,2022,26396,Otomatis,Bensin,4,Hanya STNK + BPKB,Surabaya,328500000
+mobil,Toyota,Avanza Veloz,2017,146486,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Denpasar,152500000
+mobil,Toyota,Agya GR Sport,2016,88431,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Bandung,96000000
+mobil,Daihatsu,Sigra R Deluxe,2021,30489,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,119500000
+motor,Yamaha,NMAX 155,2020,68195,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,21200000
+motor,Honda,Beat Deluxe,2023,23842,Otomatis,Bensin,2,Hanya STNK + BPKB,Medan,13400000
+motor,Suzuki,Satria F150,2016,103687,Manual,Bensin,1,Hanya BPKB Saja,Jakarta,7000000
+mobil,Hyundai,Ioniq 5 Signature,2023,22562,Otomatis,Listrik (EV),5,Lengkap (STNK + BPKB + Faktur),Yogyakarta,745500000
+mobil,Hyundai,Ioniq 5 Signature,2017,83065,Otomatis,Listrik (EV),2,Hanya STNK + BPKB,Makassar,302500000
+mobil,Mitsubishi,Xpander Ultimate,2018,133456,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,191500000
+mobil,Wuling,Air ev Long Range,2015,108300,Otomatis,Listrik (EV),2,Lengkap (STNK + BPKB + Faktur),Surabaya,77500000
+mobil,Mercedes-Benz,C200 Avantgarde,2024,7010,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Medan,959000000
+mobil,Toyota,Agya GR Sport,2015,153558,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,100000000
+motor,Honda,Vario 160,2019,76419,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,16300000
+mobil,Suzuki,Ertiga Hybrid,2016,94833,Otomatis,Hybrid,5,Lengkap (STNK + BPKB + Faktur),Bandung,162500000
+mobil,BYD,Atto 3 Superior,2017,77400,Otomatis,Listrik (EV),4,Hanya STNK + BPKB,Denpasar,246000000
+motor,Honda,PCX 160,2019,83655,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,19000000
+motor,Honda,Vario 160,2021,42018,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,18100000
+mobil,Daihatsu,Sigra R Deluxe,2023,13614,Otomatis,Bensin,3,Hanya STNK + BPKB,Makassar,147500000
+mobil,Wuling,Air ev Long Range,2017,32400,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Surabaya,119000000
+mobil,Honda,Brio RS,2016,66319,Manual,Bensin,1,Lengkap (STNK + BPKB + Faktur),Surabaya,98000000
+mobil,Toyota,Agya GR Sport,2018,106966,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Jakarta,130000000
+mobil,Mitsubishi,Xpander Ultimate,2019,115845,Otomatis,Bensin,4,Hanya STNK + BPKB,Jakarta,195500000
+mobil,Toyota,Rush GR Sport,2020,81413,Otomatis,Bensin,1,Lengkap (STNK + BPKB + Faktur),Semarang,152000000
+mobil,Wuling,Almaz RS Pro,2023,28059,Otomatis,Hybrid,4,Hanya STNK + BPKB,Bandung,365500000
+motor,Suzuki,Satria F150,2016,115266,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Bandung,11900000
+mobil,Toyota,Innova Zenix,2024,7049,Otomatis,Bensin,4,Hanya STNK + BPKB,Semarang,442500000
+mobil,Honda,BR-V Prestige,2017,104024,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Medan,178500000
+mobil,Daihatsu,Terios R Custom,2017,75082,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,153000000
+mobil,Hyundai,Ioniq 5 Signature,2024,16004,Otomatis,Listrik (EV),5,Hanya STNK + BPKB,Makassar,820500000
+mobil,Mitsubishi,Xpander Ultimate,2018,100117,Otomatis,Bensin,4,Hanya BPKB Saja,Surabaya,163000000
+mobil,Toyota,Avanza Veloz,2017,82873,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,159000000
+mobil,Suzuki,Ertiga Hybrid,2017,120660,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,149000000
+mobil,Daihatsu,Sigra R Deluxe,2022,49511,Manual,Bensin,5,Hanya STNK + BPKB,Denpasar,142000000
+motor,Yamaha,MX King 150,2017,39344,Manual,Bensin,1,Hanya STNK + BPKB,Makassar,8800000
+mobil,Mazda,CX-5 Elite,2024,10073,Otomatis,Bensin,3,Hanya STNK + BPKB,Yogyakarta,555500000
+mobil,Hyundai,Ioniq 5 Signature,2016,115529,Otomatis,Listrik (EV),3,Hanya STNK Saja,Jakarta,195500000
+motor,Yamaha,Aerox 155,2015,114581,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Makassar,11400000
+mobil,Honda,BR-V Prestige,2024,17884,Manual,Bensin,3,Hanya STNK Saja,Surabaya,171000000
+mobil,Hyundai,Creta Prime,2022,36446,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Surabaya,283000000
+mobil,Wuling,Almaz RS Pro,2021,31920,Otomatis,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Denpasar,293500000
+mobil,Daihatsu,Terios R Custom,2022,35141,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,231000000
+mobil,Honda,Civic RS,2018,43807,Otomatis,Bensin,5,Hanya STNK + BPKB,Jakarta,335500000
+mobil,Hyundai,Ioniq 5 Signature,2021,38044,Otomatis,Listrik (EV),2,Hanya STNK Saja,Makassar,317000000
+mobil,Mitsubishi,Xforce Ultimate,2019,97925,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Surabaya,207000000
+mobil,Suzuki,XL7 Alpha,2022,36816,Manual,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Jakarta,258500000
+mobil,Toyota,Camry Hybrid,2021,19319,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Makassar,551000000
+mobil,Mercedes-Benz,C200 Avantgarde,2022,31079,Otomatis,Hybrid,3,Hanya STNK + BPKB,Makassar,823000000
+mobil,Toyota,Avanza Veloz,2023,24564,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,277500000
+mobil,Suzuki,Baleno Hatchback,2020,15210,Otomatis,Bensin,5,Hanya STNK Saja,Denpasar,133000000
+mobil,Suzuki,Baleno Hatchback,2016,122693,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,133500000
+mobil,Honda,CR-V Turbo,2022,39690,Otomatis,Bensin,3,Hanya BPKB Saja,Makassar,463500000
+motor,Suzuki,Satria F150,2023,18841,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,21000000
+motor,Kawasaki,Ninja ZX-25R,2024,4622,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,96500000
+mobil,BYD,Atto 3 Superior,2016,122447,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Makassar,205000000
+motor,Honda,Vario 160,2020,39141,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,17700000
+motor,Honda,Beat Deluxe,2021,48575,Otomatis,Bensin,4,Hanya STNK + BPKB,Makassar,13000000
+motor,Yamaha,R15 Connected,2019,64690,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,20000000
+motor,Yamaha,Aerox 155,2021,45105,Otomatis,Bensin,4,Hanya STNK + BPKB,Surabaya,22700000
+motor,Yamaha,R15 Connected,2022,14123,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,29400000
+motor,Honda,PCX 160,2021,37268,Otomatis,Bensin,4,Hanya BPKB Saja,Yogyakarta,20800000
+mobil,BMW,320i M Sport,2021,60819,Otomatis,Bensin,5,Hanya STNK + BPKB,Semarang,699500000
+mobil,Mitsubishi,Xforce Ultimate,2019,60000,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,254500000
+mobil,Toyota,Fortuner VRZ,2015,99100,Otomatis,Diesel,4,Hanya STNK + BPKB,Yogyakarta,304500000
+mobil,Hyundai,Stargazer Prime,2017,118285,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,158500000
+mobil,Toyota,Rush GR Sport,2024,13607,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Bandung,287500000
+mobil,Wuling,Almaz RS Pro,2020,35467,Otomatis,Hybrid,3,Hanya STNK + BPKB,Bandung,264000000
+mobil,BYD,Atto 3 Superior,2016,157990,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,215500000
+mobil,Daihatsu,Terios R Custom,2016,136436,Otomatis,Bensin,3,Hanya STNK + BPKB,Bandung,130500000
+mobil,Toyota,Innova Zenix,2024,8668,Otomatis,Bensin,1,Hanya STNK + BPKB,Denpasar,356000000
+motor,Yamaha,R15 Connected,2020,42427,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,22800000
+motor,Honda,Beat Deluxe,2018,54606,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,12100000
+motor,Yamaha,R15 Connected,2015,98603,Manual,Bensin,3,Hanya STNK + BPKB,Surabaya,12100000
+mobil,Honda,Civic RS,2019,73844,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Yogyakarta,302500000
+mobil,Daihatsu,Terios R Custom,2021,77257,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,212500000
+motor,Yamaha,R15 Connected,2016,29511,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,14800000
+mobil,Honda,BR-V Prestige,2017,101978,Manual,Bensin,5,Hanya STNK + BPKB,Jakarta,181500000
+mobil,Honda,HR-V SE,2020,61438,Otomatis,Bensin,5,Hanya STNK + BPKB,Jakarta,310500000
+mobil,Honda,BR-V Prestige,2023,11196,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Jakarta,283500000
+motor,Honda,Vario 160,2023,8637,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Medan,26100000
+mobil,Toyota,Innova Zenix,2020,68016,Otomatis,Hybrid,2,Hanya STNK + BPKB,Bandung,306000000
+mobil,Mitsubishi,Xforce Ultimate,2019,53340,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Semarang,279000000
+mobil,BMW,320i M Sport,2022,39375,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Medan,839000000
+motor,Kawasaki,Ninja ZX-25R,2019,37484,Manual,Bensin,4,Hanya STNK + BPKB,Semarang,59900000
+mobil,Honda,BR-V Prestige,2018,74459,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Semarang,202000000
+mobil,Suzuki,Baleno Hatchback,2024,17938,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,242500000
+motor,Yamaha,R15 Connected,2016,56240,Manual,Bensin,5,Hanya BPKB Saja,Semarang,13600000
+motor,Honda,CRF150L,2021,18361,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,25100000
+mobil,Mazda,Mazda3 Hatchback,2017,95355,Otomatis,Bensin,2,Hanya STNK + BPKB,Yogyakarta,213500000
+mobil,Honda,Civic RS,2020,37459,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,379500000
+mobil,Daihatsu,Terios R Custom,2022,38755,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,209000000
+motor,Honda,Vario 160,2018,74260,Otomatis,Bensin,4,Hanya STNK Saja,Surabaya,9500000
+motor,Honda,CBR150R,2021,30888,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,24200000
+mobil,BYD,Seal Performance,2022,43382,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Bandung,539000000
+motor,Yamaha,NMAX 155,2020,44883,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,23200000
+mobil,BMW,320i M Sport,2019,68841,Otomatis,Bensin,1,Lengkap (STNK + BPKB + Faktur),Jakarta,431000000
+mobil,Hyundai,Stargazer Prime,2015,129354,Otomatis,Bensin,2,Hanya STNK + BPKB,Semarang,114500000
+mobil,Mitsubishi,Xforce Ultimate,2020,25631,Otomatis,Bensin,2,Hanya STNK + BPKB,Denpasar,252000000
+motor,Yamaha,Aerox 155,2015,102180,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,14100000
+mobil,Hyundai,Ioniq 5 Signature,2024,10705,Otomatis,Listrik (EV),3,Hanya STNK + BPKB,Bandung,768500000
+mobil,Honda,Brio RS,2020,30039,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,165500000
+motor,Honda,Beat Deluxe,2015,101239,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Jakarta,9700000
+mobil,Suzuki,XL7 Alpha,2016,161968,Manual,Bensin,4,Hanya STNK + BPKB,Makassar,130500000
+mobil,Mitsubishi,Xforce Ultimate,2017,109635,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Bandung,181500000
+motor,Honda,CRF150L,2021,37620,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,24600000
+motor,Kawasaki,KLX 150,2022,20957,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,27400000
+mobil,Mitsubishi,Pajero Sport Dakar,2019,105060,Otomatis,Diesel,4,Hanya STNK Saja,Medan,258500000
+motor,Suzuki,Satria F150,2016,74438,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Medan,9400000
+mobil,BMW,320i M Sport,2021,38672,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Yogyakarta,615500000
+mobil,Suzuki,XL7 Alpha,2022,52608,Otomatis,Hybrid,5,Lengkap (STNK + BPKB + Faktur),Yogyakarta,269000000
+mobil,Wuling,Air ev Long Range,2022,3645,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Bandung,208500000
+motor,Kawasaki,Ninja ZX-25R,2019,26849,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,57400000
+mobil,Mitsubishi,Xpander Ultimate,2015,88028,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,145000000
+mobil,Hyundai,Creta Prime,2019,104894,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,224500000
+mobil,BYD,Atto 3 Superior,2021,37630,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Jakarta,363500000
+motor,Yamaha,MX King 150,2021,39664,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,16200000
+motor,Honda,Vario 160,2024,6210,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Medan,21300000
+mobil,Honda,HR-V SE,2018,77264,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Medan,259000000
+mobil,Toyota,Agya GR Sport,2023,23304,Otomatis,Bensin,3,Hanya STNK + BPKB,Makassar,185500000
+mobil,Wuling,Almaz RS Pro,2021,37246,Otomatis,Bensin,4,Hanya STNK Saja,Semarang,181000000
+mobil,BYD,Seal Performance,2018,46574,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Semarang,365000000
+motor,Vespa,Sprint 150 i-get,2015,48953,Otomatis,Bensin,3,Hanya STNK + BPKB,Denpasar,27900000
+mobil,Suzuki,XL7 Alpha,2018,54876,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,183500000
+mobil,BMW,320i M Sport,2017,103407,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,424500000
+mobil,Toyota,Agya GR Sport,2017,124178,Otomatis,Bensin,5,Hanya STNK + BPKB,Denpasar,133000000
+mobil,Mitsubishi,Xpander Ultimate,2022,28093,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,262500000
+mobil,Daihatsu,Ayla R ADS,2023,19148,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,170000000
+mobil,Nissan,Livina VL,2022,25959,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,260000000
+mobil,Toyota,Avanza Veloz,2020,91921,Manual,Bensin,5,Hanya STNK + BPKB,Denpasar,219000000
+mobil,Honda,HR-V SE,2019,65782,Otomatis,Bensin,5,Hanya STNK + BPKB,Bandung,283500000
+mobil,Hyundai,Creta Prime,2022,63168,Otomatis,Bensin,4,Hanya STNK + BPKB,Makassar,287500000
+mobil,Hyundai,Ioniq 5 Signature,2018,41540,Otomatis,Listrik (EV),5,Lengkap (STNK + BPKB + Faktur),Surabaya,454000000
+mobil,Mitsubishi,Xforce Ultimate,2023,29131,Otomatis,Bensin,3,Hanya STNK + BPKB,Yogyakarta,305500000
+mobil,Wuling,Almaz RS Pro,2024,11547,Otomatis,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,388000000
+motor,Yamaha,Aerox 155,2016,94999,Otomatis,Bensin,4,Hanya STNK + BPKB,Yogyakarta,15100000
+mobil,Suzuki,Ertiga Hybrid,2016,134402,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Bandung,155000000
+motor,Honda,Vario 160,2019,40715,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,15800000
+mobil,Toyota,Avanza Veloz,2022,33416,Otomatis,Bensin,3,Hanya STNK + BPKB,Jakarta,243000000
+mobil,BYD,Seal Performance,2019,83827,Otomatis,Listrik (EV),3,Hanya STNK + BPKB,Jakarta,380000000
+mobil,Mitsubishi,Pajero Sport Dakar,2017,168025,Otomatis,Diesel,4,Lengkap (STNK + BPKB + Faktur),Bandung,348000000
+mobil,Toyota,Camry Hybrid,2019,99011,Otomatis,Hybrid,3,Hanya STNK Saja,Semarang,313000000
+mobil,Daihatsu,Ayla R ADS,2015,152585,Manual,Bensin,3,Hanya STNK + BPKB,Makassar,71000000
+mobil,Mazda,Mazda3 Hatchback,2021,21126,Otomatis,Bensin,5,Hanya STNK + BPKB,Bandung,421000000
+motor,Honda,CBR150R,2021,25564,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,25000000
+mobil,Mazda,CX-5 Elite,2023,15754,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,532500000
+motor,Honda,Beat Deluxe,2017,112892,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Yogyakarta,8700000
+mobil,BYD,Atto 3 Superior,2020,62394,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Makassar,301500000
+mobil,BMW,320i M Sport,2015,74594,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Semarang,324500000
+mobil,Mitsubishi,Xpander Ultimate,2024,17273,Manual,Bensin,4,Hanya STNK Saja,Semarang,170500000
+mobil,Toyota,Rush GR Sport,2021,48979,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,226500000
+mobil,Toyota,Rush GR Sport,2016,85521,Otomatis,Bensin,4,Hanya STNK + BPKB,Yogyakarta,158500000
+motor,Yamaha,NMAX 155,2016,58199,Otomatis,Bensin,4,Hanya STNK Saja,Surabaya,10700000
+motor,Honda,CRF150L,2023,19533,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,27600000
+mobil,Honda,CR-V Turbo,2018,96042,Otomatis,Hybrid,4,Hanya STNK + BPKB,Jakarta,442000000
+mobil,BYD,Seal Performance,2024,11041,Otomatis,Listrik (EV),2,Lengkap (STNK + BPKB + Faktur),Surabaya,623500000
+motor,Honda,Vario 160,2016,42700,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Denpasar,12100000
+mobil,Wuling,Almaz RS Pro,2015,123260,Otomatis,Hybrid,3,Hanya BPKB Saja,Medan,135000000
+motor,Honda,Beat Deluxe,2019,67943,Otomatis,Bensin,3,Hanya STNK + BPKB,Bandung,11000000
+mobil,Honda,Civic RS,2018,86030,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,293500000
+motor,Honda,CRF150L,2022,26571,Manual,Bensin,3,Hanya STNK + BPKB,Surabaya,24900000
+mobil,BMW,320i M Sport,2021,47663,Otomatis,Bensin,1,Lengkap (STNK + BPKB + Faktur),Makassar,535500000
+mobil,Toyota,Avanza Veloz,2024,16099,Manual,Bensin,4,Hanya STNK Saja,Denpasar,174500000
+mobil,Toyota,Fortuner VRZ,2020,57015,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Jakarta,473000000
+mobil,Honda,BR-V Prestige,2020,91531,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Surabaya,246000000
+mobil,Daihatsu,Sigra R Deluxe,2017,111428,Manual,Bensin,3,Hanya STNK + BPKB,Bandung,84000000
+mobil,Mitsubishi,Xforce Ultimate,2019,52460,Otomatis,Bensin,5,Hanya STNK + BPKB,Makassar,269000000
+mobil,Mercedes-Benz,C200 Avantgarde,2024,11756,Otomatis,Hybrid,2,Lengkap (STNK + BPKB + Faktur),Yogyakarta,1005500000
+motor,Honda,CRF150L,2024,5523,Manual,Bensin,1,Hanya STNK + BPKB,Bandung,23800000
+mobil,Daihatsu,Ayla R ADS,2016,120311,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Medan,94000000
+motor,Vespa,Sprint 150 i-get,2018,45829,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,35000000
+mobil,Toyota,Agya GR Sport,2015,151730,Manual,Bensin,1,Hanya STNK + BPKB,Denpasar,75000000
+mobil,Hyundai,Ioniq 5 Signature,2024,7976,Otomatis,Listrik (EV),3,Hanya STNK + BPKB,Makassar,786000000
+mobil,Honda,CR-V Turbo,2024,17563,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,628000000
+mobil,Daihatsu,Ayla R ADS,2018,89589,Otomatis,Bensin,4,Hanya STNK + BPKB,Medan,102000000
+mobil,Toyota,Camry Hybrid,2024,8156,Otomatis,Hybrid,3,Hanya STNK + BPKB,Jakarta,861500000
+mobil,Hyundai,Ioniq 5 Signature,2021,15588,Otomatis,Listrik (EV),3,Hanya STNK + BPKB,Denpasar,602500000
+mobil,Daihatsu,Xenia R ADS,2018,55068,Manual,Bensin,3,Hanya STNK Saja,Bandung,91500000
+mobil,Toyota,Agya GR Sport,2022,32434,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Bandung,194000000
+motor,Honda,Vario 160,2019,46265,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,16000000
+mobil,Toyota,Innova Zenix,2018,139704,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,260000000
+mobil,Suzuki,Ertiga Hybrid,2016,174269,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,130000000
+motor,Honda,CRF150L,2022,14352,Manual,Bensin,1,Lengkap (STNK + BPKB + Faktur),Medan,20200000
+mobil,Hyundai,Stargazer Prime,2015,202893,Otomatis,Bensin,4,Hanya STNK + BPKB,Jakarta,128000000
+mobil,Mitsubishi,Xpander Ultimate,2022,27467,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,253000000
+motor,Yamaha,NMAX 155,2024,11566,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Jakarta,32600000
+mobil,Honda,Brio RS,2015,133123,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,110500000
+mobil,Daihatsu,Ayla R ADS,2015,166280,Otomatis,Bensin,4,Hanya STNK + BPKB,Makassar,78500000
+motor,Kawasaki,Ninja ZX-25R,2015,75374,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,40500000
+mobil,Mazda,Mazda3 Hatchback,2021,64190,Otomatis,Bensin,3,Hanya STNK Saja,Yogyakarta,220000000
+mobil,Hyundai,Creta Prime,2018,56475,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Surabaya,252000000
+motor,Honda,CRF150L,2015,121936,Manual,Bensin,4,Hanya STNK Saja,Jakarta,9100000
+mobil,Toyota,Avanza Veloz,2018,90493,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Semarang,160000000
+mobil,Toyota,Fortuner VRZ,2020,76246,Manual,Diesel,5,Lengkap (STNK + BPKB + Faktur),Makassar,435500000
+mobil,Mercedes-Benz,C200 Avantgarde,2016,117884,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,421500000
+motor,Suzuki,GSX-R150,2020,45000,Manual,Bensin,4,Hanya STNK Saja,Semarang,11600000
+motor,Yamaha,MX King 150,2018,43092,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,14100000
+mobil,Hyundai,Creta Prime,2021,66558,Otomatis,Bensin,2,Hanya STNK Saja,Medan,150500000
+mobil,Suzuki,XL7 Alpha,2023,27979,Otomatis,Hybrid,3,Hanya STNK + BPKB,Bandung,256500000
+mobil,Toyota,Fortuner VRZ,2018,72950,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Jakarta,395500000
+mobil,Mitsubishi,Xforce Ultimate,2019,91737,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,238000000
+motor,Yamaha,Aerox 155,2021,59078,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Jakarta,24200000
+mobil,Daihatsu,Ayla R ADS,2018,124239,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,93000000
+mobil,Toyota,Fortuner VRZ,2023,18297,Manual,Diesel,5,Hanya STNK + BPKB,Yogyakarta,572500000
+mobil,Mitsubishi,Pajero Sport Dakar,2024,17837,Otomatis,Diesel,3,Hanya STNK + BPKB,Makassar,580500000
+mobil,Mazda,Mazda3 Hatchback,2015,127241,Otomatis,Bensin,5,Hanya STNK Saja,Semarang,142500000
+motor,Honda,Beat Deluxe,2022,20762,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Medan,13700000
+mobil,Honda,CR-V Turbo,2015,92376,Otomatis,Hybrid,2,Lengkap (STNK + BPKB + Faktur),Semarang,303000000
+mobil,Hyundai,Stargazer Prime,2024,12348,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,306000000
+motor,Yamaha,MX King 150,2024,13842,Manual,Bensin,3,Hanya STNK + BPKB,Semarang,20300000
+mobil,Daihatsu,Sigra R Deluxe,2022,37988,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,129000000
+mobil,Mercedes-Benz,C200 Avantgarde,2023,22118,Otomatis,Hybrid,2,Hanya STNK Saja,Semarang,530000000
+motor,Yamaha,Aerox 155,2023,16437,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,25500000
+mobil,Mitsubishi,Pajero Sport Dakar,2022,47596,Otomatis,Diesel,4,Lengkap (STNK + BPKB + Faktur),Jakarta,526500000
+mobil,Daihatsu,Ayla R ADS,2016,127963,Otomatis,Bensin,4,Hanya STNK Saja,Yogyakarta,54500000
+mobil,Toyota,Fortuner VRZ,2023,20274,Otomatis,Diesel,5,Hanya BPKB Saja,Semarang,506000000
+mobil,Toyota,Innova Zenix,2020,32328,Otomatis,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Denpasar,358500000
+mobil,Honda,HR-V SE,2023,19682,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,358000000
+mobil,Toyota,Agya GR Sport,2021,40427,Manual,Bensin,1,Hanya STNK + BPKB,Yogyakarta,122000000
+mobil,Hyundai,Stargazer Prime,2021,60487,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Jakarta,247000000
+mobil,Honda,BR-V Prestige,2020,65931,Otomatis,Bensin,5,Hanya STNK Saja,Jakarta,152500000
+mobil,Honda,Brio RS,2024,17940,Otomatis,Bensin,3,Hanya STNK + BPKB,Yogyakarta,210000000
+mobil,Daihatsu,Terios R Custom,2021,28127,Otomatis,Bensin,3,Hanya BPKB Saja,Surabaya,173000000
+mobil,Toyota,Agya GR Sport,2018,76948,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Jakarta,131500000
+motor,Yamaha,NMAX 155,2022,36281,Otomatis,Bensin,3,Hanya STNK + BPKB,Semarang,23300000
+mobil,Mitsubishi,Xpander Ultimate,2020,115466,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,203500000
+motor,Suzuki,Satria F150,2018,78187,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,13100000
+mobil,Hyundai,Ioniq 5 Signature,2022,43948,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Bandung,648000000
+motor,Honda,Beat Deluxe,2018,52859,Otomatis,Bensin,4,Hanya STNK + BPKB,Yogyakarta,11300000
+mobil,Suzuki,Baleno Hatchback,2016,135917,Otomatis,Bensin,3,Hanya BPKB Saja,Denpasar,108000000
+motor,Yamaha,R15 Connected,2018,29506,Manual,Bensin,1,Lengkap (STNK + BPKB + Faktur),Semarang,13700000
+motor,Honda,PCX 160,2022,29920,Otomatis,Bensin,5,Hanya STNK + BPKB,Jakarta,27900000
+motor,Suzuki,Satria F150,2017,133708,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,10700000
+mobil,Mazda,Mazda3 Hatchback,2020,60463,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,360000000
+mobil,Honda,HR-V SE,2020,105089,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Yogyakarta,287000000
+mobil,Nissan,Livina VL,2021,61961,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,209000000
+motor,Vespa,Sprint 150 i-get,2017,59284,Otomatis,Bensin,5,Hanya STNK + BPKB,Yogyakarta,34600000
+motor,Kawasaki,Ninja ZX-25R,2022,22050,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,70300000
+mobil,Honda,Brio RS,2018,105404,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Makassar,129000000
+mobil,Suzuki,Ertiga Hybrid,2020,65328,Manual,Bensin,4,Hanya BPKB Saja,Jakarta,168000000
+motor,Vespa,Sprint 150 i-get,2018,39078,Otomatis,Bensin,4,Hanya STNK + BPKB,Surabaya,35200000
+mobil,Hyundai,Creta Prime,2019,119809,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,214500000
+mobil,Honda,BR-V Prestige,2019,67632,Manual,Bensin,5,Hanya STNK + BPKB,Bandung,212000000
+mobil,Honda,Brio RS,2018,109569,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,145000000
+mobil,Toyota,Avanza Veloz,2022,26631,Otomatis,Bensin,3,Hanya STNK Saja,Makassar,147500000
+motor,Vespa,Sprint 150 i-get,2022,17173,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Surabaya,44900000
+mobil,Nissan,Livina VL,2021,60898,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Semarang,185000000
+motor,Vespa,Sprint 150 i-get,2016,29433,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,33600000
+mobil,Suzuki,Baleno Hatchback,2017,103273,Otomatis,Bensin,3,Hanya STNK + BPKB,Surabaya,135500000
+motor,Suzuki,GSX-R150,2020,48163,Manual,Bensin,2,Hanya STNK + BPKB,Yogyakarta,16200000
+mobil,Daihatsu,Xenia R ADS,2023,33742,Otomatis,Bensin,3,Hanya STNK + BPKB,Medan,209000000
+motor,Kawasaki,Ninja ZX-25R,2018,52628,Manual,Bensin,2,Hanya STNK + BPKB,Denpasar,47000000
+mobil,Suzuki,Ertiga Hybrid,2017,188353,Otomatis,Hybrid,5,Hanya STNK + BPKB,Medan,157500000
+mobil,Toyota,Avanza Veloz,2021,67983,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Bandung,226500000
+mobil,Toyota,Fortuner VRZ,2021,38037,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,461500000
+mobil,Mercedes-Benz,C200 Avantgarde,2023,20455,Otomatis,Hybrid,4,Hanya STNK Saja,Denpasar,645000000
+mobil,BYD,Seal Performance,2021,45860,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Semarang,487000000
+mobil,Mazda,CX-5 Elite,2022,41697,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,475500000
+mobil,Suzuki,Baleno Hatchback,2016,104387,Otomatis,Bensin,4,Hanya STNK + BPKB,Denpasar,131500000
+mobil,BYD,Seal Performance,2024,9720,Otomatis,Listrik (EV),1,Lengkap (STNK + BPKB + Faktur),Medan,504000000
+mobil,Mazda,CX-5 Elite,2015,98521,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,256500000
+mobil,Mazda,Mazda3 Hatchback,2021,40391,Otomatis,Bensin,3,Hanya STNK + BPKB,Yogyakarta,357000000
+motor,Yamaha,R15 Connected,2015,9693,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,14200000
+motor,Honda,Beat Deluxe,2018,92864,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Jakarta,9500000
+mobil,Wuling,Air ev Long Range,2016,85982,Otomatis,Listrik (EV),4,Lengkap (STNK + BPKB + Faktur),Jakarta,100500000
+motor,Honda,Vario 160,2018,100329,Otomatis,Bensin,5,Hanya STNK + BPKB,Makassar,15500000
+motor,Suzuki,GSX-R150,2018,62296,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Medan,16400000
+motor,Honda,PCX 160,2018,75154,Otomatis,Bensin,4,Hanya STNK + BPKB,Surabaya,18200000
+mobil,BYD,Atto 3 Superior,2021,40316,Otomatis,Listrik (EV),2,Lengkap (STNK + BPKB + Faktur),Medan,312000000
+motor,Yamaha,R15 Connected,2018,48363,Manual,Bensin,4,Hanya STNK + BPKB,Makassar,17600000
+motor,Yamaha,MX King 150,2021,44738,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Makassar,18200000
+mobil,Toyota,Innova Zenix,2015,142194,Otomatis,Hybrid,4,Hanya STNK + BPKB,Medan,240000000
+motor,Yamaha,NMAX 155,2019,49448,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,19400000
+mobil,BMW,320i M Sport,2018,90534,Otomatis,Bensin,5,Lengkap (STNK + BPKB + Faktur),Makassar,506500000
+mobil,Suzuki,Ertiga Hybrid,2021,75380,Otomatis,Hybrid,5,Lengkap (STNK + BPKB + Faktur),Denpasar,246000000
+mobil,Suzuki,Ertiga Hybrid,2023,25461,Otomatis,Bensin,1,Lengkap (STNK + BPKB + Faktur),Makassar,174500000
+mobil,Hyundai,Ioniq 5 Signature,2023,19615,Otomatis,Listrik (EV),3,Hanya BPKB Saja,Makassar,591500000
+mobil,Daihatsu,Ayla R ADS,2022,26130,Manual,Bensin,4,Hanya STNK + BPKB,Yogyakarta,138500000
+mobil,Honda,Civic RS,2016,151012,Otomatis,Bensin,3,Hanya STNK Saja,Medan,151000000
+mobil,Toyota,Camry Hybrid,2017,63591,Otomatis,Bensin,4,Hanya STNK + BPKB,Medan,400000000
+mobil,Toyota,Rush GR Sport,2022,37879,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,220000000
+mobil,Toyota,Fortuner VRZ,2020,89036,Manual,Diesel,3,Lengkap (STNK + BPKB + Faktur),Denpasar,402500000
+motor,Honda,Beat Deluxe,2022,34603,Otomatis,Bensin,3,Hanya STNK + BPKB,Surabaya,14600000
+mobil,Honda,Brio RS,2021,62232,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Surabaya,154500000
+mobil,Honda,BR-V Prestige,2018,89307,Manual,Bensin,1,Lengkap (STNK + BPKB + Faktur),Bandung,138500000
+motor,Yamaha,R15 Connected,2023,21667,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Makassar,29300000
+mobil,Toyota,Avanza Veloz,2019,88180,Otomatis,Bensin,5,Hanya STNK + BPKB,Semarang,204500000
+motor,Honda,Vario 160,2020,40349,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Medan,15000000
+motor,Yamaha,Aerox 155,2020,54844,Otomatis,Bensin,3,Hanya STNK Saja,Bandung,12400000
+mobil,Honda,BR-V Prestige,2023,31051,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,265500000
+mobil,Toyota,Agya GR Sport,2015,163949,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Denpasar,94000000
+mobil,Hyundai,Stargazer Prime,2016,183903,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,135500000
+mobil,Hyundai,Creta Prime,2015,141303,Otomatis,Bensin,3,Hanya STNK Saja,Makassar,101000000
+motor,Honda,CRF150L,2019,34259,Manual,Bensin,5,Lengkap (STNK + BPKB + Faktur),Medan,23100000
+mobil,Toyota,Agya GR Sport,2024,16606,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,206000000
+motor,Honda,CBR150R,2016,84930,Manual,Bensin,3,Hanya STNK + BPKB,Semarang,11800000
+motor,Yamaha,Aerox 155,2022,21309,Otomatis,Bensin,1,Lengkap (STNK + BPKB + Faktur),Medan,19200000
+mobil,Toyota,Camry Hybrid,2024,9080,Otomatis,Hybrid,2,Hanya STNK Saja,Yogyakarta,475500000
+mobil,Toyota,Agya GR Sport,2015,112874,Otomatis,Bensin,3,Lengkap (STNK + BPKB + Faktur),Semarang,105500000
+mobil,BYD,Atto 3 Superior,2016,46626,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Denpasar,223000000
+mobil,Hyundai,Creta Prime,2019,108692,Otomatis,Bensin,5,Hanya STNK + BPKB,Bandung,258500000
+motor,Yamaha,R15 Connected,2019,46510,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,19700000
+motor,Kawasaki,Ninja ZX-25R,2016,95282,Manual,Bensin,3,Hanya STNK Saja,Denpasar,27500000
+motor,Kawasaki,KLX 150,2020,43332,Manual,Bensin,4,Hanya STNK Saja,Medan,13800000
+mobil,Wuling,Air ev Long Range,2020,46801,Otomatis,Listrik (EV),3,Lengkap (STNK + BPKB + Faktur),Medan,149500000
+mobil,Toyota,Avanza Veloz,2024,15939,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Semarang,236500000
+mobil,BYD,Atto 3 Superior,2015,145339,Otomatis,Listrik (EV),4,Hanya STNK + BPKB,Makassar,185500000
+mobil,Toyota,Fortuner VRZ,2019,131404,Manual,Diesel,5,Hanya STNK + BPKB,Denpasar,404500000
+motor,Yamaha,NMAX 155,2022,37992,Otomatis,Bensin,3,Hanya STNK Saja,Surabaya,15600000
+mobil,Toyota,Fortuner VRZ,2020,51655,Otomatis,Diesel,4,Lengkap (STNK + BPKB + Faktur),Bandung,468500000
+mobil,Toyota,Camry Hybrid,2021,36984,Otomatis,Hybrid,3,Hanya STNK + BPKB,Yogyakarta,604000000
+mobil,Honda,Brio RS,2023,27600,Manual,Bensin,4,Hanya STNK + BPKB,Yogyakarta,204500000
+motor,Kawasaki,Ninja ZX-25R,2020,14559,Manual,Bensin,3,Hanya STNK Saja,Makassar,40400000
+mobil,Mazda,CX-5 Elite,2015,137098,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Semarang,246500000
+mobil,Toyota,Camry Hybrid,2017,85013,Otomatis,Hybrid,3,Lengkap (STNK + BPKB + Faktur),Makassar,407000000
+mobil,Daihatsu,Sigra R Deluxe,2015,160475,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Denpasar,77500000
+motor,Honda,CBR150R,2016,25315,Manual,Bensin,2,Lengkap (STNK + BPKB + Faktur),Surabaya,12800000
+mobil,Daihatsu,Sigra R Deluxe,2020,96563,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Yogyakarta,120000000
+mobil,BMW,320i M Sport,2016,96185,Otomatis,Bensin,4,Hanya STNK + BPKB,Medan,398500000
+mobil,Honda,CR-V Turbo,2019,83249,Otomatis,Hybrid,4,Lengkap (STNK + BPKB + Faktur),Bandung,490500000
+motor,Honda,CBR150R,2020,37340,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,21800000
+mobil,Daihatsu,Sigra R Deluxe,2019,98661,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Yogyakarta,100000000
+mobil,Hyundai,Creta Prime,2023,15474,Otomatis,Bensin,1,Hanya STNK + BPKB,Makassar,259000000
+mobil,Honda,Civic RS,2023,17259,Otomatis,Bensin,3,Hanya STNK + BPKB,Semarang,470500000
+mobil,Daihatsu,Terios R Custom,2020,53632,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Medan,169000000
+mobil,BMW,320i M Sport,2019,98245,Otomatis,Bensin,3,Hanya STNK + BPKB,Denpasar,531000000
+mobil,Honda,CR-V Turbo,2022,61468,Otomatis,Hybrid,4,Hanya STNK + BPKB,Jakarta,569500000
+mobil,Suzuki,Baleno Hatchback,2016,110308,Otomatis,Bensin,2,Lengkap (STNK + BPKB + Faktur),Yogyakarta,111000000
+motor,Yamaha,MX King 150,2016,81898,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,10400000
+mobil,Toyota,Innova Zenix,2022,57618,Otomatis,Bensin,4,Lengkap (STNK + BPKB + Faktur),Medan,370000000
+mobil,Mitsubishi,Pajero Sport Dakar,2020,102339,Otomatis,Diesel,4,Lengkap (STNK + BPKB + Faktur),Medan,444500000
+mobil,BYD,Atto 3 Superior,2016,175027,Otomatis,Listrik (EV),4,Hanya BPKB Saja,Makassar,171500000
+motor,Honda,CRF150L,2015,103332,Manual,Bensin,5,Hanya STNK Saja,Medan,9900000
+motor,Honda,CBR150R,2017,46443,Manual,Bensin,4,Lengkap (STNK + BPKB + Faktur),Surabaya,16300000
+mobil,Suzuki,XL7 Alpha,2017,123294,Manual,Bensin,3,Lengkap (STNK + BPKB + Faktur),Bandung,145000000

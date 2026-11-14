@@ -1,0 +1,124 @@
+{% extends "base.html" %}
+{% block title %}Pembanding Unit & Biaya Perbaikan — HargaBekas{% endblock %}
+
+{% block content %}
+<div class="container">
+  <header class="editorial-masthead" style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 1rem;">
+    <div>
+      <div class="masthead-kicker mono-label">Komparasi Akuisisi + Estimasi Bengkel</div>
+      <h1 class="section-heading">Bandingkan 2–3 Unit Beserta Temuan Kerusakannya</h1>
+      <p style="color: var(--text-secondary); max-width: 66ch; margin-top: 0.35rem;">
+        Bandingkan kandidat kendaraan secara berdampingan termasuk temuan kerusakan bodi, estimasi biaya perbaikan bengkel, dan total modal siap pakai untuk menjawab: <strong>"Mana yang lebih worth it setelah perbaikan?"</strong>
+      </p>
+    </div>
+    <button type="button" id="btn-toggle-slot3" class="btn btn-outline">
+      + Tambah Kandidat ke-3
+    </button>
+  </header>
+
+  <form id="compare-form" style="margin-top: 2rem;">
+    <div class="compare-slots-grid">
+      {% for slot in [1, 2, 3] %}
+      <div id="compare-slot-{{ slot }}" class="panel-card panel-card-bordered" {% if slot == 3 %}style="display: none;"{% endif %}>
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem;">
+          <span class="mono-label" style="color: var(--accent);">KANDIDAT #0{{ slot }}</span>
+          <span class="mono-label">Foto & Temuan</span>
+        </div>
+
+        <div class="vehicle-showcase-box" style="margin-bottom: 1rem; padding: 0.65rem;">
+          <div id="cmp-stage-{{ slot }}" class="vehicle-canvas-holder" style="min-height: 165px;"></div>
+        </div>
+
+        <div class="form-grid">
+          <div class="form-group full-width">
+            <label for="cmp-model-{{ slot }}" class="form-label">Pilih Model Kendaraan</label>
+            <select id="cmp-model-{{ slot }}" class="form-control"></select>
+          </div>
+
+          <div class="form-group">
+            <label for="cmp-tahun-{{ slot }}" class="form-label">Tahun</label>
+            <input type="number" id="cmp-tahun-{{ slot }}" class="form-control" min="2015" max="2024" value="{{ 2022 if slot == 1 else (2021 if slot == 2 else 2023) }}" />
+          </div>
+
+          <div class="form-group">
+            <label for="cmp-km-{{ slot }}" class="form-label">Kilometer</label>
+            <input type="number" id="cmp-km-{{ slot }}" class="form-control" min="1000" max="400000" step="1000" value="{{ 26000 if slot == 1 else (38000 if slot == 2 else 19000) }}" />
+          </div>
+
+          <div class="form-group">
+            <label for="cmp-kota-{{ slot }}" class="form-label">Kota</label>
+            <select id="cmp-kota-{{ slot }}" class="form-control">
+              {% for c in cities %}
+              <option value="{{ c }}">{{ c }}</option>
+              {% endfor %}
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="cmp-surat-{{ slot }}" class="form-label">Kelengkapan Surat</label>
+            <select id="cmp-surat-{{ slot }}" class="form-control">
+              {% for s in surat_options %}
+              <option value="{{ s }}">{{ s }}</option>
+              {% endfor %}
+            </select>
+          </div>
+
+          <div class="form-group full-width">
+            <label for="cmp-damage-preset-{{ slot }}" class="form-label">Temuan Kerusakan Inspeksi Unit</label>
+            <select id="cmp-damage-preset-{{ slot }}" class="form-control">
+              <option value="none" {% if slot == 3 %}selected{% endif %}>Mulus Tanpa PR (0 Titik Kerusakan)</option>
+              <option value="minor" {% if slot == 1 %}selected{% endif %}>Kosmetik Ringan: Lecet Bumper & Baret Pintu (Lv.1–2)</option>
+              <option value="moderate" {% if slot == 2 %}selected{% endif %}>Sedang: Penyok Pintu, Goresan Fender & Spion Retak (Lv.2)</option>
+              <option value="heavy">Berat: Bumper Pecah, Kap Penyok & Indikasi Sasis (Lv.3–4)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div style="display: flex; justify-content: flex-end; margin-bottom: 1.5rem;">
+      <button type="submit" class="btn btn-primary">Bandingkan Harga & Biaya Perbaikan</button>
+    </div>
+  </form>
+
+  <!-- Kotak Kesimpulan: "Mana yang lebih worth it setelah perbaikan?" -->
+  <section class="verdict-box" aria-live="polite">
+    <span class="mono-label" style="color: var(--accent);">Ringkasan Keputusan — Mana yang Lebih Worth It Setelah Perbaikan?</span>
+    <h2 id="cmp-verdict-title" class="card-heading" style="margin: 0.35rem 0;">Memuat rekomendasi...</h2>
+    <p id="cmp-verdict-summary" style="color: var(--text-secondary); font-size: 0.96rem;"></p>
+  </section>
+
+  <!-- Tabel Perbandingan Side-by-Side & Grafik Radar/Bar -->
+  <div class="editorial-grid-2col" style="grid-template-columns: 1.28fr 0.72fr; padding-top: 0.5rem;">
+    <div class="compare-table-wrapper">
+      <table class="compare-table" aria-label="Tabel Perbandingan Unit dan Biaya Perbaikan">
+        <thead>
+          <tr id="cmp-table-head-row">
+            <th>Parameter Komparasi</th>
+            <th>Kandidat #1</th>
+            <th>Kandidat #2</th>
+          </tr>
+        </thead>
+        <tbody id="cmp-table-body"></tbody>
+      </table>
+    </div>
+
+    <div class="panel-card">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+        <div>
+          <span class="mono-label" style="color: var(--accent);">Skor Multi-Dimensi</span>
+          <h3 class="card-heading">Grafik Komparasi 5 Aspek</h3>
+        </div>
+        <div class="angle-tabs">
+          <button type="button" class="angle-tab-btn active" data-chart-type="radar">Radar</button>
+          <button type="button" class="angle-tab-btn" data-chart-type="bar">Bar</button>
+        </div>
+      </div>
+      <div style="height: 320px; position: relative;">
+        <canvas id="compare-chart" aria-label="Grafik Perbandingan Kendaraan"></canvas>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
